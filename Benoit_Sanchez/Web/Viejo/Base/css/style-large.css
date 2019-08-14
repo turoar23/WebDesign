@@ -1,0 +1,27 @@
+.one-third img{
+  height: 350px;
+}
+.navBar{
+  margin: 2% 5% 2% 5%;
+}
+.navBar-centered{
+  padding:20px;
+}
+.navBar-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navBar-right {
+  text-align: left;
+  padding-top:15px;
+}
+.navBar-left{
+  text-align: right;
+  padding-top:15px;
+}
+.navBar-center{
+  text-align: center;
+}

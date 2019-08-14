@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.cuerpo {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+}
+.cuerpo *,
+.cuerpo *:before,
+.cuerpo *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+}
+.cuerpo img {
+  backface-visibility: hidden;
+  vertical-align: top;
+  opacity: 0.9;
+}
+.cuerpo .title {
+  position: absolute;
+  top: 48%;
+  left: 16%;
+  padding: 5px 10px 10px;
+}
+.cuerpo .title:before,
+.cuerpo .title:after {
+  height: 2px;
+  width: 350%;
+  position: absolute;
+  content: '';
+  background-color: #ffffff;
+}
+.cuerpo .title:before {
+  top: 0;
+  left: 10px;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+.cuerpo .title:after {
+  bottom: 0;
+  right: 20px;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+.cuerpo .title div:before,
+.cuerpo .title div:after {
+  width: 2px;
+  height: 350%;
+  position: absolute;
+  content: '';
+  background-color: #ffffff;
+}
+.cuerpo .title div:before {
+  top: 10px;
+  right: 0;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.cuerpo .title div:after {
+  bottom: 10px;
+  left: 0;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.cuerpo h2,
+.cuerpo h4 {
+  margin: 0;
+  text-transform: uppercase;
+}
+.cuerpo h2 {
+  font-weight: 200;
+}
+.cuerpo h4 {
+  display: block;
+  font-weight: 500;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  color: #000000;
+}
+.cuerpo .efecto {
+  position: absolute;
+  bottom: 42%;
+  left: 25px;
+  text-align: left;
+  opacity: 0;
+  padding: 5px 60px 5px 10px;
+  font-size: 0.8em;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+.cuerpo .efecto p {
+  margin: 0;
+}
+.cuerpo a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.cuerpo .title{
+  opacity: 0;
+}
+.cuerpo:hover .title{
+  opacity: 1;
+}
+.cuerpo:hover img,
+.cuerpo.hover img {
+  zoom: 1;
+  filter: alpha(opacity=35);
+  -webkit-opacity: 0.35;
+  opacity: 0.35;
+}
+.cuerpo:hover .title:before,
+.cuerpo.hover .title:before,
+.cuerpo:hover .title:after,
+.cuerpo.hover .title:after,
+.cuerpo:hover .title div:before,
+.cuerpo.hover .title div:before,
+.cuerpo:hover .title div:after,
+.cuerpo.hover .title div:after {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.cuerpo:hover .title:before,
+.cuerpo.hover .title:before,
+.cuerpo:hover .title:after,
+.cuerpo.hover .title:after {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+.cuerpo:hover .efecto,
+.cuerpo.hover .efecto {
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}

@@ -1,0 +1,11 @@
+User-Agent: *
+Disallow: /page4496087.html
+Disallow: /page5387291.html
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow:
+Sitemap: http://fraherandfindlay.com/sitemap.xml
+Host: fraherandfindlay.com

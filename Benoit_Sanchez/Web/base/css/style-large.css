@@ -1,0 +1,126 @@
+body{
+  margin:1%;
+}
+.wrap img{
+  height: 95%;
+  width: 95%;
+}
+.wrap img::after{
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.cuerpo{
+  text-align: center;
+}
+/* --------------------head section--------------------*/
+.navBar .pages{
+  text-align: right;
+  padding-top: 1%;
+}
+/*.navBar{
+  padding: 0.7%;
+  position: fixed;
+  top:0;
+  width: 95%;
+  background-color: white;
+}
+.navBar a:not(.logo){
+  float: right;
+  margin-top: 3%;
+}
+.navBar-left, .navBar-rigth{
+  /*margin-top:5%;*/
+  /*font-size: 3em;
+}*/
+/*------------------------------------------------------*/
+.content{
+  padding-top:2%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+.wrap{
+  margin-bottom: 0.5%;
+  text-align: center;
+  display: grid;
+  /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+  grid-template-columns: 25% 25% 25% 25%;
+  /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
+  grid-template-rows: auto;
+  grid-template-areas:
+    "img1 img2 img3 img4"
+}
+.img1{
+  grid-area: img1;
+}
+.img2{
+  grid-area: img2;
+}
+.img3{
+  grid-area: img3;
+}
+.img4{
+  grid-area: img4;
+}
+/* ---------------------Proyectos----------------- */
+.catalogo{
+  height: 500px;
+}
+.categorias{
+  padding-left: 4%;
+  width: 25%;
+  /*width: 35%;
+  position: fixed;
+  height: 100%;
+  position: fixed;
+  overflow: auto;*/
+  font-size: 1.2em;
+  margin: 0;
+}
+/* Esto es si el menu de la izquierda no se mueve*/
+.categorias ,.description{
+  float:left;
+}
+.cat-principal {
+  padding-top: 3%;
+}
+.sub-categorias li{
+  padding-left: 2%;
+}
+.description{
+  /*margin-left:35%;*/
+  width: 65%;
+  /*float:right;*/
+  
+  padding-right: 5%;
+}
+.description-text{
+  padding-left: 2%;
+  border-left: 1px solid black;
+  font-size: 1.2em;
+}
+.scroll{
+  width: 100%;
+  height: inherit;
+  overflow: auto;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+/* ---------------------------------------------- */

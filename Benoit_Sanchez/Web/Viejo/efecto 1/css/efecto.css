@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+.cuerpo {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  color: yellow;
+  text-align: left;
+  font-size: 16px;
+}
+.cuerpo * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+.cuerpo .efecto {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  padding: 20px 30px;
+}
+.cuerpo .efecto:before,
+.cuerpo .efecto:after {
+  width: 1px;
+  height: 0;
+}
+.cuerpo .efecto:before {
+  right: 0;
+  top: 0;
+}
+.cuerpo .efecto:after {
+  left: 0;
+  bottom: 0;
+}
+.cuerpo h3,
+.cuerpo p {
+  line-height: 1.5em;
+}
+.cuerpo h3 {
+  margin: 0 0 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.cuerpo p {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 15px;
+}
+.cuerpo a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.cuerpo:before,
+.cuerpo:after,
+.cuerpo .efecto:before,
+.cuerpo .efecto:after {
+  position: absolute;
+  content: '';
+  background-color:black;
+  z-index: 1;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  opacity: 0.8;
+}
+.cuerpo:before,
+.cuerpo:after {
+  height: 2.5px;
+  width: 0%;
+}
+.cuerpo:before {
+  top: 0;
+  left: 0;
+}
+.cuerpo:after {
+  bottom: 0;
+  right: 0;
+}
+.cuerpo:hover img,
+.cuerpo.hover img {
+  opacity: 0.35;
+}
+.cuerpo:hover .efecto,
+.cuerpo.hover .efecto {
+  opacity: 1;
+}
+.cuerpo:hover .efecto:before,
+.cuerpo.hover .efecto:before,
+.cuerpo:hover .efecto:after,
+.cuerpo.hover .efecto:after {
+  height: 100%;
+}
+.cuerpo:hover:before,
+.cuerpo.hover:before,
+.cuerpo:hover:after,
+.cuerpo.hover:after {
+  width: 100%;
+}
+.cuerpo:hover:before,
+.cuerpo.hover:before,
+.cuerpo:hover:after,
+.cuerpo.hover:after,
+.cuerpo:hover .efecto:before,
+.cuerpo.hover .efecto:before,
+.cuerpo:hover .efecto:after,
+.cuerpo.hover .efecto:after {
+  opacity: 0.8;
+}
