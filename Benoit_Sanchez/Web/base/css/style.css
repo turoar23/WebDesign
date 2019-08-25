@@ -42,7 +42,7 @@ Removes the underline with text decoration = none.*/
 .navBar .logo{
   float: left;
 }
-.pages .actived{
+.pages .actived, .sub-categorias .actived{
   color:#8a8506;
 }
 /* -----------------------Proyecto section--------------------*/
