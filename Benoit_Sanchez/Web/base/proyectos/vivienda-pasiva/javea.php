@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/skeleton.css">
   <link rel="stylesheet" href="/css/style.css">
+
   <link rel="stylesheet" media="(max-width:800px)" href="/css/style-small.css">
   <link rel="stylesheet" media="(min-width:801px)" href="/css/style-large.css">
 
@@ -64,6 +65,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 <script src="/js/jquery-3.4.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 <!-- Custom js -->
 <script src="/js/custom.js"></script>

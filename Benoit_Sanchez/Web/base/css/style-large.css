@@ -87,8 +87,17 @@ body{
 .cat-principal {
   padding-top: 3%;
 }
+.cat-heading:hover:not(.actived){
+  color: #8a8506;
+}
+.cat-heading:hover{
+  cursor: pointer;
+}
 .sub-categorias li{
-  padding-left: 2%;
+  padding-left: 1.4rem;
+}
+.sub-categorias{
+  margin: 1.5rem 0px 0px 0rem;
 }
 .description{
   /*margin-left:35%;*/
@@ -127,5 +136,10 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
-
+.collapse{
+  display: none;
+}
+.expanded{
+  display: block;
+}
 /* ---------------------------------------------- */

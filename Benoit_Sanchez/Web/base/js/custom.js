@@ -21,9 +21,25 @@ $('.catalogo .scroll').find('img').bind( "click", function() {
   $('.catalogo .image-view').find('img').attr('src',src);
 });
 
-$(".sub-categorias").find("a").each(function(index){
+$(".sub-categorias").find("a").each(function(){
   if($(this).attr("href") == window.location.pathname){
       $(this).addClass("actived");
   }
 });
+// nav collapse
+$(".panel-heading").find(".cat-principal").click(function(){
+  var subCat=$(this).find('.sub-categorias');
+  // Si esta expandido
+  if(subCat.hasClass('expanded')){
+    subCat.removeClass('expanded');
+    subCat.addClass('collapse');
+  }
+  // Si no lo esta
+  else{
+    subCat.addClass('expanded');
+    subCat.removeClass('collapse');
+  }
+});
+
+
 // --------------------------------------------------
