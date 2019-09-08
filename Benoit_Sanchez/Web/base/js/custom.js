@@ -27,8 +27,8 @@ $(".sub-categorias").find("a").each(function(){
   }
 });
 // nav collapse
-$(".panel-heading").find(".cat-principal").click(function(){
-  var subCat=$(this).find('.sub-categorias');
+$(".panel-heading").find(".cat-heading").click(function(){
+  var subCat=$(this).parent().find('.sub-categorias');
   // Si esta expandido
   if(subCat.hasClass('expanded')){
     subCat.removeClass('expanded');
