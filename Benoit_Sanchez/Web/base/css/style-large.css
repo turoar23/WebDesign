@@ -98,6 +98,7 @@ body{
 }
 .sub-categorias{
   margin: 1.5rem 0px 0px 0rem;
+  transition: height 280ms;
 }
 .description{
   /*margin-left:35%;*/
@@ -136,10 +137,10 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
-.collapse{
-  display: none;
+.collapse a{
+  color:white;
 }
-.expanded{
-  display: block;
+.collapse{
+  margin:0px;
 }
 /* ---------------------------------------------- */

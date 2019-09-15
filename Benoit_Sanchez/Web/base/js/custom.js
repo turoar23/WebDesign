@@ -27,19 +27,25 @@ $(".sub-categorias").find("a").each(function(){
   }
 });
 // nav collapse
-$(".panel-heading").find(".cat-heading").click(function(){
-  var subCat=$(this).parent().find('.sub-categorias');
-  // Si esta expandido
-  if(subCat.hasClass('expanded')){
-    subCat.removeClass('expanded');
-    subCat.addClass('collapse');
-  }
-  // Si no lo esta
-  else{
-    subCat.addClass('expanded');
-    subCat.removeClass('collapse');
-  }
+$(".panel-heading").find(".cat-heading").each(function(){
+  var subCat = $(this).parent().find('.sub-categorias');
+  var tam = subCat.outerHeight(true);
+  
+  $(this).click(function(){
+    // Si esta expandido
+    if(subCat.hasClass('collapse')){
+      subCat.removeClass('collapse');
+      subCat.height(tam);
+    }
+    // Si no lo esta
+    else{
+      subCat.addClass('collapse');
+      subCat.height(0);
+    }
+  });
+  if(!$(this).hasClass('actived'))
+    subCat.height(0);
+  else
+    subCat.height(tam);
 });
-
-
 // --------------------------------------------------

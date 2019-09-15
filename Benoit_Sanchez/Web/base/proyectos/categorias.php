@@ -2,7 +2,7 @@
   <div class="panel-heading">
     <div class="cat-principal active">
       <div class="cat-heading actived">VIVIENDA PASIVA</div>
-      <ul class="sub-categorias expanded">
+      <ul class="sub-categorias">
         <li><a href="">Molina del segura</a></li>
         <li><a href="/proyectos/vivienda-pasiva/javea.php">Jávea</a></li>
         <li><a href="">Campello</a></li>

@@ -37,8 +37,14 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class ="content">
     <div class="wrap">
-      <div class="">
-        <img src="img/example-house-1.jpg"> 
+      <div class="cuerpo">
+        <img src="img/example-house-1.jpg">
+        <div class="title">
+          <div>
+            <h2>Casa</h2>
+            <h4>Prueba</h4>
+          </div>
+        </div>
       </div>
       <div class="">
         <img src="img/imagen_casa_ben_1.png">
