@@ -1,0 +1,69 @@
+/* -----------------------Gobal section-------------------*/
+body{
+  font-family: Myriad Pro;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+a:hover{
+  background-color: white;
+  color: #8a8506;
+}
+ul{
+  list-style-type: none;
+}
+/* -----------------------Head section--------------------*/
+.navBar{
+  /*background-color: #009cde;*/
+  overflow: hidden;
+}
+/*Floats each item to the left with padding of 14 & 16 px.
+Removes the underline with text decoration = none.*/
+.navBar .pages a{
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+/*Background color change during hover state*/
+.navBar a:hover{
+  background-color: white;
+  color: #8a8506;
+}
+/*Hides the menu Icon which will show when the nav needs to be responsive*/
+.navBar .icon{
+  display: none;
+  font-size: 2em;
+  margin: 4% 5%;
+}
+.navBar img{
+  height: 80px;
+}
+.navBar .logo{
+  float: left;
+}
+.pages .actived, .sub-categorias .actived, .actived{
+  color:#8a8506;
+}
+/* -----------------------Proyecto section--------------------*/
+.catalogo .scroll{
+  width: 20%;
+  height: inherit;
+}
+.catalogo img{
+  max-width: 100%;
+}
+.catalogo .scroll, .catalogo .image-view{
+  float:left;
+}
+.catalogo .scroll{
+  width: 20%;
+}
+.catalogo .image-view{
+  width: 80%;
+  height: inherit;
+}
+.catalogo .image-view img{
+  height: 100%;
+}
+/* -----------------------------------------------------------*/
