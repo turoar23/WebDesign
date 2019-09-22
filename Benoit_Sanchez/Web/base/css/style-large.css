@@ -143,4 +143,70 @@ body{
 .collapse{
   margin:0px;
 }
-/* ---------------------------------------------- */
+/* -----------------------Proyecto section--------------------*/
+.body-phases{
+  position: relative;
+}
+.phase{
+  margin-bottom: 0.5%;
+  display: grid;
+  /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+  grid-template-columns: 50% 50%;
+  /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
+  grid-template-rows: auto;
+  grid-template-areas:
+    "left-phase right-phase"
+}
+/* Align the img or text if them are the first element of the phase section */
+.phase .left-phase > :first-child > *{
+  float:right;
+  text-align: right;
+}
+.text-phase p, .img-phase img{
+  width: 50%;
+  height: 50%;
+  clear:both;
+}
+.img-phase img{
+  border-radius:1%;
+}
+.phase .text-phase{
+  padding-top:2%;
+}
+.text-phase h3{
+  padding: 0px;
+  margin: 0px;
+}
+.right-phase{
+  margin-left:24px;
+}
+.left-phase{
+  margin-right: 18px;
+}
+/* The line of the timeline */
+.content-phases::after{
+  content:'';
+  position: absolute;
+  width: 6px;
+  background-color: black;
+  top:0;
+  bottom:0;
+  left:50%;
+  margin:0px;
+}
+/* The circles on the timeline */
+.left-phase::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: black;
+  border: 4px solid #FF9F55;
+  top: 2%;
+  border-radius: 50%;
+  z-index: 1;
+  left:50%;
+  margin-left:-12.5px;
+}
+/* ---------------------------------------------------------- */
