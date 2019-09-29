@@ -19,14 +19,9 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
-
-  <link rel="stylesheet" href="css/servicios.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css'>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800'>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/style.css">
 
   <link rel="stylesheet" media="(max-width:800px)" href="css/style-small.css">
   <link rel="stylesheet" media="(min-width:801px)" href="css/style-large.css">
@@ -42,45 +37,73 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class ="content">
-    <!-- -->
     <h2>Fases</h2>
-    <div class="timeline">
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide" style="background-image: url('/img/fotosprueba/altea 1.png');" data-year="First steps">
-          <div class="swiper-slide-content"><span class="timeline-year">First steps</span>
-            <h4 class="timeline-title">Design</h4>
-            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed congue lacus, vel euismod diam. Donec porta dui vel enim facilisis placerat. Duis in neque pellentesque, ultrices purus ac, hendrerit purus. Suspendisse sagittis, risus non cursus imperdiet, lectus libero ullamcorper lectus, in placerat velit justo quis elit. Nulla dictum felis tellus, non rhoncus urna semper eget. Sed interdum lacus lacus, sit amet tempus urna viverra vel. Donec vitae convallis neque, ut porttitor orci. Cras at nisl vel ligula varius facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla ornare nulla eu magna viverra, sit amet consectetur metus laoreet. Cras mollis ornare metus, id dictum sapien venenatis ut. Nullam maximus, lorem eget semper vestibulum, diam mi auctor ligula, sit amet ultricies lacus erat id eros. Sed vitae interdum neque. Vivamus hendrerit tristique leo, ac sodales augue vestibulum sit amet.</p>
+    <p>Vivamus lacinia eros risus, nec pretium enim pretium a. Morbi maximus lorem vel pulvinar malesuada. Cras gravida euismod rutrum. Donec posuere, lorem suscipit maximus vestibulum, nibh velit blandit leo, vitae interdum sapien erat in ante. Donec vel ligula ligula. Phasellus id sem quis nulla accumsan blandit quis eget nulla. Fusce dictum arcu dolor, vel commodo sem accumsan sed. Praesent eu justo dignissim leo volutpat elementum. Cras malesuada consectetur faucibus. Nunc et magna at urna congue posuere sed at ex. Morbi pellentesque euismod posuere. Sed suscipit nibh enim, ac elementum turpis sodales sit amet. Duis sit amet sem ut mi aliquam dictum. Nunc congue ullamcorper erat. Curabitur et consectetur leo.</p>
+    <section class="body-phases">
+      <!-- titulo -->
+      <!-- barra -->
+      <div class="content-phases">
+        <!-- Phase 1 -->
+        <div class="phase">  
+          <div class="left-phase">
+            <div class="img-phase">
+              <img src="/img/fotosprueba/altea 1.png">
+            </div>
+          </div>
+          <div class="right-phase">
+            <div class="text-phase">
+              <h3>Fase 1</h3>
+              <p>Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image: url('/img/fotosprueba/altea 2.png');" data-year="Design">
-          <div class="swiper-slide-content"><span class="timeline-year">Design</span>
-            <h4 class="timeline-title">Our nice super title</h4>
-            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <!-- Phase 2 -->
+        <div class="phase">  
+          <div class="left-phase">
+            <div class="text-phase">
+              <h3>Fase 2</h3>
+              <p>Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="right-phase">
+            <div class="img-phase">
+              <img src="/img/fotosprueba/altea 1.png">
+            </div>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image: url('/img/fotosprueba/altea 3.png');" data-year="Construction">
-          <div class="swiper-slide-content"><span class="timeline-year">Construction</span>
-            <h4 class="timeline-title">Our nice super title</h4>
-            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <!-- Phase 3 -->
+        <div class="phase">  
+          <div class="left-phase">
+            <div class="img-phase">
+              <img src="/img/fotosprueba/altea 1.png">
+            </div>
+          </div>
+          <div class="right-phase">
+            <div class="text-phase">
+              <h3>Fase 3</h3>
+              <p>Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image: url('/img/fotosprueba/altea 4.png');" data-year="Comunication">
-          <div class="swiper-slide-content"><span class="timeline-year">Comunication</span>
-            <h4 class="timeline-title">Our nice super title</h4>
-            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <!-- Phase 4 -->
+        <div class="phase">  
+          <div class="left-phase">
+            <div class="text-phase">
+              <h3>Fase 4</h3>
+              <p>Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="right-phase">
+            <div class="img-phase">
+              <img src="/img/fotosprueba/altea 1.png">
+            </div>
           </div>
         </div>
+        <!-- -->
       </div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-pagination"></div>
-    </div>
+    </section>
   </div>
-  <br>
-    <!-- -->
-  </div>
-</div>
 <?php include('comun/footer.php');?>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

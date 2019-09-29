@@ -8,7 +8,7 @@
         <a href="/">Inicio</a>
         <a href="/proyectos/proyectos.php">Proyectos</a>
         <a href="/servicios.php">Servicios</a>
-        <a href="">Equipo</a>
+        <a href="/equipo.php">Equipo</a>
         <a href="">Contacto</a>
         <a href="">Newsletter</a>
       </div>
