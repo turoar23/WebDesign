@@ -2,8 +2,8 @@ body{
   margin:1%;
 }
 .wrap img{
-  height: 95%;
   width: 95%;
+  margin-bottom: 1.5%;
 }
 .wrap img::after{
   content: "";
@@ -109,13 +109,11 @@ body{
   padding-right: 5%;
 }
 .description-text{
-  padding-left: 2%;
-  border-left: 1px solid black;
   font-size: 1em;
   padding-top:2%;
 }
 .description-text .type-text{
-  margin-left: 45%;
+  margin-left: 55%;
   display: block;
 }
 .description-text .type{
@@ -124,10 +122,14 @@ body{
 .description-text ul{
   float:left;
   width: 25%;
+  border-left: 1px solid black;
+  padding-left: 2%;
 }
 .description-text .proyecto-description{
   text-align: justify;
   text-justify: auto;
+  width: 60%;
+  float: right;
 }
 .scroll img:hover{
   position: relative;
@@ -140,7 +142,7 @@ body{
 }
 /* width */
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 6px;
 }
 /* Track */
 ::-webkit-scrollbar-track {
@@ -149,6 +151,7 @@ body{
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888; 
+  height: 60%;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {

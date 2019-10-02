@@ -53,11 +53,12 @@
       </div>
       <div class="description-text">
         <ul>
-          <li><span class = "type">Fecha</span><span class = "type-text">Marzo, 2019</span></li>
-          <li><span class = "type">Localización</span><span class = "type-text">Jávea, Alicante</span></li>
-          <li><span class = "type">Categoría</span><span class = "type-text">Residencial</span></li>
-          <li><span class = "type">Valor</span><span class = "type-text">400,000€</span></li>
           <li><span class = "type">Ciente</span><span class = "type-text">Tepuy Burger</span></li>
+          <li><span class = "type">Fecha</span><span class = "type-text">Marzo, 2019</span></li>
+          <li><span class = "type">Ubicacion</span><span class = "type-text">Jávea, Alicante</span></li>
+          <li><span class = "type">Superficie</span><span class = "type-text">400 m²</span></li>
+          <li><span class = "type">Estado</span><span class = "type-text">Estado</span></li>
+          <li><span class = "type">Colaboraciones</span><span class = "type-text">Colaboraciones</span></li>
         </ul>
         <div class = "proyecto-description">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed congue lacus, vel euismod diam. Donec porta dui vel enim facilisis placerat. Duis in neque pellentesque, ultrices purus ac, hendrerit purus. Suspendisse sagittis, risus non cursus imperdiet, lectus libero ullamcorper lectus, in placerat velit justo quis elit. Nulla dictum felis tellus, non rhoncus urna semper eget. Sed interdum lacus lacus, sit amet tempus urna viverra vel. Donec vitae convallis neque, ut porttitor orci. Cras at nisl vel ligula varius facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla ornare nulla eu magna viverra, sit amet consectetur metus laoreet. Cras mollis ornare metus, id dictum sapien venenatis ut.</p>
