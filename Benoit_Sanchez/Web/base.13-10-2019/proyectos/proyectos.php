@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" media="(max-width:800px)" href="/css/style-small.css">
   <link rel="stylesheet" media="(min-width:801px)" href="/css/style-large.css">
+  <link rel="stylesheet" media="(min-width:1801px)" href="/css/style-xlarge.css">
 
   <link rel="stylesheet" media="(min-width:801px)" href="/css/efecto.css">
   <!-- Favicon
@@ -37,7 +38,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class ="content proyectos">
     <?php include("categorias.php");?>
-    <div class="description content-right">
+    <div class="description">
       <h1>Descripcion de los proyectos</h1>
       <p>De momento solo esta javea, a la espera de mas categorias y proyectos</p>
     </div>

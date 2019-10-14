@@ -42,11 +42,11 @@
   width: auto;
 }
 /* -----------------------------------------------*/
-.img-row img{
+.wrap img{
   padding-left: 2.5%;
   width: 95%;
 }
-.img-row img::after{
+.wrap img::after{
   content: "";
   display: block;
   padding-bottom: 100%;

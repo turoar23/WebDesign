@@ -1,52 +1,11 @@
-/* ------------------ Global section ------------------*/
 body{
-  margin: 1% 0% 0% 0%;
+  margin:1%;
 }
-.content-left{
-  width: 30%;
+.wrap img{
+  width: 95%;
+  margin-bottom: 1.5%;
 }
-.content-right{
-  width: 65%;
-  margin-right: 5%;
-}
-.content{
-  padding-top:2rem;
-}
-/* ------------------- Head section -------------------*/
-.navBar .pages{
-  padding-top: 1%;
-  float: left;
-  font-size: 1.6vw;
-  text-align: center;
-}
-.logo-content{
-  width: 25%;
-  margin: auto;
-}
-/*----------------------- Index ----------------------- */
-.index{
-  float: right;
-}
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 1rem;
-}
-.img-row{
-  text-align: center;
-  display: grid;
-  /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
-  grid-template-columns: 33.3% 33.3% 33.3%;
-  /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
-  grid-template-rows: auto;
-  grid-template-areas:
-    "img1 img2 img3";
-}
-.img-row img{
-  width: 99%;
-  /*margin-bottom: 2%;*/
-}
-.img-row img::after{
+.wrap img::after{
   content: "";
   display: block;
   padding-bottom: 100%;
@@ -54,42 +13,82 @@ body{
 .cuerpo{
   text-align: center;
 }
+/* --------------------head section--------------------*/
+.navBar .pages{
+  text-align: right;
+  padding-top: 1%;
+}
+.navBar .logo{
+  padding-left: 10%;
+}
+/*.navBar{
+  padding: 0.7%;
+  position: fixed;
+  top:0;
+  width: 95%;
+  background-color: white;
+}
+.navBar a:not(.logo){
+  float: right;
+  margin-top: 3%;
+}
+.navBar-left, .navBar-rigth{
+  /*margin-top:5%;*/
+  /*font-size: 3em;
+}*/
+/*------------------------------------------------------*/
+.content{
+  padding-top:2rem;
+}
+.index{
+  float: right;
+  width: 65%;
+  padding-right: 4.4%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+.wrap{
+  margin-bottom: 0.5%;
+  text-align: center;
+  display: grid;
+  /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+  grid-template-columns: 33,3% 33,3% 33,3%;
+  /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
+  grid-template-rows: auto;
+  grid-template-areas:
+    "img1 img2 img3"
+}
 .img1{
-  float:left;
+  grid-area: img1;
+}
+.img2{
+  grid-area: img2;
 }
 .img3{
-  float:right;
+  grid-area: img3;
 }
-/* ------------------------ Proyectos ------------------------ */
-@media (max-width: 1800px) {
-  .catalogo{
-    height: 500px;
-  }
-}
-@media (min-width: 1801px) {
-  .catalogo{
-    height: 600px;
-  }
-}
-@media (max-width: 1300px) {
-  .catalogo{
-    height: 400px;
-  }
+/* ---------------------Proyectos----------------- */
+/*TODO: Arreglar con media query, tambien en small*/
+.catalogo{
+  height: 500px;
 }
 .categorias{
+  padding-left: 4%;
+  width: 25%;
+  /*width: 35%;
+  position: fixed;
+  height: 100%;
+  position: fixed;
+  overflow: auto;*/
   font-size: 1.2em;
   margin: 0;
 }
+/* Esto es si el menu de la izquierda no se mueve*/
 .categorias ,.description{
   float:left;
-}
-.panel-heading{
-  padding-left:30%;
-}
-@media (max-width: 1300px) {
-  .panel-heading{
-    padding-left:20%;
-  }
 }
 .cat-principal {
   padding-top: 3%;
@@ -107,7 +106,13 @@ body{
   margin: 1.5rem 0px 0px 0rem;
   transition: height 280ms;
 }
-
+.description{
+  /*margin-left:35%;*/
+  width: 65%;
+  float:right;
+  
+  padding-right: 5%;
+}
 .description-text{
   font-size: 1em;
   padding-top:2%;
@@ -119,15 +124,13 @@ body{
 .description-text .type{
   float: left;
 }
-.description-text .characteristic-project{
+.description-text ul{
   float:left;
-  width: 40%;
-}
-.description-text .characteristic-project ul{
+  width: 25%;
   border-left: 1px solid black;
   padding-left: 2%;
 }
-.description-text .description-project{
+.description-text .proyecto-description{
   text-align: justify;
   text-justify: auto;
   width: 60%;
@@ -144,7 +147,6 @@ body{
   height: inherit;
   overflow: auto;
 }
-/*TODO: Pensar en quitarlo o solo aplicarlo en el scroll*/
 /* width */
 ::-webkit-scrollbar {
   width: 6px;
@@ -170,13 +172,6 @@ body{
 }
 .collapse{
   margin:0px;
-}
-/* ---------------- Service section ------------ */
-.services{
-  margin:2%;
-}
-.services .justify{
-  text-align: justify;
 }
 .body-phases{
   position: relative;
@@ -245,29 +240,25 @@ body{
   margin-left: 5px;
 }*/
 /* ------------------------Equipo section---------------------*/
-.team,.team-img{
-  float:left;
+.team{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.team-img img{
+  width: 40%;
+  margin-left: 30%;
 }
 .team .year-text{
   margin-left: 10%;
   display: block;
-  margin-left:35%;
 }
 .team .year{
   float: left;
 }
 .team p{
   margin-bottom: 1rem;
-  margin-left: 1%;
 }
 .team h1{
   font-size: 4rem;
-}
-.team-img img{
-  width: 80%;
-  float:right;
-}
-.team .list{
-  margin-left: 1%;
 }
 /* ---------------------------------------------------------- */

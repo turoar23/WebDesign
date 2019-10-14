@@ -39,23 +39,8 @@
     <div class = "team content-left">
       <div class = "panel-heading">
         <!-- Team -->
-        <h1>Equipo</h1>
-        <p>Peter Huerta<p>
-        <br>
-        <p>Maeve Henson</p>
-        <p>Shelley Leech</p>
-        <p>Estelle Barton</p>
-        <p>Jayden-Lee Mcknight</p>
-        <p>Reegan Santana</p>
-        <!-- Carrer -->
-        <h1>Carrera</h1>
-        <ul class = "list">
-          <li><span class = "year">2017 - </span><span class = "year-text">Lorem ispansum dolor sit amet</span></li>
-          <li><span class = "year">2015 - 2017</span><span class = "year-text">Lorem ispansum dolor sit amet</span></li>
-          <li><span class = "year">2015 - 2013</span><span class = "year-text">Lorem ispansum dolor sit amet</span></li>
-          <li><span class = "year">2013 - 2007</span><span class = "year-text">Lorem ispansum dolor sit amet</span></li>
-          <li><span class = "year">2007 - 2000</span><span class = "year-text">Lorem ispansum dolor sit amet</span></li>
-        </ul>
+        <h1>Contacto</h1>
+        <p>prueba@prueba.es<p>
       </div>
     </div>
     <div class = "team-img content-right">

@@ -1,4 +1,4 @@
-<div class="categorias content-left">
+<div class="categorias">
   <div class="panel-heading">
     <div class="cat-principal">
       <div class="cat-heading">VIVIENDAS</div>

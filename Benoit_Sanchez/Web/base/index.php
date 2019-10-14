@@ -35,33 +35,34 @@
 <?php include("comun/header.php"); ?>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class = "content index">
-    <div class="wrap">
+  <div class = "content index content-right">
+    <div class="img-row">
       <div class="cuerpo">
-        <img src="img/example-house-1.jpg">
+        <img class="img1" src="/img/fotosprueba/altea 1.png">
         <div class="title">
-          <div>
-            <h2>Casa</h2>
-            <h4>Prueba</h4>
-          </div>
+          <a href="/proyectos/viviendas/005.php">
+            <div>
+              <h4>005</h4>
+            </div>
+          </a>
         </div>
       </div>
       <div class="">
-        <img src="img/imagen_casa_ben_1.png">
+        <img class="img2" src="img/imagen_casa_ben_1.png">
       </div>
       <div class="">
-        <img src="img/example-house-1.jpg">
+        <img class="img3" src="img/example-house-1.jpg">
       </div>
     </div>
-    <div class="wrap">
+    <div class="img-row">
       <div class="">
-        <img src="img/example-house-1.jpg"> 
+        <img class="img1" src="img/example-house-1.jpg"> 
       </div>
       <div class="">
-        <img src="img/imagen_casa_ben_1.png">
+        <img class="img2" src="img/imagen_casa_ben_1.png">
       </div>
       <div class="">
-        <img src="img/example-house-1.jpg">
+        <img class="img3" src="img/example-house-1.jpg">
       </div>
     </div>
   </div>
