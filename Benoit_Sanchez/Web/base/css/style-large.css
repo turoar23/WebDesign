@@ -1,6 +1,7 @@
 /* ------------------ Global section ------------------*/
 body{
-  margin: 1% 0% 0% 0%;
+  /*margin: 1% 0% 0% 0%;*/
+  background-color: #757479;
 }
 .content-left{
   width: 30%;
@@ -10,17 +11,29 @@ body{
   margin-right: 5%;
 }
 .content{
+  min-height: 77vh;
   padding-top:2rem;
 }
+.content:after{
+  clear: both;
+  content: "";
+  display: block;
+}
 /* ------------------- Head section -------------------*/
+.navBar{
+  padding-top: 1%;
+}
 .navBar .pages{
   padding-top: 1%;
   float: left;
   font-size: 1.6vw;
-  text-align: center;
+  text-align: right;
+  padding-bottom: 1.5%;
+  border-bottom: 1.5px solid black
 }
 .logo-content{
   width: 25%;
+  /*padding-top: 2.5%;*/
   margin: auto;
 }
 /*----------------------- Index ----------------------- */
@@ -91,11 +104,15 @@ body{
     padding-left:20%;
   }
 }
-.cat-principal {
+/*.cat-principal {
+  padding-top: 3%;
+}*/
+.cat-heading{
   padding-top: 3%;
 }
 .cat-heading:hover:not(.actived){
-  color: #8a8506;
+  /*color: #8a8506;*/
+  color: #757479;
 }
 .cat-heading:hover{
   cursor: pointer;
@@ -163,9 +180,9 @@ body{
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #757479; 
 }
-.collapse a{
+.collapse a, .collapse a:hover{
   color:white;
 }
 .collapse{
@@ -173,7 +190,8 @@ body{
 }
 /* ---------------- Service section ------------ */
 .services{
-  margin:2%;
+  margin:1.2%;
+  padding-bottom: 1.5%;
 }
 .services .justify{
   text-align: justify;
@@ -223,7 +241,7 @@ body{
   content:'';
   position: absolute;
   width: 3px;
-  background-color: #555;
+  background-color: #757479;
   top:0;
   bottom:0;
   left:50%;
@@ -236,7 +254,7 @@ body{
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: #555;
+  background-color: #757479;
   border: 4px solid #333;
   top: 5%;
   border-radius: 50%;

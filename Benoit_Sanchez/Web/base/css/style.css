@@ -1,6 +1,7 @@
 /* -----------------------Gobal section-------------------*/
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100%;
 }
 a{
   text-decoration: none;
@@ -12,10 +13,18 @@ a:hover{
 }
 .pages a:hover, .panel-heading a:hover{
   background-color: white;
-  color: #8a8506;
+  /*color: #8a8506;*/
+  color: #757479;
 }
 ul{
   list-style-type: none;
+}
+header{
+  background-color: white;
+}
+.content{
+  width: 100%;
+  background-color: white;
 }
 /* -----------------------Head section--------------------*/
 .navBar{
@@ -36,8 +45,9 @@ Removes the underline with text decoration = none.*/
 }
 /*Background color change during hover state*/
 .navBar a:hover{
-  background-color: white;
-  color: #8a8506;
+  /*background-color: white;*/
+  /*color: #8a8506;*/
+  color: #757479;
 }
 /*Hides the menu Icon which will show when the nav needs to be responsive*/
 .navBar .icon{
@@ -53,12 +63,13 @@ Removes the underline with text decoration = none.*/
   float: left;
 }
 .pages .actived, .actived{
-  color:#8a8506;
+  /*color:#8a8506;*/
+  color: #757479;
 }
 /* -----------------------Proyecto section--------------------*/
 .catalogo .scroll{
   width: 20%;
-  height: inherit;
+  height: inherit;  
 }
 .catalogo img{
   max-width: 100%;
@@ -77,5 +88,17 @@ Removes the underline with text decoration = none.*/
   height: 100%;
   width: 100%;
 }
-
+/* ----------------------- Footer section --------------------*/
+.footer{
+  left:0;
+  bottom:0;
+  width: 100%;
+  background-color: #757479;
+  text-align: center;
+  padding: 0.7% 0% 0.7% 0%;
+}
+.footer i{
+  font-size: 2em;
+  margin: 0 0.5% 0 0.5%
+}
 /* -----------------------------------------------------------*/

@@ -22,7 +22,8 @@
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/skeleton.css">
   <link rel="stylesheet" href="/css/style.css">
-
+  <link href="/assets/css/all.css" rel="stylesheet"> <!--load all styles -->
+  
   <link rel="stylesheet" media="(max-width:800px)" href="/css/style-small.css">
   <link rel="stylesheet" media="(min-width:801px)" href="/css/style-large.css">
 

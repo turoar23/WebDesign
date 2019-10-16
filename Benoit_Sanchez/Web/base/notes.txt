@@ -1,2 +1,4 @@
 Las rutas son absolutas, asi que la web debe estar en la carpeta principal,
  si no fallaran las rutas. NO SE PUEDE METER EN UNA SUBCARPETA TODA LA WEB
+
+ TODO: Arreglar el tema de que se sobre ponene los margenes a las imagenes

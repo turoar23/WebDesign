@@ -22,6 +22,9 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="/assets/css/all.css" rel="stylesheet"> <!--load all styles -->
+
+
   <link rel="stylesheet" media="(max-width:800px)" href="css/style-small.css">
   <link rel="stylesheet" media="(min-width:801px)" href="css/style-large.css">
 
@@ -35,34 +38,36 @@
 <?php include("comun/header.php"); ?>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class = "content index content-right">
-    <div class="img-row">
-      <div class="cuerpo">
-        <img class="img1" src="/img/fotosprueba/altea 1.png">
-        <div class="title">
-          <a href="/proyectos/viviendas/005.php">
-            <div>
-              <h4>005</h4>
-            </div>
-          </a>
+  <div class = "content">
+    <div class = "index content-right">
+      <div class="img-row">
+        <div class="cuerpo">
+          <img class="img1" src="/img/fotosprueba/altea 1.png">
+          <div class="title">
+            <a href="/proyectos/viviendas/005.php">
+              <div>
+                <h4>005</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="">
+          <img class="img2" src="img/imagen_casa_ben_1.png">
+        </div>
+        <div class="">
+          <img class="img3" src="img/example-house-1.jpg">
         </div>
       </div>
-      <div class="">
-        <img class="img2" src="img/imagen_casa_ben_1.png">
-      </div>
-      <div class="">
-        <img class="img3" src="img/example-house-1.jpg">
-      </div>
-    </div>
-    <div class="img-row">
-      <div class="">
-        <img class="img1" src="img/example-house-1.jpg"> 
-      </div>
-      <div class="">
-        <img class="img2" src="img/imagen_casa_ben_1.png">
-      </div>
-      <div class="">
-        <img class="img3" src="img/example-house-1.jpg">
+      <div class="img-row">
+        <div class="">
+          <img class="img1" src="img/example-house-1.jpg"> 
+        </div>
+        <div class="">
+          <img class="img2" src="img/imagen_casa_ben_1.png">
+        </div>
+        <div class="">
+          <img class="img3" src="img/example-house-1.jpg">
+        </div>
       </div>
     </div>
   </div>
