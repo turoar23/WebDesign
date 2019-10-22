@@ -38,9 +38,15 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class = "content">
+    <div class = "content-left">
+      <div class = "logo2">
+        <img src="/img/logo2.png">
+      </div>
+    </div>
     <div class ="services">
-      <h1>Servicios</h1>
-      <p class = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed congue lacus, vel euismod diam. Donec porta dui vel enim facilisis placerat. Duis in neque pellentesque, ultrices purus ac, hendrerit purus. Suspendisse sagittis, risus non cursus imperdiet, lectus libero ullamcorper lectus, in placerat velit justo quis elit. Nulla dictum felis tellus, non rhoncus urna semper eget. Sed interdum lacus lacus, sit amet tempus urna viverra vel. Donec vitae convallis neque, ut porttitor orci. Cras at nisl vel ligula varius facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla ornare nulla eu magna viverra, sit amet consectetur metus laoreet. Cras mollis ornare metus, id dictum sapien venenatis ut. Nullam maximus, lorem eget semper vestibulum, diam mi auctor ligula, sit amet ultricies lacus erat id eros. Sed vitae interdum neque. Vivamus hendrerit tristique leo, ac sodales augue vestibulum sit amet.</p>
+      <div class = "title">
+        <h1>Servicios</h1>
+      </div>
       <section class="body-phases">
         <!-- titulo -->
         <!-- barra -->

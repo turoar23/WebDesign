@@ -39,34 +39,74 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class = "content">
+    <div class = "team content-left">
+      <div class = "logo2">
+        <img src="/img/logo2.png">
+      </div>
+    </div>
     <div class = "index content-right">
       <div class="img-row">
         <div class="cuerpo">
-          <img class="img1" src="/img/fotosprueba/altea 1.png">
+          <img src="/img/proyectos/1408/VISTA04F0100000000.jpg">
           <div class="title">
-            <a href="/proyectos/viviendas/005.php">
+            <a href="/proyectos/viviendas/1408.php">
               <div>
-                <h4>005</h4>
+                <h4>1408</h4>
               </div>
             </a>
           </div>
         </div>
-        <div class="">
-          <img class="img2" src="img/imagen_casa_ben_1.png">
+        <div class="cuerpo">
+          <img src="/img/proyectos/0903/despues(17).JPG">
+          <div class="title">
+            <a href="/proyectos/reformas/0903.php">
+              <div>
+                <h4>0903</h4>
+              </div>
+            </a>
+          </div>
         </div>
-        <div class="">
-          <img class="img3" src="img/example-house-1.jpg">
+        <div class="cuerpo">
+          <img src="/img/proyectos/1301/CONEJOS1(5).jpg">
+          <div class="title">
+            <a href="/proyectos/viviendas/1301.php">
+              <div>
+                <h4>1301</h4>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       <div class="img-row">
-        <div class="">
-          <img class="img1" src="img/example-house-1.jpg"> 
+        <div class="cuerpo">
+          <img src="/img/proyectos/1206/20121122_191319.jpg">
+          <div class="title">
+            <a href="/proyectos/viviendas/1206.php">
+              <div>
+                <h4>1206</h4>
+              </div>
+            </a>
+          </div>
         </div>
-        <div class="">
-          <img class="img2" src="img/imagen_casa_ben_1.png">
+        <div class="cuerpo">
+          <img src="/img/proyectos/1415/despues(1).jpg">
+          <div class="title">
+            <a href="/proyectos/reformas/1415.php">
+              <div>
+                <h4>1415</h4>
+              </div>
+            </a>
+          </div>
         </div>
-        <div class="">
-          <img class="img3" src="img/example-house-1.jpg">
+        <div class="cuerpo">
+          <img src="/img/proyectos/1702/vista_terraza.jpg">
+          <div class="title">
+            <a href="/proyectos/viviendas/1702.php">
+              <div>
+                <h4>1702</h4>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>

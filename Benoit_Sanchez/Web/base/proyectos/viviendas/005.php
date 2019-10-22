@@ -55,7 +55,7 @@
       <div class="description-text">
         <div class = "characteristic-project">
           <ul>
-            <li><span class = "type">Ciente</span><span class = "type-text">Tepuy Burger</span></li>
+            <li><span class = "type">Cliente</span><span class = "type-text">Tepuy Burger</span></li>
             <li><span class = "type">Fecha</span><span class = "type-text">Marzo, 2019</span></li>
             <li><span class = "type">Ubicacion</span><span class = "type-text">Jávea, Alicante</span></li>
             <li><span class = "type">Superficie</span><span class = "type-text">400 m²</span></li>

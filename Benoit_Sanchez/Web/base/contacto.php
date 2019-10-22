@@ -39,14 +39,19 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class = "content">
     <div class = "team content-left">
+      <div class = "logo2">
+        <img src="/img/logo2.png">
+      </div>
       <div class = "panel-heading">
         <!-- Team -->
         <h1>Contacto</h1>
-        <p>prueba@prueba.es<p>
+        <h2>Benoit Sánchez</h2>
+        <p>benoit@bsarquitectos.es<p>
+        <p>+34 655 364 816</p>
       </div>
     </div>
     <div class = "team-img content-right">
-      <img src="/img/exampleTeam.jpg">
+      <img src="/img/pruebaContacto.png">
     </div>
   </div>
 <?php include('comun/footer.php');?>

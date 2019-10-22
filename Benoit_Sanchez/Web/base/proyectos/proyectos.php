@@ -40,8 +40,6 @@
   <div class ="content proyectos">
     <?php include("categorias.php");?>
     <div class="description content-right">
-      <h1>Descripcion de los proyectos</h1>
-      <p>De momento solo esta javea, a la espera de mas categorias y proyectos</p>
     </div>
   </div>
 

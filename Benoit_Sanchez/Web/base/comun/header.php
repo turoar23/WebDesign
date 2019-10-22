@@ -4,6 +4,7 @@
         <div class = "logo-content">
           <a href="/" class="img-logo"><img src="/img/Logoprueba.png"></a>
           <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()">&#9776;</a>
+          <img href="/img/logo2.png">
         </div>
       </div>
       <div class="pages content-right">

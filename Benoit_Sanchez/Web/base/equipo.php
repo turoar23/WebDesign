@@ -37,27 +37,42 @@
 <?php include("comun/header.php"); ?>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class = "content">
-    <div class = "team content-left">
+  <div class = "team content">
+    <div class = "content-left">
+      <div class = "logo2">
+        <img src="/img/logo2.png">
+      </div>
       <div class = "panel-heading">
         <!-- Team -->
         <h1>Equipo</h1>
-        <p>Peter Huerta<p>
-        <br>
-        <p>Maeve Henson</p>
-        <p>Shelley Leech</p>
-        <p>Estelle Barton</p>
-        <p>Jayden-Lee Mcknight</p>
-        <p>Reegan Santana</p>
+        <h2>Benoît Sánchez</h2>
+        <h3>ARQUITECTO - Certified Passivhaus Designer</h3>
+        <h2>Peter Huerta</h2>
+        <h2>Maeve Henson</h2>
+        <h2>Shelley Leech</h2>
+        <h2>Estelle Barton</h2>
+        <h2>Jayden-Lee Mcknight</h2>
+        <h2>Reegan Santana</h2>
         <!-- Carrer -->
-        <h1>Carrera</h1>
-        <ul class = "list">
-          <li><span class = "year">2017 - </span><span class = "year-text">Lorem ispansum dolor sit amet</span></li>
-          <li><span class = "year">2015 - 2017</span><span class = "year-text">Lorem ispansum dolor sit amet</span></li>
-          <li><span class = "year">2015 - 2013</span><span class = "year-text">Lorem ispansum dolor sit amet</span></li>
-          <li><span class = "year">2013 - 2007</span><span class = "year-text">Lorem ispansum dolor sit amet</span></li>
-          <li><span class = "year">2007 - 2000</span><span class = "year-text">Lorem ispansum dolor sit amet</span></li>
-        </ul>
+        <div class = "experience">
+          <h2>EXPERIENCIA LABORAL</h2>
+          <p class = "head">Actualmente / <strong>Arquitecto FREELANCE</strong></p>
+          <p>Casa Pasiva en Santomera - Murcia. Vivienda eficiente en el bosque, Altea.</p>
+          <p class = "head">2013 -2014 / <strong>Arquitecto de 2&2 Designers</strong></p>
+          <p>Centro deportivo Crossfit - Alicante.</p>
+          <p>Villas Elysium, urbanización Passivhaus, La Nucia.</p>
+          <p>Varios proyectos y reformas de viviendas pasivas.</p>
+          <p class ="head">2010 – 2013 / <strong>Arquitecto de Talimai Eco Casa</strong></p>
+          <p>Casa Pasiva en Molina de Segura – Murcia.</p>
+          <p>Sistema prefabricado de madera.</p>
+          <p class = "head">2009 – 2010 / Reforma completa de vivienda doble en la Albufereta, Alicante. Proyecto de arquitectura y de interiorismo. Gestión integral de la obra.</p>
+          <p class = "head">CRYSTALZOO (José Luis Campos) ALICANTE / Proyecto básico y de ejecución de ampliación de    Polideportivo en La Nucia. 
+          Proyecto de reforma de piso para Estudio de Arquitectura Crystalzoo en Explanada de Alicante. 
+          Proyecto básico y de ejecución de velódromo en Novelda. Desarrollo de proyecto de ejecución del Centro de Especialidades de La Nucia. 
+          Detalles para proyecto de ejecución de Geolit, “nido de oficinas” en Jaén. </p>
+          <p class = "head">2001 / 2009 RICARDO MIÑANA MARTÍNEZ, ALICANTE / Participación en más de 60 proyectos, estudios y trabajos diversos: mediciones de suelos y edificaciones, derribos, interiorismo, proyectos de actividades, expedientes de legalización, piscinas, proyectos de reforma y restauración del patrimonio, obras de nueva planta… 
+          Encargado del departamento creativo, proyectos y dirección de obra.</p>
+        </div>
       </div>
     </div>
     <div class = "team-img content-right">
