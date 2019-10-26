@@ -67,7 +67,7 @@
           </div>
         </div>
         <div class="cuerpo">
-          <img src="/img/proyectos/1301/CONEJOS1(5).jpg">
+          <img src="/img/prueba.jpg">
           <div class="title">
             <a href="/proyectos/viviendas/1301.php">
               <div>

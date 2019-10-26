@@ -1,7 +1,7 @@
 /* ------------------ Global section ------------------*/
 body{
   /*margin: 1% 0% 0% 0%;*/
-  /*background-color: #757479;*/
+  background-color: #757479;
 }
 .content-left{
   width: 30%;
@@ -11,8 +11,9 @@ body{
   margin-right: 5%;
 }
 .content{
-  min-height: 77vh;
+  min-height: 75vh;
   padding-top:2rem;
+  height: 100%;
 }
 .content:after{
   clear: both;
@@ -61,10 +62,12 @@ body{
   grid-template-rows: auto;
   grid-template-areas:
     "img1 img2 img3";
+  height: 15vw;
 }
 .img-row img{
   width: 99%;
-  margin-bottom: 1%;
+  height: 100%;
+  padding-bottom: 1%;
 }
 .img-row img::after{
   content: "";
@@ -80,7 +83,13 @@ body{
 .img3{
   float:right;
 }
-@media (max-width: 1800px) {
+/*.cuerpo img{
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+}*/
+/*@media (max-width: 1800px) {
   .cuerpo img{
     height: 300px;
   }
@@ -94,9 +103,9 @@ body{
   .cuerpo img{
     height: 200px;
   }
-}
+}*/
 /* ------------------------ Proyectos ------------------------ */
-@media (max-width: 1800px) {
+/*@media (max-width: 1800px) {
   .catalogo{
     height: 500px;
   }
@@ -110,6 +119,9 @@ body{
   .catalogo{
     height: 400px;
   }
+}*/
+.catalogo{
+  height: 33vw;
 }
 .categorias{
   font-size: 1.2em;

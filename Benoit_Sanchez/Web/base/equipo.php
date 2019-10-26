@@ -37,8 +37,8 @@
 <?php include("comun/header.php"); ?>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class = "team content">
-    <div class = "content-left">
+  <div class = "content">
+    <div class = "team content-left">
       <div class = "logo2">
         <img src="/img/logo2.png">
       </div>

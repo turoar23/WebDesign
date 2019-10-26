@@ -42,14 +42,14 @@
     <div class="description content-right">
       <div class="catalogo">
         <div class="scroll">
+          <img src="/img/prueba.jpg">
           <img src="/img/proyectos/1301/CONEJOS1(5).jpg">
           <img src="/img/proyectos/1301/CONEJOS1(3).jpg">
-          <img src="/img/proyectos/1301/CONEJOS1(6).jpg">
           <img src="/img/proyectos/1301/CONJUNTO.jpg">
           <img src="/img/proyectos/1301/1301-viviendamolina.jpg">
         </div>
         <div class="image-view">
-        <img src="/img/proyectos/1301/CONEJOS1(5).jpg">
+          <img src="/img/prueba.jpg">
         </div>
       </div>
       <div class="description-text">
