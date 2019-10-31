@@ -27,7 +27,7 @@ body{
 .navBar .pages{
   padding-top: 1%;
   float: left;
-  font-size: 1.6vw;
+  font-size: 1.5vw;
   text-align: right;
   padding-bottom: 1.5%;
   border-bottom: 1.5px solid black
@@ -39,10 +39,10 @@ body{
 }
 .logo2{
   text-align: center;
-  margin-top: -5%;
+  margin-top: -7.5%;
 }
 .logo2 img{
-  width: 30%;
+  width: 25%;
 }
 /*----------------------- Index ----------------------- */
 .index{
@@ -227,7 +227,7 @@ body{
 }
 /* ---------------- Service section ------------ */
 .services{
-  margin:1.2%;
+  margin: 0% 1.2% 1.2% 1.2%;
   padding-bottom: 1.5%;
 }
 .services .title h1{
