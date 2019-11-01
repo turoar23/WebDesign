@@ -1,0 +1,48 @@
+/* ----------------- Global section ----------------- */
+body{
+    margin: 0px;
+}
+main{
+    background-color: black;
+    width: 75%;
+    float: right;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+/* ----------------- Header section ----------------- */
+header{
+    margin-top: 3%;
+    width: 25%;
+    position: fixed;
+    height: 100%;
+    text-align: center;
+}
+header .logo{
+    width: 80%;
+    margin: auto;
+}
+header .logo img{
+    width: 100%;
+}
+header .nav{
+    margin-top:10%;
+}
+header .nav .nav-link{
+    display: block;
+    font-size: 1.5rem;
+}
+header .nav .nav-link:hover{
+    color: #1fcdff;
+}
+header .dot {
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: #1fcdff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 4% 0% 4% 0%;
+  }
+/* -------------------------------------------------- */
