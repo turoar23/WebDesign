@@ -23,10 +23,16 @@
 <body>
   <?php include("comun/header.php"); ?>
   <main>
-    
+    <h1>Today's your special day!</h1>
+    <button id="reveal">Why's that?</button>
+    <div id="ajax-content">
+    </div>
   </main>
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- End Document -->
 </body>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+
+<script src="js/custom.js"></script>
 
 </html>

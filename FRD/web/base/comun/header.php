@@ -11,6 +11,12 @@
         
     </div>
     <div class = "footer">
-
+        <div class = "social-networks">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-pinterest"></i>
+        </div>
+        <a href="">EN</a> /
+        <a href="">ES</a>
     </div>
 </header>
