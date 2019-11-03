@@ -1,0 +1,37 @@
+/* ----------------- Main section ----------------- */
+/*main .top-iamge{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 5vw);
+    grid-gap: 15px; 
+}*/
+main .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 33vh);
+    grid-gap: 0.5%;
+}
+main .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+main .gallery .g-img1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+main .gallery .g-img3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+main .gallery .g-img6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+/* ------------------------------------------------- */

@@ -23,13 +23,22 @@
 <body>
   <?php include("comun/header.php"); ?>
   <main>
-    <div class = "top-image">
+    <!--<div class = "top-image">
       
+    </div>-->
+    <div class = "gallery">
+      <img class ="g-img1" src="img/img1.JPG" />
+      <img class ="g-img2" src="img/img2.JPG" />
+      <img class ="g-img3" src="img/img3.jpg" />
+      <img class ="g-img4" src="img/img4.jpg" />
+      <img class ="g-img5" src="img/img5.JPG" />
+      <img class ="g-img6" src="img/img6.png" />
     </div>
-    <h1>Today's your special day!</h1>
-    <button id="reveal">Why's that?</button>
-    <div id="ajax-content">
-    </div>
+    <!--<div>
+      <h1>Today's your special day!</h1>
+      <button id="reveal">Why's that?</button>
+      <div id="ajax-content">
+    </div>-->
   </main>
 <!-- End Document -->
 </body>
