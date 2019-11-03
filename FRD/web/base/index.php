@@ -23,6 +23,9 @@
 <body>
   <?php include("comun/header.php"); ?>
   <main>
+    <div class = "top-image">
+      
+    </div>
     <h1>Today's your special day!</h1>
     <button id="reveal">Why's that?</button>
     <div id="ajax-content">
