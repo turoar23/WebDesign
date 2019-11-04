@@ -67,7 +67,7 @@
           </div>
         </div>
         <div class="cuerpo">
-          <img src="/img/prueba.jpg">
+          <img src="/img/proyectos/1301/prueba/1.jpg">
           <div class="title">
             <a href="/proyectos/viviendas/1301.php">
               <div>
@@ -79,7 +79,7 @@
       </div>
       <div class="img-row">
         <div class="cuerpo">
-          <img src="/img/proyectos/1206/20121122_191319.jpg">
+          <img src="/img/proyectos/1206/prueba/1.jpg">
           <div class="title">
             <a href="/proyectos/viviendas/1206.php">
               <div>

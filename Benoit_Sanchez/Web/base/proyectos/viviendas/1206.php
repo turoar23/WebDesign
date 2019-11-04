@@ -42,14 +42,14 @@
     <div class="description content-right">
       <div class="catalogo">
         <div class="scroll">
-          <img src="/img/proyectos/1206/20121122_191319.jpg">
-          <img src="/img/proyectos/1206/20121123_172010.jpg">
-          <img src="/img/proyectos/1206/20121124_133935.jpg">
-          <img src="/img/proyectos/1206/AMM-urbanizacion.jpg">
-          <img src="/img/proyectos/1206/MOLINA(2).jpg">
+          <img src="/img/proyectos/1206/prueba/1.jpg">
+          <img src="/img/proyectos/1206/prueba/2.jpg">
+          <img src="/img/proyectos/1206/prueba/3.jpg">
+          <img src="/img/proyectos/1206/prueba/4.jpg">
+          <img src="/img/proyectos/1206/prueba/5.jpg">
         </div>
         <div class="image-view">
-        <img src="/img/proyectos/1206/20121122_191319.jpg">
+          <img src="/img/proyectos/1206/prueba/1.jpg">
         </div>
       </div>
       <div class="description-text">
