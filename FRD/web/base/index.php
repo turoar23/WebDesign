@@ -26,13 +26,23 @@
     <!--<div class = "top-image">
       
     </div>-->
-    <div class = "gallery">
+    <div class = "gallery-top">
       <img class ="g-img1" src="img/img1.JPG" />
       <img class ="g-img2" src="img/img2.JPG" />
-      <img class ="g-img3" src="img/img3.jpg" />
-      <img class ="g-img4" src="img/img4.jpg" />
-      <img class ="g-img5" src="img/img5.JPG" />
-      <img class ="g-img6" src="img/img6.png" />
+    </div>
+    <div class = "main-body">
+      <span class = "title">PROYECTOS</span>
+      <div class = "text">
+        <span class = "text-categories">VIVIENDAS DE NUEVA PLANTA</span>
+        <span class = "text-categories">REFORMAS</span>
+        <span class = "text-categories">VIVIENDA PASIVA</span>
+      </div>
+      <div class ="main-index">
+        <img class ="g-img3" src="img/img3.jpg" />
+        <img class ="g-img4" src="img/img4.jpg" />
+        <img class ="g-img5" src="img/img5.JPG" />
+        <img class ="g-img6" src="img/img6.png" />
+      </div>
     </div>
     <!--<div>
       <h1>Today's your special day!</h1>
