@@ -11,7 +11,8 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
-  <link href="/assets/css/all.css" rel="stylesheet"> <!--load all styles -->
+  <link rel="stylesheet" href="/assets/css/all.css"> <!--load all styles -->
+  <link rel="stylesheet" href="https://use.typekit.net/fme5ecn.css">
 
   <link rel="stylesheet" media="(max-width:800px)" href="css/style-small.css">
   <link rel="stylesheet" media="(min-width:801px)" href="css/style-large.css">
@@ -31,11 +32,11 @@
       <img class ="g-img2" src="img/img2.JPG" />
     </div>
     <div class = "main-body">
-      <span class = "title">PROYECTOS</span>
+      <!--<span class = "title">PROYECTOS</span>-->
       <div class = "text">
-        <span class = "text-categories">VIVIENDAS DE NUEVA PLANTA</span>
-        <span class = "text-categories">REFORMAS</span>
-        <span class = "text-categories">VIVIENDA PASIVA</span>
+        <span class = "text-categories">OBRA NUEVA</span>
+        <span class = "text-categories">REFORMAS LOCALES</span>
+        <span class = "text-categories">REFORMAS VIVIENDAS</span>
       </div>
       <div class ="main-index">
         <img class ="g-img3" src="img/img3.jpg" />
