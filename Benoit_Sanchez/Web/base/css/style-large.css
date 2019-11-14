@@ -1,8 +1,4 @@
 /* ------------------ Global section ------------------*/
-body{
-  /*margin: 1% 0% 0% 0%;*/
-  background-color: #757479;
-}
 .content-left{
   width: 30%;
 }
@@ -11,9 +7,8 @@ body{
   margin-right: 5%;
 }
 .content{
-  min-height: 75vh;
-  padding-top:2rem;
   height: 100%;
+  min-height: 92vh;
 }
 .content:after{
   clear: both;
@@ -27,9 +22,9 @@ body{
 .navBar .pages{
   padding-top: 1%;
   float: left;
-  font-size: 1.5vw;
+  font-size: 1.35vw;
   text-align: right;
-  padding-bottom: 1.5%;
+  padding-bottom: 1.3%;
   border-bottom: 1.5px solid black
 }
 .logo-content{
@@ -83,48 +78,12 @@ body{
 .img3{
   float:right;
 }
-/*.cuerpo img{
-  height: auto;
-  width: auto;
-  max-width: 100%;
-  max-height: 100%;
-}*/
-/*@media (max-width: 1800px) {
-  .cuerpo img{
-    height: 300px;
-  }
-}
-@media (min-width: 1801px) {
-  .cuerpo img{
-    height: 300px;
-  }
-}
-@media (max-width: 1300px) {
-  .cuerpo img{
-    height: 200px;
-  }
-}*/
 /* ------------------------ Proyectos ------------------------ */
-/*@media (max-width: 1800px) {
-  .catalogo{
-    height: 500px;
-  }
-}
-@media (min-width: 1801px) {
-  .catalogo{
-    height: 600px;
-  }
-}
-@media (max-width: 1300px) {
-  .catalogo{
-    height: 400px;
-  }
-}*/
 .catalogo{
   height: 33vw;
 }
 .categorias{
-  font-size: 1.2em;
+  font-size: 1.35vw;
   margin: 0;
 }
 .categorias ,.description{
@@ -145,7 +104,7 @@ body{
   padding-top: 3%;
 }*/
 .cat-heading{
-  padding-top: 3%;
+  padding-top: 2%;
 }
 .cat-heading:hover:not(.actived){
   /*color: #8a8506;*/
@@ -158,10 +117,15 @@ body{
   padding-left: 1.4rem;
 }
 .sub-categorias{
-  margin: 1.5rem 0px 0px 0rem;
-  transition: height 280ms;
+  margin: 0.5rem 0px 0px 0px;
+  transition: 120ms;
 }
-
+.collapse a, .collapse a:hover{
+  color:white;
+}
+.collapse{
+  margin:0px;
+}
 .description-text{
   font-size: 1em;
   padding-top:2%;
@@ -180,6 +144,9 @@ body{
 .description-text .characteristic-project ul{
   border-left: 1px solid black;
   padding-left: 2%;
+}
+.description-text .characteristic-project ul li{
+  margin-bottom:1%;
 }
 .description-text .description-project{
   text-align: justify;
@@ -219,12 +186,7 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: #757479; 
 }
-.collapse a, .collapse a:hover{
-  color:white;
-}
-.collapse{
-  margin:0px;
-}
+
 /* ---------------- Service section ------------ */
 .services{
   margin: 0% 1.2% 1.2% 1.2%;
@@ -304,10 +266,6 @@ body{
   margin-bottom: 1rem;
   margin-left: 1%;
 }
-.team h1{
-  /*font-size: 4rem;*/
-  font-size: 2vw;
-}
 .team-img img{
   width: 80%;
   float:right;
@@ -315,31 +273,36 @@ body{
 .team .list{
   margin-left: 1%;
 }
+.team .panel-heading h1{
+  font-size: 2.5rem;
+  margin-bottom: 2%;
+}
 .team .panel-heading h2{
   padding-top: 1%;
   font-size: 2rem;
+  margin-bottom: 2%;
 }
 .team .panel-heading h3{
   font-size: 1.5rem;
+  margin-bottom: 2%;
 }
-/*.team .content-left{
-  width: 45%;
-  float: left;
-}
-.team .content-right{
-  width: 50%;
-}
-.team .panel-heading{
-  padding-left: 20%;
-}*/
 .team .panel-heading{
   float:left;
   margin-right: -20%;
 }
+.experience-body{
+  width: 35%;
+  margin-bottom: 3%;
+}
+.team .experience{
+  margin-top: 2%;
+}
 .team p{
   margin: 0%;
+  margin-left: 10%;
+  text-align: justify;
 }
 .team .head{
-  margin: 1rem 0% 1rem 0%;
+  margin: 2% 0% 1% 0%;
 }
 /* ---------------------------------------------------------- */

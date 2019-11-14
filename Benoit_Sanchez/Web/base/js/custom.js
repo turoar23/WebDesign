@@ -32,7 +32,7 @@ $(".panel-heading").find(".cat-principal").each(function(){
   var subCat = $(this).find('.sub-categorias');
   var tam = subCat.outerHeight(true);
   
-  $(this).click(function(){
+  $(this).find('.cat-heading').click(function(){
     // Si esta expandido
     if(subCat.hasClass('collapse')){
       subCat.removeClass('collapse');

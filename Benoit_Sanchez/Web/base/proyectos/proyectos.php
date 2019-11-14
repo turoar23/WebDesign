@@ -34,10 +34,10 @@
 
 </head>
 <body>
-<?php include("../comun/header.php"); ?>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class ="content proyectos">
+  <?php include("../comun/header.php"); ?>
     <?php include("categorias.php");?>
     <div class="description content-right">
     </div>
