@@ -228,9 +228,10 @@
 .phase .text-phase{
   padding-top:2%;
 }
-.text-phase h3{
+.text-phase h2{
   padding: 0px;
   margin: 0px;
+  font-size: 2.2rem;
 }
 .right-phase{
   margin-left:21px;

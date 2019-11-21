@@ -55,13 +55,13 @@
           <div class="phase">  
             <div class="left-phase">
               <div class="img-phase">
-                <img src="/img/fotosprueba/altea 1.png">
+                <img src="/img/servicios/fase-1.png">
               </div>
             </div>
             <div class="right-phase">
               <div class="text-phase">
-                <h3>Fase 1</h3>
-                <p>Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h2>Fase 1 - "Creación de la Arquitectura"</h2>
+                <p>Ideación de los conceptos iniciales del proyecto de arquitectura para la elaboración de los estudios previos y los anteproyectos.</p>
               </div>
             </div>
           </div>
@@ -69,13 +69,13 @@
           <div class="phase">  
             <div class="left-phase">
               <div class="text-phase">
-                <h3>Fase 2</h3>
-                <p>Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h2>Fase 2 - "Proyección"</h2>
+                <p>Redacción de los proyectos ténicos para la obtención de las licencias correspondientes y valoración de los presupuestos necesarios para el desarrollo de las obras.</p>
               </div>
             </div>
             <div class="right-phase">
               <div class="img-phase">
-                <img src="/img/fotosprueba/altea 1.png">
+                <img src="/img/servicios/fase-2.png">
               </div>
             </div>
           </div>
@@ -83,13 +83,13 @@
           <div class="phase">  
             <div class="left-phase">
               <div class="img-phase">
-                <img src="/img/fotosprueba/altea 1.png">
+                <img src="/img/servicios/fase-3.png">
               </div>
             </div>
             <div class="right-phase">
               <div class="text-phase">
-                <h3>Fase 3</h3>
-                <p>Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h2>Fase 3 - "Construcción"</h2>
+                <p>Materialización de las fases de proyectos para la creación de los espacios.</p>
               </div>
             </div>
           </div>
@@ -97,13 +97,13 @@
           <div class="phase">  
             <div class="left-phase">
               <div class="text-phase">
-                <h3>Fase 4</h3>
-                <p>Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h2>Fase 4 - "Vivir la arquitectura"</h2>
+                <p></p>
               </div>
             </div>
             <div class="right-phase">
               <div class="img-phase">
-                <img src="/img/fotosprueba/altea 1.png">
+                <img src="/img/servicios/fase-4.png">
               </div>
             </div>
           </div>
