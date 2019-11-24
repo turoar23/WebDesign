@@ -40,28 +40,28 @@
   <?php include("comun/header.php"); ?>
     <div class = "team-body">
       <div class = "team content-left">
-        <div class = "logo2">
+         <div class = "logo2">
           <img src="/img/logo2.png">
         </div>
         <div class = "panel-heading">
           <!-- Team -->
           <h1>Equipo</h1>
           <h2>Benoît Sánchez</h2>
-          <h3>ARQUITECTO - Certified Passivhaus Designer</h3>
-          <h2>Carlos Munuera</h2>
-          <h3>Graphic designer</h3>
-          <h2>Jesús Aliaga Caballero</h2>
-          <h3>Arquitecto</h3>
-          <h2>Carlos García Fuentes</h2>
-          <h3>Arquitecto</h3>
-          <h2>Estudio Boixader</h2>
-          <h3>Calculo de estructuras</h3>
-          <h2>Alberto Molina Beltrán</h2>
-          <h3>Aparejador</h3>
-          <h2>David Molina Beltrán</h2>
-          <h3>Aparejador</h3>
-          <h2>FRAVID</h2>
-          <h3>Empresa constructora</h3>
+          <h3 style = "margin-bottom:5%">ARQUITECTO - Certified Passivhaus Designer</h3>
+          <h3>Carlos Munuera - Graphic designer</h3>
+          <h3>Jesús Aliaga Caballero - Arquitecto</h3>
+          <h3>Carlos García Fuentes - Arquitecto</h3>
+          <h3>Estudio Boixader - Calculo de estructuras</h3>
+          <h3>Alberto Molina Beltrán - Aparejador</h3>
+          <h3>David Molina Beltrán - Aparejador</h3>
+          <h3>FRAVID - Empresa constructora</h3>
+        </div>
+      </div>
+      <div class = "team-img content-right">
+        <img src="/img/exampleTeam.jpg">
+      </div>
+      <div class = "team content-left" style="float:none">
+        <div class = "panel-heading" style = "margin-top:5%">
           <!-- Carrer -->
           <!--<h1>EXPERIENCIA LABORAL</h1>-->
           <h1>Benoît Sánchez</h1>
@@ -90,13 +90,6 @@
           <p class = "head">1997 / Nacimiento en Lieja (B)</p>
         </div>
       </div>
-      <div class = "team-img content-right">
-        <img src="/img/exampleTeam.jpg">
-      </div>
-    </div>
-    <!-- Carrer -->
-    <div class = "team experience-body">
-      
     </div>
   </div>
 <?php include('comun/footer.php');?>
