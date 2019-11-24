@@ -85,6 +85,22 @@ Removes the underline with text decoration = none.*/
   height: 100%;
   width: 100%;
 }
+.collapse a, .collapse a:hover{
+  color:white;
+}
+.sub-categorias{
+  transition: 120ms;
+}
+.expanded a{
+  color:black;
+}
+/* ---------------------- Servicio section -------------------*/
+.phase .effect{
+  -webkit-transition: 1.5s ease-in-out;
+  -moz-transition: 1.5s ease-in-out;
+  -o-transition: 1.5s ease-in-out;
+  transition: 1.5s ease-in-out;
+}
 /* ----------------------- Footer section --------------------*/
 .footer{
   height: 5vh;

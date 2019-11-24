@@ -1,3 +1,4 @@
+
 /* --------------------head section--------------------*/
 .navBar {
   position: fixed;
@@ -8,6 +9,10 @@
 }
 .content{
   margin-top: 25%;
+  min-height: 80vh;
+}
+.content{
+  height: 100%;
 }
 /*Ignores the first link (which is Home) in the div and       applies 'display = none' to everything else.   Basically hiding everything but Home*/
 .navBar a:not(.img-logo){
@@ -63,6 +68,53 @@
 }
 .logo2 img{
   width: 20vw;
+}
+/* -----------------Servicios section------------------*/
+.leftAnimated{
+  /*(X,Y)*/
+  -webkit-transform: translate(-100vw,0px);
+  -moz-transform: translate(-100vw,0px);
+  -o-transform: translate(-100vw,0px);
+  -ms-transform: translate(-100vw,0px);
+  transform: translate(-100vw,0px);
+}
+.rightAnimated{
+  /*(X,Y)*/
+  -webkit-transform: translate(100vw,0px);
+  -moz-transform: translate(100vw,0px);
+  -o-transform: translate(100vw,0px);
+  -ms-transform: translate(100vw,0px);
+  transform: translate(100vw,0px);
+}
+/* -----------------Proyectos section------------------*/
+.cat-principal{
+  float: left;
+  width: 100%;
+}
+.sub-categorias li{
+  float: left;
+}
+.sub-categorias li:not(:last-child){
+  margin-right: 2%;
+  margin-bottom: 0%;
+}
+.collapse{
+  display: none;
+}
+.expanded{
+  display: block;
+}
+.catalogo{
+  float:left;
+}
+.catalogo .scroll{
+  width: 100%;
+}
+.catalogo .scroll img{
+  width: 20%;
+}
+.catalogo .image-view{
+  width: 100%;
 }
 /* -------------------footer section-------------------*/
 .footer i{

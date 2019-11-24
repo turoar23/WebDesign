@@ -121,13 +121,6 @@
 }
 .sub-categorias{
   margin: 0.5rem 0px 0px 0px;
-  transition: 120ms;
-}
-.collapse a, .collapse a:hover{
-  color:white;
-}
-.collapse{
-  margin:0px;
 }
 .description-text{
   font-size: 1em;
@@ -253,6 +246,22 @@
   bottom:0;
   left:50%;
   margin:0px;
+}
+.leftAnimated{
+  /*(X,Y)*/
+  -webkit-transform: translate(-50vw,0px);
+  -moz-transform: translate(-50vw,0px);
+  -o-transform: translate(-50vw,0px);
+  -ms-transform: translate(-50vw,0px);
+  transform: translate(-50vw,0px);
+}
+.rightAnimated{
+  /*(X,Y)*/
+  -webkit-transform: translate(50vw,0px);
+  -moz-transform: translate(50vw,0px);
+  -o-transform: translate(50vw,0px);
+  -ms-transform: translate(50vw,0px);
+  transform: translate(50vw,0px);
 }
 /* ------------------------Equipo section---------------------*/
 .team,.team-img{
