@@ -28,7 +28,7 @@
   <link rel="stylesheet" media="(max-width:800px)" href="css/style-small.css">
   <link rel="stylesheet" media="(min-width:801px)" href="css/style-large.css">
 
-  <link rel="stylesheet" media="(min-width:801px)" href="css/efecto.css">
+  <link rel="stylesheet" href="css/efecto.css">
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="img/favicon.png">

@@ -39,6 +39,9 @@
 .logo2 img{
   width: 25%;
 }
+.navBar .pages a:not(:last-child){
+  padding: 20px 1%;
+}
 /*----------------------- Index ----------------------- */
 .index{
   float: right;

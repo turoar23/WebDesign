@@ -37,9 +37,6 @@ Removes the underline with text decoration = none.*/
   text-decoration: none;
   /*font-size: 18px;*/
 }
-.navBar .pages a:not(:last-child){
-  padding: 20px 1%;
-}
 .navBar .pages a:last-child{
   padding-left: 1%;
 }

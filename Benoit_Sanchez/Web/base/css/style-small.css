@@ -3,10 +3,11 @@
   position: fixed;
   top:0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.9)
+  background-color: rgba(255, 255, 255,0.95);
+  z-index: 2;
 }
 .content{
-  margin-top: 30%;
+  margin-top: 25%;
 }
 /*Ignores the first link (which is Home) in the div and       applies 'display = none' to everything else.   Basically hiding everything but Home*/
 .navBar a:not(.img-logo){
@@ -14,6 +15,9 @@
 }
 .navBar .logo{
   width: 100%;
+}
+.navBar img{
+  width: 20vw;
 }
 /*Brings the menu icon into view and floats it to the right*/
 .navBar a.icon{
@@ -41,6 +45,12 @@
 .navBar .five, .navBar .two{
   width: auto;
 }
+.navBar .pages .script{
+  display:none;
+}
+.navBar .pages a{
+  padding-bottom: 5%;
+}
 /* -----------------------------------------------*/
 .img-row img{
   padding-left: 2.5%;
@@ -50,4 +60,12 @@
   content: "";
   display: block;
   padding-bottom: 100%;
+}
+.logo2 img{
+  width: 20vw;
+}
+/* -------------------footer section-------------------*/
+.footer i{
+  padding: 5% 0.5% 5% 0.5%;
+  font-size: 4rem;
 }

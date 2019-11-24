@@ -8,10 +8,10 @@
         </div>
       </div>
       <div class="pages content-right">
-        <a href="/">INICIO</a> - 
-        <a href="/proyectos/proyectos.php">PROYECTOS</a> - 
-        <a href="/servicios.php">SERVICIOS</a> - 
-        <a href="/equipo.php">EQUIPO</a> - 
+        <a href="/">INICIO</a><span class ="script"> - </span>
+        <a href="/proyectos/proyectos.php">PROYECTOS</a><span class ="script"> - </span>
+        <a href="/servicios.php">SERVICIOS</a><span class ="script"> - </span>
+        <a href="/equipo.php">EQUIPO</a><span class ="script"> - </span>
         <a href="/contacto.php">CONTACTO</a>
       </div>
     </div>
