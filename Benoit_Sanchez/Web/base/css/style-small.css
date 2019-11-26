@@ -86,6 +86,14 @@
   -ms-transform: translate(100vw,0px);
   transform: translate(100vw,0px);
 }
+.effect{
+  width: 90%;
+  margin:auto;
+  display: block;
+}
+.right-phase .img-phase{
+  margin-bottom: 5%;
+}
 /* -----------------Proyectos section------------------*/
 .cat-principal{
   float: left;

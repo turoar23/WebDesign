@@ -95,6 +95,9 @@ Removes the underline with text decoration = none.*/
   color:black;
 }
 /* ---------------------- Servicio section -------------------*/
+.phase{
+  overflow: hidden;
+}
 .phase .effect{
   -webkit-transition: 1.5s ease-in-out;
   -moz-transition: 1.5s ease-in-out;

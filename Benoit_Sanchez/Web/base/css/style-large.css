@@ -262,6 +262,7 @@
   -o-transform: translate(50vw,0px);
   -ms-transform: translate(50vw,0px);
   transform: translate(50vw,0px);
+  overflow: hidden;
 }
 /* ------------------------Equipo section---------------------*/
 .team,.team-img{

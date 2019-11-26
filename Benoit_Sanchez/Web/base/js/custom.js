@@ -62,12 +62,16 @@ $(".panel-heading").find(".cat-principal").each(function(){
 function servicios(){
   jQuery('.phase').each(function(){
     var effect = $(this).find('.effect');
+    var right = $(this).find('.right-phase');
+    var left = $(this).find('.left-phase');
     // Comprobamos si es visible
-    if($(this).visible()){
+    if(left.visible()){
       // Comprobamos si es un efecto de la izquierda
       if(effect.hasClass('leftAnimated')){
         effect.removeClass('leftAnimated');
       }
+    }
+    if(right.visible()){
       // Comprobamos si es un efecto de la derecha
       if(effect.hasClass('rightAnimated')){
         effect.removeClass('rightAnimated');
