@@ -33,16 +33,40 @@
     </div>
     <div class = "main-body">
       <!--<span class = "title">PROYECTOS</span>-->
-      <div class = "text">
-        <span class = "text-categories">OBRA NUEVA</span>
-        <span class = "text-categories">REFORMAS LOCALES</span>
-        <span class = "text-categories">REFORMAS VIVIENDAS</span>
+      <div class = "text proyectos">
+        <span class = "text-categories" id = "on">OBRA NUEVA</span>
+        <span class = "text-categories" id = "rl">REFORMAS LOCALES</span>
+        <span class = "text-categories" id = "rv">REFORMAS VIVIENDAS</span>
       </div>
-      <div class ="main-index">
-        <img class ="g-img3" src="img/img3.jpg" />
-        <img class ="g-img4" src="img/img4.jpg" />
-        <img class ="g-img5" src="img/img5.JPG" />
-        <img class ="g-img6" src="img/img6.png" />
+      <div class = "text servicios">
+        <span class = "text-categories" id = "s1">SERVICIOS 1</span>
+        <span class = "text-categories" id = "s2">SERVICIOS 2</span>
+      </div>
+      <div class = "main-gallery">
+        <div id = "principal" class = "main-index active">
+          <img class ="g-img3" src="img/img3.jpg" />
+          <img class ="g-img4" src="img/img4.jpg" />
+          <img class ="g-img5" src="img/img5.JPG" />
+          <img class ="g-img6" src="img/img6.png" />
+        </div>
+        <!-- Proyectos -->
+        <div id = "obra-nueva" class = "main-index">
+          <img lazy="img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" />
+          <img lazy="img/proyectos/obra-nueva/vivienda-alicante/portada.jpg" />
+          <img lazy="img/proyectos/obra-nueva/vivienda-lomabada/portada.jpg" />
+          <img lazy="img/proyectos/obra-nueva/vivienda-monovar-1-altura/portada.jpg" />
+          <img lazy="img/proyectos/obra-nueva/vivienda-monovar-3-alturas/portada.jpg" />
+        </div>
+        <div id = "reformas-locales" class = "main-index">
+          <img lazy="img/proyectos/reformas-locales/clinica-dental-kident/portada.jpg" />
+          <img lazy="img/proyectos/reformas-locales/pasteleria-la-confiteria/portada.jpg" />
+        </div>
+        <div id = "reformas-viviendas" class = "main-index">
+          <img lazy="img/proyectos/reformas-viviendas/apartamento-san-juan-n1/portada.jpg" />
+          <img lazy="img/proyectos/reformas-viviendas/apartamento-san-juan-n2/portada.jpg" />
+          <img lazy="img/proyectos/reformas-viviendas/atico-elda/portada.jpg" />
+          <img lazy="img/proyectos/reformas-viviendas/piso-elda/portada.jpg" />
+        </div>
       </div>
     </div>
     <!--<div>

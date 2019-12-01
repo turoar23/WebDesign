@@ -1,3 +1,7 @@
+/* ----------------- Header section ----------------- */
+header .nav-link{
+    cursor: pointer;
+}
 /* ----------------- Main section ----------------- */
 /*main .top-iamge{
     display: grid;
@@ -31,6 +35,9 @@ main .text{
     font-size: 0rem;
     transition: 500ms;
 }
+main .text-categories{
+    cursor: pointer;
+}
 main .text-categories:not(last-child){
     margin-right: 6%;
 }
@@ -41,6 +48,7 @@ main .main-index {
     grid-template-rows: repeat(2, 33.1vh);
     grid-gap: 1% 0.5%;
     transition: 500ms;
+    position: absolute;
 }
 main .main-index .g-img3 {
     grid-column-start: 1;
@@ -62,5 +70,8 @@ main .main-body .title{
     margin-left:5%;
     font-size:2rem;
     transition: 500ms;
+}
+main .main-gallery .active{
+    z-index: 1;
 }
 /* ------------------------------------------------- */
