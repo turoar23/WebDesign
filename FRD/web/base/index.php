@@ -69,11 +69,6 @@
         </div>
       </div>
     </div>
-    <!--<div>
-      <h1>Today's your special day!</h1>
-      <button id="reveal">Why's that?</button>
-      <div id="ajax-content">
-    </div>-->
   </main>
 <!-- End Document -->
 </body>

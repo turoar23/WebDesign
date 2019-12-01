@@ -1,6 +1,6 @@
 // Alterna entre mostrar y ocultar
 function text(categoria){
-  var text = $('.'+categoria);
+  var text = $('.main-body').find('.'+categoria);
 
   // Comprobamos si hay que mostrar
   if(text.hasClass('show')){
@@ -13,11 +13,11 @@ function text(categoria){
 function showText(categoria){
   // Ocultamos todo
   hideText();
-  var text = $('.'+categoria);
-
+  var text = $('.main-body').find('.'+categoria);
+  
   text.addClass('show');
   text.css('height',"100%");
-  text.css('font-size','1rem');
+  text.css('font-size','1.5rem');
   text.css('margin','2% 0% 2% 0%');
   $('main').find('.title').css('display','initial');
   $('main').find('img').css("opacity","0.15");
@@ -26,8 +26,9 @@ function showText(categoria){
 }
 // Ocultamos el texto y hacemos las imagenes opacas
 function hideText(){
-  //var text = $('.'+categoria);
 
+  // Quitamos cualquier pagina que aparezca como seleccionada
+  $('.main-body').find('.page-active').removeClass('page-active');
   // Escondemos todas las categorias
   $('.text').each(function(){
     $(this).removeClass('show');
@@ -74,32 +75,59 @@ $(document).ready(function(){
     if(index == 0){
       $(this).click(function(){
         hideText();
+        $('.nav-link').removeClass('page-active');
+        $(this).addClass('page-active');
       });
     }
     // Proyectos
     else if(index == 1){
       $(this).click(function(){
         text('proyectos');
+        // Comprobamos si tiene la clase active
+        if($(this).hasClass('page-active')){
+          $('.nav-link:first-child').addClass('page-active');
+          $(this).removeClass('page-active');
+        }
+        else{
+          $('.nav-link').removeClass('page-active');
+          $(this).addClass('page-active');
+        }
       });
     }
     // Servicios
     else if(index == 2){
       $(this).click(function(){
         text('servicios');
-      });
+        // Comprobamos si tiene la clase active
+        if($(this).hasClass('page-active')){
+          $('.nav-link:first-child').addClass('page-active');
+          $(this).removeClass('page-active');
+        }
+        else{
+          $('.nav-link').removeClass('page-active');
+          $(this).addClass('page-active');
+        }
+      }); 
     }
   });
   // Cargamos la galeria de cada sub-categoria
   // Obra nueva
   $('.main-body').find('#on').click(function(){
+    // Eliminamos cualquier texto activo
+    $('.main-body').find('.page-active').removeClass('page-active');
+    $(this).addClass('page-active');
     showGallery('obra-nueva');
   });
   // Reforma locales
   $('.main-body').find('#rl').click(function(){
+    $('.main-body').find('.page-active').removeClass('page-active');
+    $(this).addClass('page-active');
     showGallery('reformas-locales');
   });
   // Reforma viviendas
   $('.main-body').find('#rv').click(function(){
+    $('.main-body').find('.page-active').removeClass('page-active');
+    $(this).addClass('page-active');
     showGallery('reformas-viviendas');
   });
 });
