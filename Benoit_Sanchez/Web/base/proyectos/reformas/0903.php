@@ -42,14 +42,14 @@
     <div class="description content-right">
       <div class="catalogo">
         <div class="scroll">
-          <img src="/img/proyectos/0903/despues(17).JPG">
-          <img src="/img/proyectos/0903/despues(20).JPG">
-          <img src="/img/proyectos/0903/antes(4).JPG">
-          <img src="/img/proyectos/0903/boceto.png">
-          <img src="/img/proyectos/0903/A.01.1.JPG">
+          <img src="/img/proyectos/reformas/0903/1.jpg">
+          <img src="/img/proyectos/reformas/0903/2.jpg">
+          <img src="/img/proyectos/reformas/0903/3.jpg">
+          <img src="/img/proyectos/reformas/0903/4.jpg">
+          <img src="/img/proyectos/reformas/0903/5.jpg">
         </div>
         <div class="image-view">
-          <img src="/img/proyectos/0903/despues(17).JPG">
+          <img src="/img/proyectos/reformas/0903/1.jpg">
         </div>
       </div>
       <div class="description-text">

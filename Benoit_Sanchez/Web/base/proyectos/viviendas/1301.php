@@ -42,14 +42,14 @@
     <div class="description content-right">
       <div class="catalogo">
         <div class="scroll">
-          <img src="/img/proyectos/1301/prueba/1.jpg">
-          <img src="/img/proyectos/1301/prueba/2.jpg">
-          <img src="/img/proyectos/1301/prueba/3.jpg">
-          <img src="/img/proyectos/1301/prueba/4.jpg">
-          <img src="/img/proyectos/1301/prueba/5.jpg">
+          <img src="/img/proyectos/viviendas/1301/1.jpg">
+          <img src="/img/proyectos/viviendas/1301/2.jpg">
+          <img src="/img/proyectos/viviendas/1301/3.jpg">
+          <img src="/img/proyectos/viviendas/1301/4.jpg">
+          <img src="/img/proyectos/viviendas/1301/5.jpg">
         </div>
         <div class="image-view">
-          <img src="/img/proyectos/1301/prueba/1.jpg">
+          <img src="/img/proyectos/viviendas/1301/1.jpg">
         </div>
       </div>
       <div class="description-text">

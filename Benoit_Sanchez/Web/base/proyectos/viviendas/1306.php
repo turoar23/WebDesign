@@ -42,14 +42,14 @@
     <div class="description content-right">
       <div class="catalogo">
         <div class="scroll">
-          <img src="/img/proyectos/1306/MONFORTE(7).jpg">
-          <img src="/img/proyectos/1306/MONFORTE(2).jpg">
-          <img src="/img/proyectos/1306/MONFORTE(5).jpg">
-          <img src="/img/proyectos/1306/MONFORTE.jpg">
-          <img src="/img/proyectos/1306/1306-planos.jpg">
+          <img src="/img/proyectos/viviendas/1306/1.jpg">
+          <img src="/img/proyectos/viviendas/1306/2.jpg">
+          <img src="/img/proyectos/viviendas/1306/3.jpg">
+          <img src="/img/proyectos/viviendas/1306/4.jpg">
+          <img src="/img/proyectos/viviendas/1306/5.jpg">
         </div>
         <div class="image-view">
-          <img src="/img/proyectos/1306/MONFORTE(7).jpg">
+          <img src="/img/proyectos/viviendas/1306/1.jpg">
         </div>
       </div>
       <div class="description-text">

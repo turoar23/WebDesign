@@ -42,14 +42,14 @@
     <div class="description content-right">
       <div class="catalogo">
         <div class="scroll">
-          <img src="/img/proyectos/1408/VISTA04F0100000000.jpg">
-          <img src="/img/proyectos/1408/vistapergola.jpg">
-          <img src="/img/proyectos/1408/VISTA01F010000.jpg">
-          <img src="/img/proyectos/1408/VISTASUROESTE-SOL03.jpg">
-          <img src="/img/proyectos/1408/planos.jpg">
+          <img src="/img/proyectos/viviendas/1408/1.jpg">
+          <img src="/img/proyectos/viviendas/1408/2.jpg">
+          <img src="/img/proyectos/viviendas/1408/3.jpg">
+          <img src="/img/proyectos/viviendas/1408/4.jpg">
+          <img src="/img/proyectos/viviendas/1408/5.jpg">
         </div>
         <div class="image-view">
-          <img src="/img/proyectos/1408/VISTA04F0100000000.jpg">
+          <img src="/img/proyectos/viviendas/1408/1.jpg">
         </div>
       </div>
       <div class="description-text">

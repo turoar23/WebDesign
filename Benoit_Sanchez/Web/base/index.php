@@ -47,7 +47,7 @@
     <div class = "index content-right">
       <div class="img-row">
         <div class="cuerpo">
-          <img src="/img/proyectos/1408/VISTA04F0100000000.jpg">
+          <img src="/img/proyectos/viviendas/1408/1.jpg">
           <div class="title">
             <a href="/proyectos/viviendas/1408.php">
               <div>
@@ -57,7 +57,7 @@
           </div>
         </div>
         <div class="cuerpo">
-          <img src="/img/proyectos/0903/despues(17).JPG">
+          <img src="/img/proyectos/reformas/0903/1.jpg">
           <div class="title">
             <a href="/proyectos/reformas/0903.php">
               <div>
@@ -67,7 +67,7 @@
           </div>
         </div>
         <div class="cuerpo">
-          <img src="/img/proyectos/1301/prueba/1.jpg">
+          <img src="/img/proyectos/viviendas/1301/1.jpg">
           <div class="title">
             <a href="/proyectos/viviendas/1301.php">
               <div>
@@ -79,7 +79,7 @@
       </div>
       <div class="img-row">
         <div class="cuerpo">
-          <img src="/img/proyectos/1206/prueba/1.jpg">
+          <img src="/img/proyectos/viviendas/1206/1.jpg">
           <div class="title">
             <a href="/proyectos/viviendas/1206.php">
               <div>
@@ -89,7 +89,7 @@
           </div>
         </div>
         <div class="cuerpo">
-          <img src="/img/proyectos/1415/despues(1).jpg">
+          <img src="/img/proyectos/reformas/1415/1.jpg">
           <div class="title">
             <a href="/proyectos/reformas/1415.php">
               <div>
@@ -99,7 +99,7 @@
           </div>
         </div>
         <div class="cuerpo">
-          <img src="/img/proyectos/1702/vista_terraza.jpg">
+          <img src="/img/proyectos/viviendas/1702/1.jpg">
           <div class="title">
             <a href="/proyectos/viviendas/1702.php">
               <div>
