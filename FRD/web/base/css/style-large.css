@@ -107,4 +107,44 @@ main .efecto .efecto-texto .cuadro h3{
 main .efecto .efecto-texto .cuadro h4{
     margin: 0;
 }
+/* --------------- Proyectos section --------------- */
+.container-proyectos{
+    color: black;
+}
+.container-proyectos h1{
+    border-left: 2px rgb(0,113, 188) solid;
+    padding: 2% 0% 2% 1%;
+    margin: 0;
+}
+.container-proyectos .container{
+    padding: 0% 0% 0% 0%;
+    width: 100%;
+}
+.container-proyectos .descripcion{
+    margin: 2.5% 0% 5% 0%;
+    float:left;
+}
+.container-proyectos .descripcion h2{
+    margin-bottom: 5%;
+}
+.container-proyectos .contenido-izquierda, .container-proyectos .contenido-derecha{
+    width: 40%;
+    margin-left: 6.66666%;
+    float: left;
+}
+.container-proyectos .descripcion .tabla{
+    border: 1px gainsboro solid;
+}
+.container-proyectos .descripcion .tabla .fila{
+    margin: 2% 2% 4% 2%;
+    justify-content: space-between !important;
+    display: flex;
+    font-size: 1.1rem;
+}
+.container-proyectos .descripcion .tabla .fila:not(:last-child){
+    margin-top: 5%;
+    border-bottom: 0.5px gainsboro solid;
+}.container-proyectos .descripcion .tabla .fila .info-der{
+    color:gray;
+}
 /* ------------------------------------------------- */

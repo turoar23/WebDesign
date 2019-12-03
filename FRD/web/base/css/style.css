@@ -1,4 +1,7 @@
 /* ----------------- Global section ----------------- */
+html{
+    font-size: 16px;
+}
 body{
     margin: 0px;
     font-family: ff-zwo-web-pro;
@@ -13,6 +16,9 @@ main{
 a{
     text-decoration: none;
     color:black;
+}
+a:hover, a:active, a:visited, a:link{
+    text-decoration: none;
 }
 .page-active{
     color: rgb(0,113, 188);
@@ -38,6 +44,7 @@ header .nav{
 header .nav .nav-link{
     display: block;
     font-size: 1.5rem;
+    line-height: normal;
 }
 header .nav .nav-link:hover{
     color: rgb(0,113, 188);

@@ -53,7 +53,7 @@
           <div class = "efecto">
             <img lazy="img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" />
             <div class = "efecto-texto">
-              <a href = "" class = "cuadro">
+              <a href = "/proyectos/obra-nueva/passive-vehouse-dolores.php" class = "cuadro">
                 <h3>Casa señorial</h3>
                 <h4>Alicante</h4>
               </a>
