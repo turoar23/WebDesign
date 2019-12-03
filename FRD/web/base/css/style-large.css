@@ -64,7 +64,7 @@ main .main-index .g-img6 {
     grid-row-start: 2;
     grid-row-end: 3;
 }
-main .main-body .title{
+/*main .main-body .title{
     position: absolute;
     color:black;
     display: none;
@@ -72,8 +72,39 @@ main .main-body .title{
     margin-left:5%;
     font-size:2rem;
     transition: 500ms;
-}
+}*/
 main .main-gallery .active{
     z-index: 1;
+}
+/* Efecto de las imagenes en la galeria*/
+main .efecto{
+    position: relative;
+}
+main .efecto .efecto-texto{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    color:black;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 500ms;
+}
+main .efecto .efecto-texto:hover{
+    opacity: 0.8;
+}
+main .efecto .efecto-texto .cuadro{
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    margin-top: 50%;
+    border-radius: 2%;
+    display: block;
+}
+main .efecto .efecto-texto .cuadro h3{
+    margin-bottom: 1%;
+}
+main .efecto .efecto-texto .cuadro h4{
+    margin: 0;
 }
 /* ------------------------------------------------- */

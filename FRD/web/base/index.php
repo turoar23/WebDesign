@@ -32,7 +32,6 @@
       <img class ="g-img2" src="img/img2.JPG" />
     </div>
     <div class = "main-body">
-      <!--<span class = "title">PROYECTOS</span>-->
       <div class = "text proyectos">
         <span class = "text-categories" id = "on">OBRA NUEVA</span>
         <span class = "text-categories" id = "rl">REFORMAS LOCALES</span>
@@ -51,21 +50,109 @@
         </div>
         <!-- Proyectos -->
         <div id = "obra-nueva" class = "main-index">
-          <img lazy="img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" />
-          <img lazy="img/proyectos/obra-nueva/vivienda-alicante/portada.jpg" />
-          <img lazy="img/proyectos/obra-nueva/vivienda-lomabada/portada.jpg" />
-          <img lazy="img/proyectos/obra-nueva/vivienda-monovar-1-altura/portada.jpg" />
-          <img lazy="img/proyectos/obra-nueva/vivienda-monovar-3-alturas/portada.jpg" />
+          <div class = "efecto">
+            <img lazy="img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" />
+            <div class = "efecto-texto">
+              <a href = "" class = "cuadro">
+                <h3>Casa señorial</h3>
+                <h4>Alicante</h4>
+              </a>
+            </div>
+          </div>
+          <div class = "efecto">
+            <img lazy="img/proyectos/obra-nueva/vivienda-alicante/portada.jpg" />
+            <div class = "efecto-texto">
+              <a class = "cuadro">
+                <h3>Casa señorial</h3>
+                <h4>Alicante<h4>
+              </a>
+            </div>
+          </div>
+          <div class = "efecto">
+            <img lazy="img/proyectos/obra-nueva/vivienda-lomabada/portada.jpg" />
+            <div class = "efecto-texto">
+              <a class = "cuadro">
+                <h3>Casa señorial</h3>
+                <h4>Alicante</h4>
+              </a>
+            </div>
+          </div>
+          <div class = "efecto">
+            <img lazy="img/proyectos/obra-nueva/vivienda-monovar-1-altura/portada.jpg" />
+            <div class = "efecto-texto">
+              <a class = "cuadro">
+                <h3>Casa señorial</h3>
+                <h4>Alicante</h4>
+              </a>
+            </div>
+          </div>
+          <div class = "efecto">
+            <img lazy="img/proyectos/obra-nueva/vivienda-monovar-3-alturas/portada.jpg" />
+            <div class = "efecto-texto">
+              <a class = "cuadro">
+                <h3>Casa señorial</h3>
+                <h4>Alicante</h4>
+              </a>
+            </div>
+          </div>
         </div>
         <div id = "reformas-locales" class = "main-index">
-          <img lazy="img/proyectos/reformas-locales/clinica-dental-kident/portada.jpg" />
-          <img lazy="img/proyectos/reformas-locales/pasteleria-la-confiteria/portada.jpg" />
+          <div class = "efecto">
+            <img lazy="img/proyectos/reformas-locales/clinica-dental-kident/portada.jpg" />
+            <div class = "efecto-texto">
+              <a class = "cuadro">
+                <h3>Casa señorial</h3>
+                <h4>Alicante</h4>
+              </a>
+            </div>
+          </div>
+          <div class = "efecto">
+            <img lazy="img/proyectos/reformas-locales/pasteleria-la-confiteria/portada.jpg" />
+            <div class = "efecto-texto">
+              <a class = "cuadro">
+                <h3>Casa señorial</h3>
+                <h4>Alicante</h4>
+              </a>
+            </div>
+          </div>
         </div>
         <div id = "reformas-viviendas" class = "main-index">
+        <div class = "efecto">
           <img lazy="img/proyectos/reformas-viviendas/apartamento-san-juan-n1/portada.jpg" />
-          <img lazy="img/proyectos/reformas-viviendas/apartamento-san-juan-n2/portada.jpg" />
-          <img lazy="img/proyectos/reformas-viviendas/atico-elda/portada.jpg" />
-          <img lazy="img/proyectos/reformas-viviendas/piso-elda/portada.jpg" />
+            <div class = "efecto-texto">
+              <a class = "cuadro">
+                <h3>Casa señorial</h3>
+                <h4>Alicante</h4>
+              </a>
+            </div>
+          </div>
+          <div class = "efecto">
+            <img lazy="img/proyectos/reformas-viviendas/apartamento-san-juan-n2/portada.jpg" />
+            <div class = "efecto-texto">
+              <a class = "cuadro">
+                <h3>Casa señorial</h3>
+                <h4>Alicante</h4>
+              </a>
+            </div>
+          </div>
+          <div class = "efecto">
+            <img lazy="img/proyectos/reformas-viviendas/atico-elda/portada.jpg" />
+            <div class = "efecto-texto">
+              <a class = "cuadro">
+                <h3>Casa señorial</h3>
+                <h4>Alicante</h4>
+              </a>
+            </div>
+          </div>
+          <div class = "efecto">
+            <img lazy="img/proyectos/reformas-viviendas/piso-elda/portada.jpg" />
+            <div class = "efecto-texto">
+              <a class = "cuadro">
+                <h3>Casa señorial</h3>
+                <h4>Alicante</h4>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
