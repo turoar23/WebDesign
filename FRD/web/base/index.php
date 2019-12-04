@@ -37,9 +37,12 @@
         <span class = "text-categories" id = "rl">REFORMAS LOCALES</span>
         <span class = "text-categories" id = "rv">REFORMAS VIVIENDAS</span>
       </div>
-      <div class = "text servicios">
-        <span class = "text-categories" id = "s1">SERVICIOS 1</span>
-        <span class = "text-categories" id = "s2">SERVICIOS 2</span>
+      <div class = "text frd">
+        <div class = "m2">
+          <span class = "text-categories" id = "qs">QUIENES SOMOS</span>
+        </div><div class = "m2">
+          <span class = "text-categories" id = "qo">QUE OFRECEMOS</span>
+        </div>
       </div>
       <div class = "main-gallery">
         <div id = "principal" class = "main-index active">
@@ -154,6 +157,44 @@
             </div>
           </div>
         </div>
+        <!-- frd -->
+        <div id = "quienes-somos" class = "frd-categorias hide">
+          <div class = "contenido-izquierda">
+            <div class = "content">
+              <img src="/img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" alt="Los Angeles">
+            </div>
+			    </div>
+			    <div class = "contenido-derecha">
+            <div class = "content">
+              <div class = "frd-texto">
+                <h3>FRD</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus ornare diam sit amet elementum. Aliquam ac leo faucibus, aliquet elit et, dapibus sapien. Sed mollis mauris vel nulla ultricies, vitae aliquam nulla pulvinar. Phasellus vitae mi sed ante auctor molestie id et quam. Aenean ac ipsum a diam condimentum eleifend vel id metus. Vivamus varius sed lectus at dapibus. Ut imperdiet congue lectus, non interdum tortor aliquet varius. Vestibulum condimentum nibh vel metus vehicula porta. Praesent magna mi, blandit eu vestibulum at, consectetur in eros. Vivamus non ante eu risus malesuada aliquet a id tellus. Integer pellentesque quam sed felis ornare, a sodales orci feugiat. Duis at mi felis. Ut porta, ipsum dapibus tempus sagittis, erat metus molestie nibh, vel luctus enim quam vel diam.
+              </div>
+            </div>
+			    </div>
+        </div>
+        <div id = "que-ofrecemos" class = "frd-categorias hide">
+          <div class = "contenido-izquierda">
+            <div class = "content">
+              <div class = "frd-texto">
+                <h3>FRD</h3>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</li>
+                    <li>Aliquam tincidunt mauris eu risus.</li>
+                    <li>Vestibulum auctor dapibus neque.</li>
+                    <li>Nunc dignissim risus id metus.</li>
+                  </ul>
+              </div>
+            </div>
+			    </div>
+			    <div class = "contenido-derecha">
+            <div class = "content">
+              <img src="/img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" alt="Los Angeles">
+            </div>
+			    </div>
+        </div>
+        <!-- -->
       </div>
     </div>
   </main>

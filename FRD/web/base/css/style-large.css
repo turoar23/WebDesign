@@ -43,6 +43,37 @@ main .text-categories{
 main .text-categories:not(last-child){
     margin-right: 6%;
 }
+main .text-categories:hover{
+    color: rgb(0,113, 188);
+}
+main .frd-categorias{
+    overflow: hidden;
+    position: absolute;
+}
+.tabla{
+    border: 1px gainsboro solid;
+}
+.tabla .fila{
+    margin: 2% 2% 4% 2%;
+    justify-content: space-between !important;
+    display: flex;
+    font-size: 1.1rem;
+}
+.tabla .fila:not(:last-child){
+    margin-top: 5%;
+    border-bottom: 0.5px gainsboro solid;
+}.tabla .fila .info-der{
+    color:gray;
+}
+.contenido-izquierda, .contenido-derecha{
+    width: 50%;
+    float: left;
+}
+.contenido-izquierda .content, .contenido-derecha .content{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
 /* ----------------- Index section ----------------- */
 main .main-index {
     display: grid;
@@ -75,6 +106,11 @@ main .main-index .g-img6 {
 }*/
 main .main-gallery .active{
     z-index: 1;
+    opacity: 1;
+}
+main .main-gallery .hide{
+    opacity: 0;
+    transition: 500ms;
 }
 /* Efecto de las imagenes en la galeria*/
 main .efecto{
@@ -107,6 +143,12 @@ main .efecto .efecto-texto .cuadro h3{
 main .efecto .efecto-texto .cuadro h4{
     margin: 0;
 }
+main .main-gallery .frd-texto{
+    color: black;
+}
+#qs, #qo{
+    margin: 0%;
+}
 /* --------------- Proyectos section --------------- */
 .container-proyectos{
     color: black;
@@ -126,25 +168,5 @@ main .efecto .efecto-texto .cuadro h4{
 }
 .container-proyectos .descripcion h2{
     margin-bottom: 5%;
-}
-.container-proyectos .contenido-izquierda, .container-proyectos .contenido-derecha{
-    width: 40%;
-    margin-left: 6.66666%;
-    float: left;
-}
-.container-proyectos .descripcion .tabla{
-    border: 1px gainsboro solid;
-}
-.container-proyectos .descripcion .tabla .fila{
-    margin: 2% 2% 4% 2%;
-    justify-content: space-between !important;
-    display: flex;
-    font-size: 1.1rem;
-}
-.container-proyectos .descripcion .tabla .fila:not(:last-child){
-    margin-top: 5%;
-    border-bottom: 0.5px gainsboro solid;
-}.container-proyectos .descripcion .tabla .fila .info-der{
-    color:gray;
 }
 /* ------------------------------------------------- */

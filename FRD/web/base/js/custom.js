@@ -23,6 +23,7 @@ function showText(categoria){
   $('main').find('img').css("opacity","0.15");
   // Ocultamos todas las que no esten activas
   $('.main-gallery').find('.main-index:not(.active)').find('img').css("opacity","0");
+  $('.main-gallery').find('.hide:not(.active)').css('opacity','0');
 }
 // Ocultamos el texto y hacemos las imagenes opacas
 function hideText(){
@@ -64,6 +65,25 @@ function showGallery(id){
   });
   // Ponemos las demas a 0
   $('.main-gallery').find('.main-index:not(.active)').find('img').css("opacity","0");
+  $('.main-gallery').find('.hide').css('opacity','0');
+}
+/**
+ * Muestra la informacion del id pasado por parametro
+ * @param {*} id
+ */
+function showInfo(id){
+  // Eliminamos la galeria con clase activa
+  $('.main-gallery').find('.active').removeClass('active');
+  $('.main-gallery').find('.hide').css('opacity','0');
+  // Ponemos active y mostramos
+  $('#'+id).addClass('active');
+  $('#'+id).css('opacity','1');
+  $('#'+id).find('img').each(function(){
+    // Ponemos su opacidad a tope
+    $(this).css('opacity','1');
+  });
+  // Ponemos las demas a 0
+  $('.main-gallery').find('.main-index:not(.active)').find('img').css("opacity","0");
 }
 /**
  * Funcion que se ejecuta cuando el DOM esta cargado
@@ -94,10 +114,10 @@ $(document).ready(function(){
         }
       });
     }
-    // Servicios
+    // FRD
     else if(index == 2){
       $(this).click(function(){
-        text('servicios');
+        text('frd');
         // Comprobamos si tiene la clase active
         if($(this).hasClass('page-active')){
           $('.nav-link:first-child').addClass('page-active');
@@ -110,6 +130,12 @@ $(document).ready(function(){
       }); 
     }
   });
+  // TODO: Terminar xD
+  // Pagina en la que estamos
+  //var actualPage = window.location.href.substring(window.location.origin.length,)
+  /*if(actualPage == "/#FRD"){
+    $('#FRD').click();
+  }*/
   // Cargamos la galeria de cada sub-categoria
   // Obra nueva
   $('.main-body').find('#on').click(function(){
@@ -129,5 +155,17 @@ $(document).ready(function(){
     $('.main-body').find('.page-active').removeClass('page-active');
     $(this).addClass('page-active');
     showGallery('reformas-viviendas');
+  });
+  // Quienes somos
+  $('.main-body').find('#qs').click(function(){
+    $('.main-body').find('.page-active').removeClass('page-active');
+    $(this).addClass('page-active');
+    showInfo('quienes-somos');
+  });
+  // Que ofrecemos
+  $('.main-body').find('#qo').click(function(){
+    $('.main-body').find('.page-active').removeClass('page-active');
+    $(this).addClass('page-active');
+    showInfo('que-ofrecemos');
   });
 });

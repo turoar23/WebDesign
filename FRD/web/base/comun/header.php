@@ -5,9 +5,8 @@
     <div class = "nav">
         <a class = "nav-link page-active" <?php if($_SERVER['REQUEST_URI']!='/') echo('href="/"');?>>HOME</a><span class="dot"></span>
         <a class = "nav-link">PROYECTOS</a><span class="dot"></span>
-        <a class = "nav-link">SERVICIOS</a><span class="dot"></span>
-        <a class = "nav-link">FRD</a><span class="dot"></span>
-        <a class = "nav-link">CONTACTO</a>
+        <a class = "nav-link" <?php if($_SERVER['REQUEST_URI']!='/') echo('href="/"');?>>FRD</a><span class="dot"></span>
+        <a class = "nav-link" <?php if($_SERVER['REQUEST_URI']!='/') echo('href="/"');?>>CONTACTO</a>
     </div>
     <div class = "footer">
         <div class = "social-networks">

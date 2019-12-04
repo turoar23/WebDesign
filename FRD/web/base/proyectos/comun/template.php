@@ -74,23 +74,27 @@
 		<div class = "descripcion">
 			<h2>Información del proyecto</h2>
 			<div class = "contenido-izquierda">
-				<div class = "tabla">
-					<div class = "fila">
-						<span class = "info-izq">Nombre</span>
-						<span class = "info-der">Casa</span>
-					</div>
-					<div class = "fila">
-						<span class = "info-izq">Ciudad</span>
-						<span class = "info-der">Alicante</span>
-					</div>
-					<div class = "fila">
-						<span class = "info-izq">Nombre</span>
-						<span class = "info-der">Casa</span>
+				<div class = "content">
+					<div class = "tabla">
+						<div class = "fila">
+							<span class = "info-izq">Nombre</span>
+							<span class = "info-der">Casa</span>
+						</div>
+						<div class = "fila">
+							<span class = "info-izq">Ciudad</span>
+							<span class = "info-der">Alicante</span>
+						</div>
+						<div class = "fila">
+							<span class = "info-izq">Nombre</span>
+							<span class = "info-der">Casa</span>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class = "contenido-derecha">
+				<div class = "content">
 				<img src="/img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" alt="Los Angeles" style="width:100%;">
+				</div>
 			</div>
 		</div>
 	</main>
