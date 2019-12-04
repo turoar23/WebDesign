@@ -50,6 +50,9 @@ main .frd-categorias{
     overflow: hidden;
     position: absolute;
 }
+main .frd-categorias img{
+    border-radius: 0.5%;
+}
 .tabla{
     border: 1px gainsboro solid;
 }
@@ -145,6 +148,8 @@ main .efecto .efecto-texto .cuadro h4{
 }
 main .main-gallery .frd-texto{
     color: black;
+    padding: 0.5% 2% 2% 2%;
+    border: 2px solid lightgray;
 }
 #qs, #qo{
     margin: 0%;
