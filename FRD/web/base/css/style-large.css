@@ -46,11 +46,12 @@ main .text-categories:not(last-child){
 main .text-categories:hover{
     color: rgb(0,113, 188);
 }
-main .frd-categorias{
+main .card{
     overflow: hidden;
+    width: 75%;
     position: absolute;
 }
-main .frd-categorias img{
+main .card img{
     border-radius: 0.5%;
 }
 .tabla{
@@ -118,6 +119,11 @@ main .main-gallery .hide{
 /* Efecto de las imagenes en la galeria*/
 main .efecto{
     position: relative;
+    overflow: hidden;
+}
+main .efecto img:hover{
+    transform: scale(1.5);
+    overflow: hidden;
 }
 main .efecto .efecto-texto{
     position: absolute;
@@ -140,16 +146,42 @@ main .efecto .efecto-texto .cuadro{
     border-radius: 2%;
     display: block;
 }
-main .efecto .efecto-texto .cuadro h3{
+main .efecto .efecto-texto h3{
     margin-bottom: 1%;
 }
-main .efecto .efecto-texto .cuadro h4{
+main .efecto .efecto-texto h4{
     margin: 0;
 }
-main .main-gallery .frd-texto{
+main .main-gallery .content-texto{
     color: black;
     padding: 0.5% 2% 2% 2%;
     border: 2px solid lightgray;
+}
+.wrap{
+    overflow: hidden;
+    position: relative;
+    transition: 500ms;
+}
+.wrap:hover img{
+    transform: scale(1.5);
+    opacity: 0.5;
+}
+.wrap .wrap-text{
+    text-align: center;
+    width: 100%;
+    margin-top: 15%;
+    font-size: 2rem;
+    visibility: hidden;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+}
+.wrap .wrap-text a{
+    color:rgb(0,113, 188);
+}
+.wrap:hover .wrap-text{
+    visibility: visible;
+    opacity: 1;
 }
 #qs, #qo{
     margin: 0%;
@@ -173,5 +205,10 @@ main .main-gallery .frd-texto{
 }
 .container-proyectos .descripcion h2{
     margin-bottom: 5%;
+}
+/* --------------- Contacto section --------------- */
+iframe{
+    width: 100%;
+    height: 40vh;
 }
 /* ------------------------------------------------- */

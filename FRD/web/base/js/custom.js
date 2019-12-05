@@ -24,6 +24,9 @@ function showText(categoria){
   // Ocultamos todas las que no esten activas
   $('.main-gallery').find('.main-index:not(.active)').find('img').css("opacity","0");
   $('.main-gallery').find('.hide:not(.active)').css('opacity','0');
+  $('.gallery-top').find('.efecto-texto').each(function(){
+    $(this).css('display','none');
+  })
 }
 // Ocultamos el texto y hacemos las imagenes opacas
 function hideText(){
@@ -39,6 +42,9 @@ function hideText(){
     $('main').find('.title').css('display','none');
     $("main").find('img').css("opacity","1");
   });
+  $('.gallery-top').find('.efecto-texto').each(function(){
+    $(this).css('display','');
+  })
   // Mostramos la galeria principal
   showGallery('principal');
 }
@@ -129,6 +135,21 @@ $(document).ready(function(){
         }
       }); 
     }
+    // Contacto
+    else if(index == 3){
+      $(this).click(function(){
+        text('contacto');
+        // Comprobamos si tiene la clase active
+        if($(this).hasClass('page-active')){
+          $('.nav-link:first-child').addClass('page-active');
+          $(this).removeClass('page-active');
+        }
+        else{
+          $('.nav-link').removeClass('page-active');
+          $(this).addClass('page-active');
+        }
+      }); 
+    }
   });
   // TODO: Terminar xD
   // Pagina en la que estamos
@@ -162,10 +183,16 @@ $(document).ready(function(){
     $(this).addClass('page-active');
     showInfo('quienes-somos');
   });
-  // Que ofrecemos
-  $('.main-body').find('#qo').click(function(){
+  // Contacto
+  $('.main-body').find('#co').click(function(){
     $('.main-body').find('.page-active').removeClass('page-active');
     $(this).addClass('page-active');
-    showInfo('que-ofrecemos');
+    showInfo('contacto');
+  });
+  // Donde estamos
+  $('.main-body').find('#de').click(function(){
+    $('.main-body').find('.page-active').removeClass('page-active');
+    $(this).addClass('page-active');
+    showInfo('donde-estamos');
   });
 });

@@ -28,7 +28,12 @@
       
     </div>-->
     <div class = "gallery-top">
-      <img class ="g-img1" src="img/img1.JPG" />
+      <div class = "wrap g-img1">
+        <img src="img/img1.JPG" />
+        <div class = "wrap-text">
+          <a href="">Texto</a>
+        </div>
+      </div>
       <img class ="g-img2" src="img/img2.JPG" />
     </div>
     <div class = "main-body">
@@ -38,10 +43,13 @@
         <span class = "text-categories" id = "rv">REFORMAS VIVIENDAS</span>
       </div>
       <div class = "text frd">
+        <span class = "text-categories" id = "qs">QUIENES SOMOS</span>
+      </div>
+      <div class = "text contacto">
         <div class = "m2">
-          <span class = "text-categories" id = "qs">QUIENES SOMOS</span>
+          <span class = "text-categories" id = "co">CONTACTO</span>
         </div><div class = "m2">
-          <span class = "text-categories" id = "qo">QUE OFRECEMOS</span>
+          <span class = "text-categories" id = "de">DONDE ESTAMOS</span>
         </div>
       </div>
       <div class = "main-gallery">
@@ -120,8 +128,8 @@
           </div>
         </div>
         <div id = "reformas-viviendas" class = "main-index">
-        <div class = "efecto">
-          <img lazy="img/proyectos/reformas-viviendas/apartamento-san-juan-n1/portada.jpg" />
+          <div class = "efecto">
+            <img lazy="img/proyectos/reformas-viviendas/apartamento-san-juan-n1/portada.jpg" />
             <div class = "efecto-texto">
               <a class = "cuadro">
                 <h3>Casa señorial</h3>
@@ -158,7 +166,7 @@
           </div>
         </div>
         <!-- frd -->
-        <div id = "quienes-somos" class = "frd-categorias hide">
+        <div id = "quienes-somos" class = "frd-categorias hide card">
           <div class = "contenido-izquierda">
             <div class = "content">
               <img src="/img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" alt="Los Angeles">
@@ -166,31 +174,43 @@
 			    </div>
 			    <div class = "contenido-derecha">
             <div class = "content">
-              <div class = "frd-texto">
+              <div class = "content-texto">
                 <h3>FRD</h3>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus ornare diam sit amet elementum. Aliquam ac leo faucibus, aliquet elit et, dapibus sapien. Sed mollis mauris vel nulla ultricies, vitae aliquam nulla pulvinar. Phasellus vitae mi sed ante auctor molestie id et quam. Aenean ac ipsum a diam condimentum eleifend vel id metus. Vivamus varius sed lectus at dapibus. Ut imperdiet congue lectus, non interdum tortor aliquet varius. Vestibulum condimentum nibh vel metus vehicula porta. Praesent magna mi, blandit eu vestibulum at, consectetur in eros. Vivamus non ante eu risus malesuada aliquet a id tellus. Integer pellentesque quam sed felis ornare, a sodales orci feugiat. Duis at mi felis. Ut porta, ipsum dapibus tempus sagittis, erat metus molestie nibh, vel luctus enim quam vel diam.
               </div>
             </div>
 			    </div>
         </div>
-        <div id = "que-ofrecemos" class = "frd-categorias hide">
+        <!-- Contacto -->
+        <div id = "contacto" class = "frd-categorias hide card">
           <div class = "contenido-izquierda">
             <div class = "content">
-              <div class = "frd-texto">
-                <h3>FRD</h3>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</li>
-                    <li>Aliquam tincidunt mauris eu risus.</li>
-                    <li>Vestibulum auctor dapibus neque.</li>
-                    <li>Nunc dignissim risus id metus.</li>
-                  </ul>
+              <img src="/img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" alt="Los Angeles">
+            </div>
+			    </div>
+			    <div class = "contenido-derecha">
+            <div class = "content">
+              <div class = "content-texto">
+                <h3>Email</h3>
+                <i class = "far fa-envelope"></i> example@example.com
+                <h3>Teléfono</h3>
+                <i class = "fas fa-phone-alt"></i> +34 689 68 96 89
+              </div>
+            </div>
+			    </div>
+        </div>
+        <div id = "donde-estamos" class = "frd-categorias hide card">
+          <div class = "contenido-izquierda">
+            <div class = "content">
+              <div class = "content-texto">
+                <h3>Alicante</h3>
+                C/Francisco Alonso,57, Bajo, 03600. ELDA
               </div>
             </div>
 			    </div>
 			    <div class = "contenido-derecha">
             <div class = "content">
-              <img src="/img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" alt="Los Angeles">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3123.463653341408!2d-0.7907523846619963!3d38.47694197963764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63c5297c458409%3A0x44c1aa01a4b8db99!2sCalle%20Francisco%20Alonso%2C%2057%2C%2003600%20Elda%2C%20Alicante!5e0!3m2!1ses!2ses!4v1575576039305!5m2!1ses!2ses" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             </div>
 			    </div>
         </div>
