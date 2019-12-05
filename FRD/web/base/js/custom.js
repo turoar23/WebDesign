@@ -24,9 +24,12 @@ function showText(categoria){
   // Ocultamos todas las que no esten activas
   $('.main-gallery').find('.main-index:not(.active)').find('img').css("opacity","0");
   $('.main-gallery').find('.hide:not(.active)').css('opacity','0');
-  $('.gallery-top').find('.efecto-texto').each(function(){
-    $(this).css('display','none');
-  })
+  $('.wrap').each(function(){
+    // Oculta el texto
+    $(this).find('.wrap-text').css('display','none');
+    $(this).removeClass('wrap');
+    $(this).addClass('wrap-hide');
+  });
 }
 // Ocultamos el texto y hacemos las imagenes opacas
 function hideText(){
@@ -42,9 +45,12 @@ function hideText(){
     $('main').find('.title').css('display','none');
     $("main").find('img').css("opacity","1");
   });
-  $('.gallery-top').find('.efecto-texto').each(function(){
-    $(this).css('display','');
-  })
+  $('.wrap-hide').each(function(){
+    // Oculta el texto
+    $(this).find('.wrap-text').css('display','');
+    $(this).removeClass('wrap-hide');
+    $(this).addClass('wrap');
+  });
   // Mostramos la galeria principal
   showGallery('principal');
 }
