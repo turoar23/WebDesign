@@ -19,6 +19,7 @@ function showText(categoria){
   text.css('height',"100%");
   text.css('font-size','1.5rem');
   text.css('margin','2% 0% 2% 0%');
+  text.css('opacity','1');
   $('main').find('.title').css('display','initial');
   $('main').find('img').css("opacity","0.15");
   // Ocultamos todas las que no esten activas
@@ -39,9 +40,10 @@ function hideText(){
   // Escondemos todas las categorias
   $('.text').each(function(){
     $(this).removeClass('show');
-    $(this).css('margin','0%');
     $(this).css('height',"0px");
+    $(this).css('margin','0%');
     $(this).css('font-size','0rem');
+    $(this).css('opacity','0');
     $('main').find('.title').css('display','none');
     $("main").find('img').css("opacity","1");
   });
@@ -73,7 +75,7 @@ function showGallery(id){
   // Ponemos todas las imagenes a opacidad 1
   $('#'+id).find('img').each(function(){
     // Ponemos su opacidad a tope
-    $(this).css('opacity','1');
+    $(this).css('opacity','');
   });
   // Ponemos las demas a 0
   $('.main-gallery').find('.main-index:not(.active)').find('img').css("opacity","0");
@@ -138,6 +140,7 @@ $(document).ready(function(){
         else{
           $('.nav-link').removeClass('page-active');
           $(this).addClass('page-active');
+          showInfo('quienes-somos');
         }
       }); 
     }
@@ -153,6 +156,8 @@ $(document).ready(function(){
         else{
           $('.nav-link').removeClass('page-active');
           $(this).addClass('page-active');
+          // Al ser solo una sub-categoria, se muestra directamente
+          showInfo('contacto');
         }
       }); 
     }
@@ -182,23 +187,5 @@ $(document).ready(function(){
     $('.main-body').find('.page-active').removeClass('page-active');
     $(this).addClass('page-active');
     showGallery('reformas-viviendas');
-  });
-  // Quienes somos
-  $('.main-body').find('#qs').click(function(){
-    $('.main-body').find('.page-active').removeClass('page-active');
-    $(this).addClass('page-active');
-    showInfo('quienes-somos');
-  });
-  // Contacto
-  $('.main-body').find('#co').click(function(){
-    $('.main-body').find('.page-active').removeClass('page-active');
-    $(this).addClass('page-active');
-    showInfo('contacto');
-  });
-  // Donde estamos
-  $('.main-body').find('#de').click(function(){
-    $('.main-body').find('.page-active').removeClass('page-active');
-    $(this).addClass('page-active');
-    showInfo('donde-estamos');
   });
 });

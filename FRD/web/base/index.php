@@ -28,13 +28,22 @@
       
     </div>-->
     <div class = "gallery-top">
-      <div class = "wrap g-img1">
+      <!-- img1 -->
+      <img class ="g-img1" src="img/img1.JPG" />
+      <!--<div class = "wrap g-img1">
         <img src="img/img1.JPG" />
         <div class = "wrap-text">
           <a href="">Texto</a>
         </div>
-      </div>
+      </div>-->
+      <!-- img2 -->
       <img class ="g-img2" src="img/img2.JPG" />
+      <!-- <div class = "wrap g-img2">
+        <img src="img/img2.JPG" />
+        <div class = "wrap-text">
+          <a href="">Texto</a>
+        </div>
+      </div>-->
     </div>
     <div class = "main-body">
       <div class = "text proyectos">
@@ -46,18 +55,27 @@
         <span class = "text-categories" id = "qs">QUIENES SOMOS</span>
       </div>
       <div class = "text contacto">
-        <div class = "m2">
-          <span class = "text-categories" id = "co">CONTACTO</span>
-        </div><div class = "m2">
-          <span class = "text-categories" id = "de">DONDE ESTAMOS</span>
-        </div>
+        <span class = "text-categories" id = "co">CONTACTO</span>
       </div>
       <div class = "main-gallery">
         <div id = "principal" class = "main-index active">
           <img class ="g-img3" src="img/img3.jpg" />
-          <img class ="g-img4" src="img/img4.jpg" />
+          <!-- img4 -->
+          <div class = "wrap g-img4">
+            <img src="img/img4.jpg" />
+            <div class = "wrap-text">
+              <a href="/proyectos/obra-nueva/vivienda-alicante.php">Vivienda Alicante</a>
+            </div>
+          </div>
+          <!-- img5 -->
           <img class ="g-img5" src="img/img5.JPG" />
-          <img class ="g-img6" src="img/img6.png" />
+          <!-- img6 -->
+          <div class = "wrap g-img6">
+            <img src="img/img6.png" />
+            <div class = "wrap-text">
+              <a href="/proyectos/obra-nueva/passive-vehouse-dolores.php">Passive Vehouse Dolores</a>
+            </div>
+          </div>
         </div>
         <!-- Proyectos -->
         <div id = "obra-nueva" class = "main-index">
@@ -175,8 +193,10 @@
 			    <div class = "contenido-derecha">
             <div class = "content">
               <div class = "content-texto">
-                <h3>FRD</h3>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus ornare diam sit amet elementum. Aliquam ac leo faucibus, aliquet elit et, dapibus sapien. Sed mollis mauris vel nulla ultricies, vitae aliquam nulla pulvinar. Phasellus vitae mi sed ante auctor molestie id et quam. Aenean ac ipsum a diam condimentum eleifend vel id metus. Vivamus varius sed lectus at dapibus. Ut imperdiet congue lectus, non interdum tortor aliquet varius. Vestibulum condimentum nibh vel metus vehicula porta. Praesent magna mi, blandit eu vestibulum at, consectetur in eros. Vivamus non ante eu risus malesuada aliquet a id tellus. Integer pellentesque quam sed felis ornare, a sodales orci feugiat. Duis at mi felis. Ut porta, ipsum dapibus tempus sagittis, erat metus molestie nibh, vel luctus enim quam vel diam.
+                <p>FRD surgió en el año 2017, fruto de la experiencia de más de 15 años como Jefe de Obra en grandes constructoras de su gerente y técnico DAVID MOLINA, en las cuales pudo aprender de los mejores en Calidad, Gestión y Eficiencia aunados como no a un PRECIO ÓPTIMO Y AJUSTADO.</p>
+                <p>Gracias a este bagaje en obra hemos podido rodearnos de los mejores colaboradores y tener un amplio abanico donde abarcar todo tipo de trabajos y acabados, sobre todo en Viviendas Unifamiliares y Reformas Integrales, hacia donde hemos enfocado FRD.</p>
+                <p>En FRD nos encargamos completamente de todo pudiendo empezar a trabajar a partir del Proyecto de un Técnico  o incluso gestionar el mismo; de tal modo que el cliente pueda disfrutar realmente de "la obra de su vida" sin tener que preocuparse de la complicada gestión que supone este tipo de Obras y todos los problemas y dolores de cabeza que le pueden traer si no delega en verdaderos profesionales como nosotros.</p>
+                <p>Por eso nuestros targets son: CALIDAD, SERIEDAD (PROFESIONALIDAD) y PRECIO ÓPTIMO, cumpliendo siempre los PLAZOS PACTADOS, siendo nuestra mayor recompensa que el cliente quede contento al final del proceso y haya disfrutado del mismo.</p>
               </div>
             </div>
 			    </div>
@@ -185,26 +205,11 @@
         <div id = "contacto" class = "frd-categorias hide card">
           <div class = "contenido-izquierda">
             <div class = "content">
-              <img src="/img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" alt="Los Angeles">
-            </div>
-			    </div>
-			    <div class = "contenido-derecha">
-            <div class = "content">
               <div class = "content-texto">
                 <h3>Email</h3>
                 <i class = "far fa-envelope"></i> example@example.com
                 <h3>Teléfono</h3>
                 <i class = "fas fa-phone-alt"></i> +34 689 68 96 89
-              </div>
-            </div>
-			    </div>
-        </div>
-        <div id = "donde-estamos" class = "frd-categorias hide card">
-          <div class = "contenido-izquierda">
-            <div class = "content">
-              <div class = "content-texto">
-                <h3>Alicante</h3>
-                C/Francisco Alonso,57, Bajo, 03600. ELDA
               </div>
             </div>
 			    </div>

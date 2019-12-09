@@ -3,8 +3,8 @@
         <img src="/img/logo.png" />
     </div>
     <div class = "nav">
-        <a class = "nav-link <?php if(substr($_SERVER['REQUEST_URI'],1,9) != "proyectos") echo "page-active" ?>" <?php if($_SERVER['REQUEST_URI']!='/') echo('href="/"');?>>HOME</a><span class="dot"></span>
-        <a class = "nav-link <?php if(substr($_SERVER['REQUEST_URI'],1,9) == "proyectos") echo "page-active" ?>">PROYECTOS</a><span class="dot"></span>
+        <a class = "nav-link <?php if(substr($_SERVER['REQUEST_URI'],1,9) != "proyectos") echo "page-active" ?>" <?php if($_SERVER['REQUEST_URI']!='/') echo('href="/"');?>>INICIO</a><span class="dot"></span>
+        <a class = "nav-link <?php if(substr($_SERVER['REQUEST_URI'],1,9) == "proyectos") echo "page-active" ?>" <?php if($_SERVER['REQUEST_URI']!='/') echo('href="/"');?>>PROYECTOS</a><span class="dot"></span>
         <a class = "nav-link" <?php if($_SERVER['REQUEST_URI']!='/') echo('href="/"');?>>FRD</a><span class="dot"></span>
         <a class = "nav-link" <?php if($_SERVER['REQUEST_URI']!='/') echo('href="/"');?>>CONTACTO</a>
     </div>

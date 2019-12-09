@@ -65,14 +65,14 @@
 				</a>
 			</div>
 		</div>
-		<div class = "descripcion" style = "width:100%;">
+		<div class = "descripcion">
 			<h2>Información del proyecto</h2>
-			<div class = "contenido-izquierda" style = "width:100%;">
+			<div class = "contenido-izquierda">
 				<div class = "content">
 					<div class = "tabla">
 						<div class = "fila">
 							<span class = "info-izq">Nombre</span>
-							<span class = "info-der">Passive Vehouse</span>
+							<span class = "info-der">Vivienda</span>
 						</div>
 						<div class = "fila">
 							<span class = "info-izq">Provincia</span>
@@ -80,9 +80,14 @@
 						</div>
 						<div class = "fila">
 							<span class = "info-izq">Localidad</span>
-							<span class = "info-der">Dolores</span>
+							<span class = "info-der">Alicante</span>
 						</div>
 					</div>
+				</div>
+			</div>
+			<div class = "contenido-derecha">
+				<div class = "content">
+				<img src="/img/proyectos/obra-nueva/vivienda-alicante/portada.jpg" style="width:100%;">
 				</div>
 			</div>
 		</div>
