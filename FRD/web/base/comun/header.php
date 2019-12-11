@@ -3,10 +3,10 @@
         <img src="/img/logo.png" />
     </div>
     <div class = "nav">
-        <a class = "nav-link <?php if(substr($_SERVER['REQUEST_URI'],1,9) != "proyectos") echo "page-active" ?>" <?php if($_SERVER['REQUEST_URI']!='/') echo('href="/"');?>>INICIO</a><span class="dot"></span>
-        <a class = "nav-link <?php if(substr($_SERVER['REQUEST_URI'],1,9) == "proyectos") echo "page-active" ?>" <?php if($_SERVER['REQUEST_URI']!='/') echo('href="/"');?>>PROYECTOS</a><span class="dot"></span>
-        <a class = "nav-link" <?php if($_SERVER['REQUEST_URI']!='/') echo('href="/"');?>>FRD</a><span class="dot"></span>
-        <a class = "nav-link" <?php if($_SERVER['REQUEST_URI']!='/') echo('href="/"');?>>CONTACTO</a>
+        <a class = "nav-link <?php if(substr($_SERVER['REQUEST_URI'],1,9) != "proyectos") echo "page-active" ?>" href = "/" >INICIO</a><span class="dot"></span>
+        <a id = "nav-pro" class = "nav-link <?php if(substr($_SERVER['REQUEST_URI'],1,9) == "proyectos") echo "page-active" ?>" href="/#Proyectos" >PROYECTOS</a><span class="dot"></span>
+        <a id = "nav-FRD" class = "nav-link" href = "/#FRD">FRD</a><span class="dot"></span>
+        <a id = "nav-con" class = "nav-link" href = "/#Contacto">CONTACTO</a>
     </div>
     <div class = "footer">
         <div class = "social-networks">

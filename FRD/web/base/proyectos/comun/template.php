@@ -64,9 +64,9 @@
 				</a>
 			</div>
 		</div>
-		<div class = "descripcion" style = "width:100%;">
+		<div class = "descripcion">
 			<h1><?php echo $datos['nombre']; ?></h1>
-			<div class = "contenido-izquierda" style = "width:100%;">
+			<div class = "contenido-izquierda">
 				<div class = "content">
 					<div class = "tabla">
 						<div class = "fila">
@@ -75,9 +75,14 @@
 						</div>
 						<div class = "fila">
 							<span class = "info-izq">Localidad</span>
-							<span class = "info-der">Dolores</span>
+							<span class = "info-der">Alicante</span>
 						</div>
 					</div>
+				</div>
+			</div>
+			<div class = "contenido-derecha">
+				<div class = "content">
+				<img src="/img/proyectos/obra-nueva/vivienda-alicante/portada.jpg" style="width:100%;">
 				</div>
 			</div>
 		</div>

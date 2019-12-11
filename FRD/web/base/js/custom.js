@@ -162,12 +162,54 @@ $(document).ready(function(){
       }); 
     }
   });
-  // TODO: Terminar xD
-  // Pagina en la que estamos
-  //var actualPage = window.location.href.substring(window.location.origin.length,)
-  /*if(actualPage == "/#FRD"){
-    $('#FRD').click();
-  }*/
+  // Prepara la carga de la pagina
+  var actualPage = window.location.href.substring(window.location.origin.length,)
+  // Proyectos
+  if(actualPage == '/#Proyectos'){
+    text('proyectos');
+    var nav = $('#nav-pro');
+    // Comprobamos si tiene la clase active
+    if(nav.hasClass('page-active')){
+      $('.nav-link:first-child').addClass('page-active');
+      nav.removeClass('page-active');
+    }
+    else{
+      $('.nav-link').removeClass('page-active');
+      nav.addClass('page-active');
+    }
+  }
+  // FRD
+  else if(actualPage == "/#FRD"){
+    text('frd');
+    var nav = $('#nav-FRD');
+    // Comprobamos si tiene la clase active
+    if(nav.hasClass('page-active')){
+      $('.nav-link:first-child').addClass('page-active');
+      nav.removeClass('page-active');
+    }
+    else{
+      $('.nav-link').removeClass('page-active');
+      nav.addClass('page-active');
+      showInfo('quienes-somos');
+    }
+  }
+  // Contacto
+  else if(actualPage == "/#Contacto"){
+    text('contacto');
+    var nav = $('#nav-con');
+    // Comprobamos si tiene la clase active
+    if(nav.hasClass('page-active')){
+      $('.nav-link:first-child').addClass('page-active');
+      nav.removeClass('page-active');
+    }
+    else{
+      $('.nav-link').removeClass('page-active');
+      nav.addClass('page-active');
+      // Al ser solo una sub-categoria, se muestra directamente
+      showInfo('contacto');
+    }
+  }
+  
   // Cargamos la galeria de cada sub-categoria
   // Obra nueva
   $('.main-body').find('#on').click(function(){

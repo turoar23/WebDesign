@@ -10,5 +10,5 @@
         ]
     ];
     // Incluimos la plantilla
-    include $_SERVER["DOCUMENT_ROOT"].'/proyectos/comun/template2.php';
+    include $_SERVER["DOCUMENT_ROOT"].'/proyectos/comun/template.php';
 ?>

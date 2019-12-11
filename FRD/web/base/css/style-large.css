@@ -211,6 +211,9 @@ main .main-gallery .content-texto{
 .container-proyectos .descripcion h2{
     margin-bottom: 5%;
 }
+.container-proyectos .container .carousel-inner{
+    max-height: 100vh;
+}
 /* --------------- Contacto section --------------- */
 iframe{
     width: 100%;
