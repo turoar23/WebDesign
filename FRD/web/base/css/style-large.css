@@ -133,10 +133,6 @@ main .efecto .efecto-texto{
     color:black;
     width: 100%;
     height: 100%;
-    opacity: 0;
-    transition: 500ms;
-}
-main .efecto .efecto-texto:hover{
     opacity: 0.8;
 }
 main .efecto .efecto-texto .cuadro{

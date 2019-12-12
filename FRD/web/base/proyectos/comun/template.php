@@ -70,19 +70,31 @@
 				<div class = "content">
 					<div class = "tabla">
 						<div class = "fila">
-							<span class = "info-izq">Provincia</span>
-							<span class = "info-der">Alicante</span>
+							<span class = "info-izq">Ubicación</span>
+							<span class = "info-der"><?php echo $datos['ubicacion'];?></span>
 						</div>
 						<div class = "fila">
-							<span class = "info-izq">Localidad</span>
-							<span class = "info-der">Alicante</span>
+							<span class = "info-izq">Final de la obra</span>
+							<span class = "info-der"><?php echo $datos['final-obra'];?></span>
+						</div>
+						<div class = "fila">
+							<span class = "info-izq">Plazo</span>
+							<span class = "info-der"><?php echo $datos['plazo'];?></span>
+						</div>
+						<div class = "fila">
+							<span class = "info-izq">M² construidos</span>
+							<span class = "info-der"><?php echo $datos['metros'];?></span>
+						</div>
+						<div class = "fila">
+							<span class = "info-izq">Nº plantas</span>
+							<span class = "info-der"><?php echo $datos['n-plantas'];?></span>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class = "contenido-derecha">
 				<div class = "content">
-				<img src="/img/proyectos/obra-nueva/vivienda-alicante/portada.jpg" style="width:100%;">
+				<img src="<?php echo $datos['portada'];?>" style="width:100%;">
 				</div>
 			</div>
 		</div>
