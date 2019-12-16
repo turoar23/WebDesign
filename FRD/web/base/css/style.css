@@ -8,11 +8,6 @@ body{
     font-weight: 600;
     font-style: normal;
 }
-main{
-    width: 75%;
-    float: right;
-    height: 100vh;
-}
 a{
     text-decoration: none;
     color:black;
@@ -27,14 +22,10 @@ a:hover, a:active, a:visited, a:link{
     width: 50%;
     display: inline-block;
 }
-/* ----------------- Header section ----------------- */
-header{
-    margin-top: 3%;
-    width: 25%;
-    position: fixed;
-    height: 100%;
-    text-align: center;
+header .footer .social-networks i{
+    color: rgb(0,113, 188);
 }
+/* ----------------- Header section ----------------- */
 header .logo{
     width: 80%;
     margin: auto;
@@ -61,24 +52,9 @@ header .dot {
     display: inline-block;
     margin: 4% 0% 4% 0%;
 }
-header .footer{
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 1%;
-    text-align: center;
-    width: 25%;
+main .main-index:not(.active), main .main-index-var:not(.active){
+    display: none;
 }
-header .footer .social-networks{
-    font-size: 2.4rem;
-    margin-bottom: 3%;
-}
-header .footer .social-networks i{
-    color: rgb(0,113, 188);
-}
-header .footer {
-    font-size: 1.5rem;
-}
-
 /* ------------------ Main section ------------------ */
 main{
     color:white;

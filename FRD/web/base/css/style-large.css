@@ -1,6 +1,34 @@
 /* ----------------- Header section ----------------- */
+main{
+    width: 75%;
+    float: right;
+    height: 100vh;
+}
+/* ----------------- Header section ----------------- */
 header .nav-link{
     cursor: pointer;
+}
+#open, .closebtn{
+    display: none;
+}
+header{
+    margin-top: 3%;
+    width: 25%;
+    position: fixed;
+    height: 100%;
+    text-align: center;
+}
+header .footer{
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 1%;
+    text-align: center;
+    width: 25%;
+    font-size: 1.5rem;
+}
+header .footer .social-networks{
+    font-size: 2.4rem;
+    margin-bottom: 3%;
 }
 /* ----------------- Main section ----------------- */
 /*main .top-iamge{
@@ -40,6 +68,7 @@ main .text-categories{
     cursor: pointer;
     padding-top: 1%;
     padding-bottom: 1%;
+    display: inline;
 }
 main .text-categories:not(last-child){
     margin-right: 6%;
@@ -79,14 +108,16 @@ main .card img{
     display: block;
     margin: auto;
 }
-/* ----------------- Index section ----------------- */
-main .main-index {
+main .main-index, main .main-index-var {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 33.1vh);
     grid-gap: 1% 0.5%;
     transition: 500ms;
     position: absolute;
+}
+main .main-index-var{
+    padding-bottom: 3%;
 }
 main .main-index .g-img3 {
     grid-column-start: 1;

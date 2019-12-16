@@ -24,6 +24,7 @@ function showText(categoria){
   $('main').find('img').css("opacity","0.15");
   // Ocultamos todas las que no esten activas
   $('.main-gallery').find('.main-index:not(.active)').find('img').css("opacity","0");
+  $('.main-gallery').find('.main-index-var:not(.active)').find('img').css("opacity","0");
   $('.main-gallery').find('.hide:not(.active)').css('opacity','0');
   $('.wrap').each(function(){
     // Oculta el texto
@@ -79,6 +80,7 @@ function showGallery(id){
   });
   // Ponemos las demas a 0
   $('.main-gallery').find('.main-index:not(.active)').find('img').css("opacity","0");
+  $('.main-gallery').find('.main-index-var:not(.active)').find('img').css("opacity","0");
   $('.main-gallery').find('.hide').css('opacity','0');
 }
 /**
@@ -98,6 +100,7 @@ function showInfo(id){
   });
   // Ponemos las demas a 0
   $('.main-gallery').find('.main-index:not(.active)').find('img').css("opacity","0");
+  $('.main-gallery').find('.main-index-var:not(.active)').find('img').css("opacity","0");
 }
 /**
  * Funcion que se ejecuta cuando el DOM esta cargado
@@ -231,3 +234,12 @@ $(document).ready(function(){
     showGallery('reformas-viviendas');
   });
 });
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  if(screen.width<=800)
+    document.getElementById("mySidenav").style.width = "0";
+}

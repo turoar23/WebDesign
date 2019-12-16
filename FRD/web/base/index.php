@@ -47,15 +47,15 @@
     </div>
     <div class = "main-body">
       <div class = "text proyectos">
-        <span class = "text-categories" id = "on">OBRA NUEVA</span>
-        <span class = "text-categories" id = "rl">REFORMAS LOCALES</span>
-        <span class = "text-categories" id = "rv">REFORMAS VIVIENDAS</span>
+        <div class = "text-categories" id = "on">OBRA NUEVA</div>
+        <div class = "text-categories" id = "rl">REFORMAS LOCALES</div>
+        <div class = "text-categories" id = "rv">REFORMAS VIVIENDAS</div>
       </div>
       <div class = "text frd">
-        <span class = "text-categories" id = "qs">QUIENES SOMOS</span>
+        <div class = "text-categories" id = "qs">QUIENES SOMOS</div>
       </div>
       <div class = "text contacto">
-        <span class = "text-categories" id = "co">CONTACTO</span>
+        <div class = "text-categories" id = "co">CONTACTO</div>
       </div>
       <div class = "main-gallery">
         <div id = "principal" class = "main-index active">
@@ -78,13 +78,12 @@
           </div>
         </div>
         <!-- Proyectos -->
-        <div id = "obra-nueva" class = "main-index">
+        <div id = "obra-nueva" class = "main-index-var">
           <div class = "efecto">
             <img lazy="img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" />
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/passive-vehouse-dolores.php" class = "cuadro">
                 <h3>Passive Dolores</h3>
-                <h4>Dolores</h4>
               </a>
             </div>
           </div>
@@ -93,7 +92,6 @@
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/vivienda-alicante.php" class = "cuadro">
                 <h3>Vivienda Alicante</h3>
-                <h4>Alicante<h4>
               </a>
             </div>
           </div>
@@ -102,7 +100,6 @@
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/vivienda-lomabada.php" class = "cuadro">
                 <h3>Vivienda Loma Bada</h3>
-                <h4>Petrer</h4>
               </a>
             </div>
           </div>
@@ -111,7 +108,6 @@
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/vivienda-monovar-1-altura.php" class = "cuadro">
                 <h3>Vivienda Monóvar 1 Alt</h3>
-                <h4>Monóvar</h4>
               </a>
             </div>
           </div>
@@ -120,18 +116,16 @@
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/vivienda-monovar-3-alturas.php" class = "cuadro">
                 <h3>Vivienda Monóvar 2 Alt</h3>
-                <h4>Monóvar</h4>
               </a>
             </div>
           </div>
         </div>
-        <div id = "reformas-locales" class = "main-index">
+        <div id = "reformas-locales" class = "main-index-var">
           <div class = "efecto">
             <img lazy="img/proyectos/reformas-locales/clinica-dental-kident/portada.JPG" />
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-locales/clinica-dental-kident.php" class = "cuadro">
                 <h3>Clínica Dental</h3>
-                <h4>Villena</h4>
               </a>
             </div>
           </div>
@@ -140,18 +134,16 @@
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-locales/pasteleria-la-confiteria.php" class = "cuadro">
                 <h3>La Confitería</h3>
-                <h4>El Altet</h4>
               </a>
             </div>
           </div>
         </div>
-        <div id = "reformas-viviendas" class = "main-index">
+        <div id = "reformas-viviendas" class = "main-index-var">
           <div class = "efecto">
             <img lazy="img/proyectos/reformas-viviendas/apartamento-san-juan-n1/portada.jpg" />
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-viviendas/apartamento-san-juan-n1.php" class = "cuadro">
                 <h3>Apartamento San Juan 1</h3>
-                <h4>San Juan</h4>
               </a>
             </div>
           </div>
@@ -160,7 +152,6 @@
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-viviendas/apartamento-san-juan-n2.php" class = "cuadro">
                 <h3>Apartamento San Juan 2</h3>
-                <h4>San Juan</h4>
               </a>
             </div>
           </div>
@@ -169,7 +160,6 @@
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-viviendas/atico-elda.php" class = "cuadro">
                 <h3>Ático Elda</h3>
-                <h4>Elda</h4>
               </a>
             </div>
           </div>
@@ -178,7 +168,6 @@
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-viviendas/piso-elda.php" class = "cuadro">
                 <h3>Piso Elda</h3>
-                <h4>Elda</h4>
               </a>
             </div>
           </div>
