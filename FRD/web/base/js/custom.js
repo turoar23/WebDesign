@@ -243,3 +243,7 @@ function closeNav() {
   if(screen.width<=800)
     document.getElementById("mySidenav").style.width = "0";
 }
+
+$(window).on('hashchange', function(e){
+  // Your Code goes here
+ });

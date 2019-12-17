@@ -4,9 +4,11 @@ header{
     z-index: 16;
 }
 #open{
-    padding-left: 20%;
-    font-size: 30px;
+    position: fixed;
+    padding: 2% 2% 2% 2%;
+    font-size: 32px;
     cursor:pointer;
+    background-color: rgb(0,113, 188,0.6);
 }
 .sidenav {
     height: 100%;
@@ -27,7 +29,7 @@ header{
     font-size: 25px;
     /*color: #818181;*/
     display: block;
-    transition: 0.3s;
+    transition: 0.1s;
 }  
 /*.sidenav a:hover{
     color: #f1f1f1;
