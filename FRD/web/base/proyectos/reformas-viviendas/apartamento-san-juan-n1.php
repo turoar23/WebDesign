@@ -11,8 +11,11 @@
         'n-plantas' => '1 planta',
         'portada' => '/img/'.$ruta.'/portada.jpg',
         'img' => [
-            '/img/'.$ruta.'/img1.jpg',
-            '/img/'.$ruta.'/img2.jpg'
+            '/img/'.$ruta.'/img2.jpg',
+            '/img/'.$ruta.'/img3.jpg',
+            '/img/'.$ruta.'/img4.jpg',
+            '/img/'.$ruta.'/img5.jpg',
+            '/img/'.$ruta.'/img6.jpg'
         ]
         
     ];

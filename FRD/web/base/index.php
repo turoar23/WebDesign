@@ -29,21 +29,19 @@
     </div>-->
     <div class = "gallery-top">
       <!-- img1 -->
-      <img class ="g-img1" src="img/img1.JPG" />
-      <!--<div class = "wrap g-img1">
-        <img src="img/img1.JPG" />
+      <div class = "wrap g-img1">
+        <img class ="g-img1" src="img/landing/vivienda-alicante.jpg" />
         <div class = "wrap-text">
-          <a href="">Texto</a>
+          <a href="/proyectos/obra-nueva/vivienda-alicante.php">Vivienda Alicante</a>
         </div>
-      </div>-->
+      </div>
       <!-- img2 -->
-      <img class ="g-img2" src="img/img2.JPG" />
-      <!-- <div class = "wrap g-img2">
-        <img src="img/img2.JPG" />
+      <div class = "wrap g-img2">
+        <img src="img/landing/vivienda-monovar-3-alturas.jpg" />
         <div class = "wrap-text">
-          <a href="">Texto</a>
+          <a href="/proyectos/obra-nueva/vivienda-monovar-3-alturas.php">Vivienda Monóvar 3 Alt</a>
         </div>
-      </div>-->
+      </div>
     </div>
     <div class = "main-body">
       <div class = "text proyectos">
@@ -59,21 +57,32 @@
       </div>
       <div class = "main-gallery">
         <div id = "principal" class = "main-index active">
-          <img class ="g-img3" src="img/img3.jpg" />
+          <!-- img3 -->
+          <div class = "wrap g-img3">
+            <img class ="g-img3" src="img/landing/monovar-1-alt.jpg" />
+            <div class = "wrap-text">
+              <a href="/proyectos/obra-nueva/vivienda-monovar-1-altura.php">Vivienda Monóvar 1 Altura</a>
+            </div>
+          </div>
           <!-- img4 -->
           <div class = "wrap g-img4">
-            <img src="img/img4.jpg" />
+            <img src="img/landing/vivienda-alicante2.jpg" />
             <div class = "wrap-text">
               <a href="/proyectos/obra-nueva/vivienda-alicante.php">Vivienda Alicante</a>
             </div>
           </div>
           <!-- img5 -->
-          <img class ="g-img5" src="img/img5.JPG" />
+          <div class = "wrap g-img5">
+            <img src="img/landing/vivienda-monovar-3-alturas2.jpg" />
+            <div class = "wrap-text">
+              <a href="/proyectos/obra-nueva/vivienda-monovar-3-alturas.php">Vivienda Monóvar 3 Alt</a>
+            </div>
+          </div>
           <!-- img6 -->
           <div class = "wrap g-img6">
-            <img src="img/img6.png" />
+            <img src="img/landing/monovar-3-alt.jpg" />
             <div class = "wrap-text">
-              <a href="/proyectos/obra-nueva/passive-vehouse-dolores.php">Passive Vehouse Dolores</a>
+              <a href="/proyectos/obra-nueva/vivienda-monovar-3-alturas.php">Vivienda Monóvar 3 Alt</a>
             </div>
           </div>
         </div>
@@ -88,7 +97,7 @@
             </div>
           </div>
           <div class = "efecto">
-            <img lazy="img/proyectos/obra-nueva/vivienda-alicante/portada.JPG" />
+            <img lazy="img/proyectos/obra-nueva/vivienda-alicante/portada.jpg" />
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/vivienda-alicante.php" class = "cuadro">
                 <h3>Vivienda Alicante</h3>
@@ -112,7 +121,7 @@
             </div>
           </div>
           <div class = "efecto">
-            <img lazy="img/proyectos/obra-nueva/vivienda-monovar-3-alturas/portada.JPG" />
+            <img lazy="img/proyectos/obra-nueva/vivienda-monovar-3-alturas/portada.jpg" />
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/vivienda-monovar-3-alturas.php" class = "cuadro">
                 <h3>Vivienda Monóvar 2 Alt</h3>
@@ -122,7 +131,7 @@
         </div>
         <div id = "reformas-locales" class = "main-index-var">
           <div class = "efecto">
-            <img lazy="img/proyectos/reformas-locales/clinica-dental-kident/portada.JPG" />
+            <img lazy="img/proyectos/reformas-locales/clinica-dental-kident/portada.jpg" />
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-locales/clinica-dental-kident.php" class = "cuadro">
                 <h3>Clínica Dental</h3>

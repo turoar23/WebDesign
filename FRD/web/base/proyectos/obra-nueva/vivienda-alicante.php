@@ -9,22 +9,23 @@
         'plazo' => '10 meses',
         'metros' => '400 m²',
         'n-plantas' => 'Sotano + baja',
-        'portada' => '/img/'.$ruta.'/portada.JPG',
+        'portada' => '/img/'.$ruta.'/portada.jpg',
         'img' => [
-            '/img/'.$ruta.'/img14.JPG',
-            '/img/'.$ruta.'/img1.jpg',
             '/img/'.$ruta.'/img2.jpg',
             '/img/'.$ruta.'/img3.jpg',
             '/img/'.$ruta.'/img4.jpg',
             '/img/'.$ruta.'/img5.jpg',
-            '/img/'.$ruta.'/img6.JPG',
-            '/img/'.$ruta.'/img7.JPG',
-            '/img/'.$ruta.'/img8.JPG',
-            '/img/'.$ruta.'/img9.JPG',
-            '/img/'.$ruta.'/img10.JPG',
-            '/img/'.$ruta.'/img11.JPG',
-            '/img/'.$ruta.'/img12.JPG',
-            '/img/'.$ruta.'/img13.JPG'
+            '/img/'.$ruta.'/img6.jpg',
+            '/img/'.$ruta.'/img7.jpg',
+            '/img/'.$ruta.'/img8.jpg',
+            '/img/'.$ruta.'/img9.jpg',
+            '/img/'.$ruta.'/img10.jpg',
+            '/img/'.$ruta.'/img11.jpg',
+            '/img/'.$ruta.'/img12.jpg',
+            '/img/'.$ruta.'/img13.jpg',
+            '/img/'.$ruta.'/img14.jpg',
+            '/img/'.$ruta.'/img15.jpg',
+            '/img/'.$ruta.'/img16.jpg'
         ]
     ];
     // Incluimos la plantilla

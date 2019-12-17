@@ -9,14 +9,17 @@
         'plazo' => '3 meses',
         'metros' => '190 m²',
         'n-plantas' => 'Baja',
-        'portada' => '/img/'.$ruta.'/portada.JPG',
+        'portada' => '/img/'.$ruta.'/portada.jpg',
         'img' => [
-            '/img/'.$ruta.'/img1.jpg',
-            '/img/'.$ruta.'/img2.JPG',
+            '/img/'.$ruta.'/img2.jpg',
             '/img/'.$ruta.'/img3.jpg',
             '/img/'.$ruta.'/img4.jpg',
             '/img/'.$ruta.'/img5.jpg',
             '/img/'.$ruta.'/img6.jpg',
+            '/img/'.$ruta.'/img7.jpg',
+            '/img/'.$ruta.'/img8.jpg',
+            '/img/'.$ruta.'/img9.jpg',
+            '/img/'.$ruta.'/img10.jpg'
         ]
         
     ];

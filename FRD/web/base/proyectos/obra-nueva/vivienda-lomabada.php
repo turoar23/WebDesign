@@ -11,12 +11,12 @@
         'n-plantas' => 'Sotano + baja',
         'portada' => '/img/'.$ruta.'/portada.jpg',
         'img' => [
-            '/img/'.$ruta.'/img1.jpg',
             '/img/'.$ruta.'/img2.jpg',
             '/img/'.$ruta.'/img3.jpg',
             '/img/'.$ruta.'/img4.jpg',
             '/img/'.$ruta.'/img5.jpg',
             '/img/'.$ruta.'/img6.jpg',
+            '/img/'.$ruta.'/img7.jpg',
         ]
     ];
     // Incluimos la plantilla

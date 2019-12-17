@@ -234,6 +234,7 @@ main .main-gallery .content-texto{
 .container-proyectos .descripcion{
     margin: 2.5% 0% 5% 0%;
     float:left;
+    width: 100%;
 }
 .container-proyectos .descripcion h2{
     margin-bottom: 5%;
