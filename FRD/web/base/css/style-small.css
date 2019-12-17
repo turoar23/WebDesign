@@ -277,6 +277,7 @@ main .contenido-izquierda{
 .container-proyectos h1{
     padding-right: 15px;
     padding-left: 15px;
+    text-align: center;
 }
 .tabla .fila .info-der{
     color:gray;
