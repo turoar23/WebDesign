@@ -2,7 +2,9 @@
     <span id="open" onclick="openNav()">&#9776;</span>
     <div id="mySidenav" class="sidenav">
         <div class = "logo">
-            <img src="/img/logo.png" />
+            <a href="/">
+                <img src="/img/logo.png" />
+            </a>
         </div>
         <div class = "nav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -13,8 +15,8 @@
         </div>
         <div class = "footer">
             <div class = "social-networks">
-                <a href="" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
+                <a href="https://www.facebook.com/david.frd.779" target="_blank">
+                    <i class="fab fa-facebook"></i>
                 </a>
                 <a href="https://instagram.com/frdprojects?igshid=1qam0ur6ybt7v" target="_blank">
                     <i class="fab fa-instagram"></i>
