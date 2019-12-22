@@ -90,9 +90,12 @@
         <div id = "obra-nueva" class = "main-index-var">
           <div class = "efecto">
             <img lazy="img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" />
+            <div class="description">
+              <span class="desciption-text">Passive Dolores</span>
+            </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/passive-vehouse-dolores.php" class = "cuadro">
-                <h3>Passive Dolores</h3>
+                <h3>Ver</h3>
               </a>
             </div>
           </div>
@@ -204,18 +207,17 @@
           <div class = "contenido-izquierda">
             <div class = "content">
               <div class = "content-texto">
-                <h2>David Molina Beltrán</h2>
-                <h4>Arquitecto técnico / Project Manager</h4>
+                <h2>FRD</h2>
                 <h3>Teléfono</h3>
-                <i class = "fas fa-phone-alt"></i> +34 691 792 729
+                <i class = "fas fa-phone-alt"></i><a href="tel: +34691792723"> +34 691 792 723</a>
                 <h3>Email</h3>
-                <i class = "far fa-envelope"></i> info@frdprojects.com
+                <i class = "far fa-envelope"></i><a href="mailto:info@frdprojects.com"> info@frdprojects.com</a>
               </div>
             </div>
 			    </div>
 			    <div class = "contenido-derecha">
             <div class = "content">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3140.8090281389336!2d-0.8411513846736883!3d38.07482837970605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63a3f1dfe8bb1d%3A0x21642913efcc9b7d!2sCalle%20Monjas%20Arriba%2C%203%2C%2003390%20Benej%C3%BAzar%2C%20Alicante!5e0!3m2!1ses!2ses!4v1575919894240!5m2!1ses!2ses" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3123.463653341408!2d-0.7907523846619963!3d38.47694197963764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63c5297c458409%3A0x44c1aa01a4b8db99!2sCalle%20Francisco%20Alonso%2C%2057%2C%2003600%20Elda%2C%20Alicante!5e0!3m2!1ses!2ses!4v1577044643847!5m2!1ses!2ses" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             </div>
 			    </div>
         </div>

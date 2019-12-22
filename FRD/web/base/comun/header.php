@@ -1,5 +1,8 @@
 <header>
     <span id="open" onclick="openNav()">&#9776;</span>
+    <a class="mini-logo" href="/">
+        <img src="/img/mini-logo.png" />
+    </a>
     <div id="mySidenav" class="sidenav">
         <div class = "logo">
             <a href="/">
