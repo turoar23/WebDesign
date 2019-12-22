@@ -136,7 +136,7 @@ main .card img{
     margin: 2% 2% 4% 2%;
     justify-content: space-between !important;
     display: flex;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 .tabla .fila:not(:last-child){
     margin-top: 5%;
@@ -297,7 +297,7 @@ main .contenido-izquierda{
     padding-right: 15px;
     padding-left: 15px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     
 }
 .tabla .fila .info-der{

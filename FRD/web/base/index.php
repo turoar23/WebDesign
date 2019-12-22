@@ -101,33 +101,45 @@
           </div>
           <div class = "efecto">
             <img lazy="img/proyectos/obra-nueva/vivienda-alicante/portada.jpg" />
+            <div class="description">
+              <span class="desciption-text">Vivienda Alicante</span>
+            </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/vivienda-alicante.php" class = "cuadro">
-                <h3>Vivienda Alicante</h3>
+                <h3>Ver</h3>
               </a>
             </div>
           </div>
           <div class = "efecto">
             <img lazy="img/proyectos/obra-nueva/vivienda-lomabada/portada.jpg" />
+            <div class="description">
+              <span class="desciption-text">Vivienda Loma Bada</span>
+            </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/vivienda-lomabada.php" class = "cuadro">
-                <h3>Vivienda Loma Bada</h3>
+                <h3>Ver</h3>
               </a>
             </div>
           </div>
           <div class = "efecto">
             <img lazy="img/proyectos/obra-nueva/vivienda-monovar-1-altura/portada.jpg" />
+            <div class="description">
+              <span class="desciption-text">Vivienda Monóvar 1 Altura</span>
+            </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/vivienda-monovar-1-altura.php" class = "cuadro">
-                <h3>Vivienda Monóvar 1 Alt</h3>
+                <h3>Ver</h3>
               </a>
             </div>
           </div>
           <div class = "efecto">
             <img lazy="img/proyectos/obra-nueva/vivienda-monovar-3-alturas/portada.jpg" />
+            <div class="description">
+              <span class="desciption-text">Vivienda Monóvar 3 Alturas</span>
+            </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/vivienda-monovar-3-alturas.php" class = "cuadro">
-                <h3>Vivienda Monóvar 2 Alt</h3>
+                <h3>Ver</h3>
               </a>
             </div>
           </div>
@@ -135,17 +147,23 @@
         <div id = "reformas-locales" class = "main-index-var">
           <div class = "efecto">
             <img lazy="img/proyectos/reformas-locales/clinica-dental-kident/portada.jpg" />
+            <div class="description">
+              <span class="desciption-text">Clínica Dental</span>
+            </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-locales/clinica-dental-kident.php" class = "cuadro">
-                <h3>Clínica Dental</h3>
+                <h3>Ver</h3>
               </a>
             </div>
           </div>
           <div class = "efecto">
             <img lazy="img/proyectos/reformas-locales/pasteleria-la-confiteria/portada.jpg" />
+            <div class="description">
+              <span class="desciption-text">La Confitería</span>
+            </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-locales/pasteleria-la-confiteria.php" class = "cuadro">
-                <h3>La Confitería</h3>
+                <h3>Ver</h3>
               </a>
             </div>
           </div>
@@ -153,33 +171,45 @@
         <div id = "reformas-viviendas" class = "main-index-var">
           <div class = "efecto">
             <img lazy="img/proyectos/reformas-viviendas/apartamento-san-juan-n1/portada.jpg" />
+            <div class="description">
+              <span class="desciption-text">Apartamento San Juan 1</span>
+            </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-viviendas/apartamento-san-juan-n1.php" class = "cuadro">
-                <h3>Apartamento San Juan 1</h3>
+                <h3>Ver</h3>
               </a>
             </div>
           </div>
           <div class = "efecto">
             <img lazy="img/proyectos/reformas-viviendas/apartamento-san-juan-n2/portada.jpg" />
+            <div class="description">
+              <span class="desciption-text">Apartamento San Juan 2</span>
+            </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-viviendas/apartamento-san-juan-n2.php" class = "cuadro">
-                <h3>Apartamento San Juan 2</h3>
+                <h3>Ver</h3>
               </a>
             </div>
           </div>
           <div class = "efecto">
             <img lazy="img/proyectos/reformas-viviendas/atico-elda/portada.jpg" />
+            <div class="description">
+              <span class="desciption-text">Ático Elda</span>
+            </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-viviendas/atico-elda.php" class = "cuadro">
-                <h3>Ático Elda</h3>
+                <h3>Ver</h3>
               </a>
             </div>
           </div>
           <div class = "efecto">
             <img lazy="img/proyectos/reformas-viviendas/piso-elda/portada.jpg" />
+            <div class="description">
+              <span class="desciption-text">Piso Elda</span>
+            </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-viviendas/piso-elda.php" class = "cuadro">
-                <h3>Piso Elda</h3>
+                <h3>Ver</h3>
               </a>
             </div>
           </div>

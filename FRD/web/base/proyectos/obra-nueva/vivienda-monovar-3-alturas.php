@@ -3,7 +3,7 @@
     $ruta = 'proyectos/obra-nueva/vivienda-monovar-3-alturas';
     // Definicion de atributos
     $datos = [
-        'nombre' => 'Vivienda Monóvar 2 Alt',
+        'nombre' => 'Vivienda Monóvar 3 Alturas',
         'ubicacion' => 'Monóvar',
         'final-obra' => 'Febrero de 2018',
         'plazo' => '9 meses',

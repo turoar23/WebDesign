@@ -38,7 +38,7 @@ header .nav{
 }
 header .nav .nav-link{
     display: block;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: normal;
 }
 header .nav .nav-link:hover{
@@ -62,7 +62,8 @@ main{
 main .efecto .description{
     position: absolute;
     padding: 0.5%;
-    background-color: black;
+    background-color: white;
+    color: black;
     top: 0;
 }
 main .efecto .description .description-text{

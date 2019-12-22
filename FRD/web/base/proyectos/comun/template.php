@@ -65,9 +65,9 @@
 			</div>
 		</div>
 		<div class = "descripcion">
-			<h1><?php echo $datos['nombre']; ?></h1>
 			<div class = "contenido-izquierda">
 				<div class = "content">
+					<h1><?php echo $datos['nombre']; ?></h1>
 					<div class = "tabla">
 						<div class = "fila">
 							<span class = "info-izq">Ubicación</span>
