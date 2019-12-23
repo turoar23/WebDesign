@@ -227,7 +227,7 @@
         </div>
         <!-- Contacto -->
         <?php
-          if($_POST["submit"]) {
+          /*if($_POST["submit"]) {
             ini_set('display_errors',1);
             $recipient="turoar2006@gmail.com";
             $subject="Form to email message";
@@ -237,7 +237,7 @@
             $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
             mail($recipient, $subject, $mailBody, "From: $senderEmail");
             $thankYou="<p>Gracias, su mensaje ha sido enviado.</p>";
-          }
+          }*/
         ?>
         <div id = "contacto" class = "frd-categorias hide card">
           <div class = "contenido-izquierda">
@@ -249,7 +249,7 @@
                 <h3>Email</h3>
                 <i class = "far fa-envelope"></i><a href="mailto:info@frdprojects.com"> info@frdprojects.com</a>
               </div>
-              <form method="post" action="/#Contacto" class="form-contact content-texto">
+              <form method="post" action="" class="form-contact content-texto">
                 <h3>Formulario de contacto</h3>
                 <?=$thankYou ?>
                 <input class="name" name="sender" placeholder="Nombre" required><br>
