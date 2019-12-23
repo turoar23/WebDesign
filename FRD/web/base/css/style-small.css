@@ -302,12 +302,21 @@ main .contenido-izquierda{
 .container-proyectos{
     color: black;
 }
+.container-proyectos .carousel-inner{
+    height: 35vh;
+}
+.container-proyectos .item{
+    height: 100%;
+    width: 100%;
+}
+.container-proyectos .item img{
+    height: 100%;
+}
 .container-proyectos h1{
     padding-right: 15px;
     padding-left: 15px;
     text-align: center;
     font-size: 1.2rem;
-    
 }
 .tabla .fila .info-der{
     color:gray;
