@@ -27,6 +27,9 @@
 <body>
 	<?php include($_SERVER["DOCUMENT_ROOT"]."/comun/header.php"); ?>
 	<main class = "container-proyectos">
+		<div class="project-title-small">
+			<h1><?php echo $datos['nombre']; ?></h1>
+		</div>
 		<div class="container">
   			<div id="myCarousel" class="carousel slide" data-ride="carousel">
     			<!-- Indicators -->
@@ -65,9 +68,11 @@
 			</div>
 		</div>
 		<div class = "descripcion">
+			<div class="project-title">
+				<h1><?php echo $datos['nombre']; ?></h1>
+			</div>
 			<div class = "contenido-izquierda">
 				<div class = "content">
-					<h1><?php echo $datos['nombre']; ?></h1>
 					<div class = "tabla">
 						<div class = "fila">
 							<span class = "info-izq">Ubicación</span>

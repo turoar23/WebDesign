@@ -1,6 +1,16 @@
 <?php
     // Ruta del proyecto
     $ruta = 'proyectos/reformas-viviendas/apartamento-san-juan-n1';
+    // Datos de las imagenes
+    $img = array();
+    for($i = 1; $i <= 17; $i++){
+        array_push($img,'/img/'.$ruta.'/img'.$i.'.jpg');
+    }
+    // Datos de las imagenes
+    $img = array();
+    for($i = 1; $i <= 12; $i++){
+        array_push($img,'/img/'.$ruta.'/img'.$i.'.jpg');
+    }
     // Definicion de atributos
     $datos = [
         'nombre' => 'Apartamento San Juan 1',
@@ -10,14 +20,7 @@
         'metros' => '100 m²',
         'n-plantas' => '1 planta',
         'portada' => '/img/'.$ruta.'/portada.jpg',
-        'img' => [
-            '/img/'.$ruta.'/img2.jpg',
-            '/img/'.$ruta.'/img3.jpg',
-            '/img/'.$ruta.'/img4.jpg',
-            '/img/'.$ruta.'/img5.jpg',
-            '/img/'.$ruta.'/img6.jpg'
-        ]
-        
+        'img' => $img 
     ];
     // Incluimos la plantilla
     include $_SERVER["DOCUMENT_ROOT"].'/proyectos/comun/template.php';

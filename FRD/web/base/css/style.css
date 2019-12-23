@@ -31,7 +31,7 @@ header .logo{
     margin: auto;
 }
 header .logo img{
-    width: 100%;
+    width: 80%;
 }
 header .nav{
     margin-top:7%;
@@ -68,5 +68,45 @@ main .efecto .description{
 }
 main .efecto .description .description-text{
     color:white;
+}
+/* ------------------ Contact section ------------------ */
+#contacto h3{
+    color: black;
+}
+#contacto .form-contact{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+#contacto .form-contact input{
+    margin-bottom: 2%;
+    background-color: #DDDD;
+}
+#contacto .form-contact .name{
+    width: 100%;
+    box-sizing: border-box;
+}
+#contacto .form-contact .left,#contacto .form-contact .right{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+#contacto .form-contact .right{
+    float: right;
+}
+#contacto .form-contact .body{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #DDDD;
+}
+#contacto .form-contact .btn{
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    border: 2px solid #DDDD;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+#contacto .form-contact .btn:hover{
+    background-color: #DDDD;
 }
 /* -------------------------------------------------- */

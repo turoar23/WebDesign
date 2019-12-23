@@ -37,9 +37,9 @@
       </div>
       <!-- img2 -->
       <div class = "wrap g-img2">
-        <img src="img/landing/vivienda-monovar-3-alturas.jpg" />
+        <img src="img/landing/passive-house-dolores.jpg" />
         <div class = "wrap-text">
-          <a href="/proyectos/obra-nueva/vivienda-monovar-3-alturas.php">Vivienda Monóvar 3 Alt</a>
+          <a href="/proyectos/obra-nueva/passive-house-dolores.php">Passive House Dolores</a>
         </div>
       </div>
     </div>
@@ -59,30 +59,30 @@
         <div id = "principal" class = "main-index active">
           <!-- img3 -->
           <div class = "wrap g-img3">
-            <img class ="g-img3" src="img/landing/monovar-1-alt.jpg" />
+            <img class ="g-img3" src="img/landing/atico-elda.jpg" />
             <div class = "wrap-text">
-              <a href="/proyectos/obra-nueva/vivienda-monovar-1-altura.php">Vivienda Monóvar 1 Altura</a>
+              <a href="/proyectos/reformas-viviendas/atico-elda.php">Ático Elda</a>
             </div>
           </div>
           <!-- img4 -->
           <div class = "wrap g-img4">
-            <img src="img/landing/vivienda-alicante2.jpg" />
+            <img src="img/landing/vivienda-monovar-2.jpg" />
             <div class = "wrap-text">
-              <a href="/proyectos/obra-nueva/vivienda-alicante.php">Vivienda Alicante</a>
+              <a href="/proyectos/obra-nueva/vivienda-monovar-2.php">Vivienda Monóvar 2</a>
             </div>
           </div>
           <!-- img5 -->
           <div class = "wrap g-img5">
-            <img src="img/landing/vivienda-monovar-3-alturas2.jpg" />
+            <img src="img/landing/clinica-dental-ikident.jpg" />
             <div class = "wrap-text">
-              <a href="/proyectos/obra-nueva/vivienda-monovar-3-alturas.php">Vivienda Monóvar 3 Alt</a>
+              <a href="/proyectos/reformas-locales/clinica-dental-ikident.php">Clínica Dental Ikident</a>
             </div>
           </div>
           <!-- img6 -->
           <div class = "wrap g-img6">
-            <img src="img/landing/monovar-3-alt.jpg" />
+            <img src="img/landing/vivienda-monovar-1.jpg" />
             <div class = "wrap-text">
-              <a href="/proyectos/obra-nueva/vivienda-monovar-3-alturas.php">Vivienda Monóvar 3 Alt</a>
+              <a href="/proyectos/obra-nueva/vivienda-monovar-1.php">Vivienda Monóvar 1</a>
             </div>
           </div>
         </div>
@@ -91,10 +91,10 @@
           <div class = "efecto">
             <img lazy="img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" />
             <div class="description">
-              <span class="desciption-text">Passive Dolores</span>
+              <span class="desciption-text">Passive House Dolores</span>
             </div>
             <div class = "efecto-texto">
-              <a href = "/proyectos/obra-nueva/passive-vehouse-dolores.php" class = "cuadro">
+              <a href = "/proyectos/obra-nueva/passive-house-dolores.php" class = "cuadro">
                 <h3>Ver</h3>
               </a>
             </div>
@@ -122,23 +122,23 @@
             </div>
           </div>
           <div class = "efecto">
-            <img lazy="img/proyectos/obra-nueva/vivienda-monovar-1-altura/portada.jpg" />
+            <img lazy="img/proyectos/obra-nueva/vivienda-monovar-1/portada.jpg" />
             <div class="description">
-              <span class="desciption-text">Vivienda Monóvar 1 Altura</span>
+              <span class="desciption-text">Vivienda Monóvar 1</span>
             </div>
             <div class = "efecto-texto">
-              <a href = "/proyectos/obra-nueva/vivienda-monovar-1-altura.php" class = "cuadro">
+              <a href = "/proyectos/obra-nueva/vivienda-monovar-1.php" class = "cuadro">
                 <h3>Ver</h3>
               </a>
             </div>
           </div>
           <div class = "efecto">
-            <img lazy="img/proyectos/obra-nueva/vivienda-monovar-3-alturas/portada.jpg" />
+            <img lazy="img/proyectos/obra-nueva/vivienda-monovar-2/portada.jpg" />
             <div class="description">
-              <span class="desciption-text">Vivienda Monóvar 3 Alturas</span>
+              <span class="desciption-text">Vivienda Monóvar 2</span>
             </div>
             <div class = "efecto-texto">
-              <a href = "/proyectos/obra-nueva/vivienda-monovar-3-alturas.php" class = "cuadro">
+              <a href = "/proyectos/obra-nueva/vivienda-monovar-2.php" class = "cuadro">
                 <h3>Ver</h3>
               </a>
             </div>
@@ -146,12 +146,12 @@
         </div>
         <div id = "reformas-locales" class = "main-index-var">
           <div class = "efecto">
-            <img lazy="img/proyectos/reformas-locales/clinica-dental-kident/portada.jpg" />
+            <img lazy="img/proyectos/reformas-locales/clinica-dental-ikident/portada.jpg" />
             <div class="description">
-              <span class="desciption-text">Clínica Dental</span>
+              <span class="desciption-text">Clínica Dental Ikident</span>
             </div>
             <div class = "efecto-texto">
-              <a href = "/proyectos/reformas-locales/clinica-dental-kident.php" class = "cuadro">
+              <a href = "/proyectos/reformas-locales/clinica-dental-ikident.php" class = "cuadro">
                 <h3>Ver</h3>
               </a>
             </div>
@@ -159,7 +159,7 @@
           <div class = "efecto">
             <img lazy="img/proyectos/reformas-locales/pasteleria-la-confiteria/portada.jpg" />
             <div class="description">
-              <span class="desciption-text">La Confitería</span>
+              <span class="desciption-text">Pastelería La Confitería</span>
             </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-locales/pasteleria-la-confiteria.php" class = "cuadro">
@@ -216,23 +216,29 @@
         </div>
         <!-- frd -->
         <div id = "quienes-somos" class = "frd-categorias hide card">
-          <div class = "contenido-izquierda">
-            <div class = "content">
-              <img src="/img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" alt="Los Angeles">
+          <div class = "content">
+            <div class = "content-texto">
+              <p>FRD surgió en el año 2017, fruto de la experiencia de más de 15 años como Jefe de Obra en grandes constructoras de su gerente y técnico DAVID MOLINA, en las cuales pudo aprender de los mejores en Calidad, Gestión y Eficiencia aunados como no a un PRECIO ÓPTIMO Y AJUSTADO.</p>
+              <p>Gracias a este bagaje en obra hemos podido rodearnos de los mejores colaboradores y tener un amplio abanico donde abarcar todo tipo de trabajos y acabados, sobre todo en Viviendas Unifamiliares y Reformas Integrales, hacia donde hemos enfocado FRD.</p>
+              <p>En FRD nos encargamos completamente de todo pudiendo empezar a trabajar a partir del Proyecto de un Técnico  o incluso gestionar el mismo; de tal modo que el cliente pueda disfrutar realmente de "la obra de su vida" sin tener que preocuparse de la complicada gestión que supone este tipo de Obras y todos los problemas y dolores de cabeza que le pueden traer si no delega en verdaderos profesionales como nosotros.</p>
+              <p>Por eso nuestros targets son: CALIDAD, SERIEDAD (PROFESIONALIDAD) y PRECIO ÓPTIMO, cumpliendo siempre los PLAZOS PACTADOS, siendo nuestra mayor recompensa que el cliente quede contento al final del proceso y haya disfrutado del mismo.</p>
             </div>
-			    </div>
-			    <div class = "contenido-derecha">
-            <div class = "content">
-              <div class = "content-texto">
-                <p>FRD surgió en el año 2017, fruto de la experiencia de más de 15 años como Jefe de Obra en grandes constructoras de su gerente y técnico DAVID MOLINA, en las cuales pudo aprender de los mejores en Calidad, Gestión y Eficiencia aunados como no a un PRECIO ÓPTIMO Y AJUSTADO.</p>
-                <p>Gracias a este bagaje en obra hemos podido rodearnos de los mejores colaboradores y tener un amplio abanico donde abarcar todo tipo de trabajos y acabados, sobre todo en Viviendas Unifamiliares y Reformas Integrales, hacia donde hemos enfocado FRD.</p>
-                <p>En FRD nos encargamos completamente de todo pudiendo empezar a trabajar a partir del Proyecto de un Técnico  o incluso gestionar el mismo; de tal modo que el cliente pueda disfrutar realmente de "la obra de su vida" sin tener que preocuparse de la complicada gestión que supone este tipo de Obras y todos los problemas y dolores de cabeza que le pueden traer si no delega en verdaderos profesionales como nosotros.</p>
-                <p>Por eso nuestros targets son: CALIDAD, SERIEDAD (PROFESIONALIDAD) y PRECIO ÓPTIMO, cumpliendo siempre los PLAZOS PACTADOS, siendo nuestra mayor recompensa que el cliente quede contento al final del proceso y haya disfrutado del mismo.</p>
-              </div>
-            </div>
-			    </div>
+          </div>
         </div>
         <!-- Contacto -->
+        <?php
+          if($_POST["submit"]) {
+            ini_set('display_errors',1);
+            $recipient="turoar2006@gmail.com";
+            $subject="Form to email message";
+            $sender=$_POST["sender"];
+            $senderEmail=$_POST["senderEmail"];
+            $message=$_POST["message"];
+            $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+            mail($recipient, $subject, $mailBody, "From: $senderEmail");
+            $thankYou="<p>Gracias, su mensaje ha sido enviado.</p>";
+          }
+        ?>
         <div id = "contacto" class = "frd-categorias hide card">
           <div class = "contenido-izquierda">
             <div class = "content">
@@ -243,6 +249,15 @@
                 <h3>Email</h3>
                 <i class = "far fa-envelope"></i><a href="mailto:info@frdprojects.com"> info@frdprojects.com</a>
               </div>
+              <form method="post" action="/#Contacto" class="form-contact content-texto">
+                <h3>Formulario de contacto</h3>
+                <?=$thankYou ?>
+                <input class="name" name="sender" placeholder="Nombre" required><br>
+                <input class="left" name="senderEmail" placeholder="Email" type="email" required>
+                <input class="right" name="phone" placeholder="Teléfono" type="tel" required>
+                <textarea class="body" rows="5" name="message" placeholder="Comentario" required></textarea><br>
+                <input class="btn" type="submit" name="submit">
+              </form>
             </div>
 			    </div>
 			    <div class = "contenido-derecha">

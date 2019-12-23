@@ -1,10 +1,4 @@
 /* ----------------- Header section ----------------- */
-main{
-    width: 75%;
-    float: right;
-    height: 100vh;
-}
-/* ----------------- Header section ----------------- */
 header .nav-link{
     cursor: pointer;
 }
@@ -12,8 +6,8 @@ header .nav-link{
     display: none;
 }
 header{
-    margin-top: 3%;
     width: 25%;
+    height: 100%;
     position: fixed;
     height: 100%;
     text-align: center;
@@ -33,7 +27,16 @@ header .footer .social-networks{
 header .mini-logo{
     display: none;
 }
+header .logo{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
 /* ----------------- Main section ----------------- */
+main{
+    width: 75%;
+    float: right;
+    height: 100vh;
+}
 /*main .top-iamge{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -192,6 +195,8 @@ main .main-gallery .content-texto{
     padding: 0.5% 2% 2% 2%;
     border: 2px solid lightgray;
     text-align: justify;
+    width: 80%;
+    margin: auto;
 }
 .wrap{
     overflow: hidden;
@@ -231,9 +236,16 @@ main .main-gallery .content-texto{
 .container-proyectos{
     color: black;
 }
+.container-proyectos .project-title-small{
+    display: none;
+}
+.container-proyectos .project-title{
+    width: 50%;
+}
 .container-proyectos h1{
-    padding: 1% 0% 4% 1%;
-    margin: 0;
+    width: 80%;
+    margin: auto;
+    padding: 1% 0% 4% 0%;
 }
 .container-proyectos .container{
     padding: 0% 0% 0% 0%;

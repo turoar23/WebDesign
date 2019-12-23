@@ -24,7 +24,8 @@ header .mini-logo img{
 }
 .sidenav {
     height: 100%;
-    width: 0;
+    /*width: 0;*/
+    transform: translate(-100%,0);
     position: fixed;
     z-index: 16;
     top: 0;
@@ -238,6 +239,7 @@ main .main-gallery .content-texto{
     color: black;
     padding: 0.5% 2% 2% 2%;
     border: 2px solid lightgray;
+    text-align: justify;
 }
 .wrap{
     overflow: hidden;
@@ -286,6 +288,13 @@ iframe{
 main .contenido-izquierda{
     padding-bottom: 5%;
 }
+#quienes-somos .content{
+    width: 95%;
+    margin: auto;
+}
+#contacto, #quienes-somos{
+    padding-bottom: 15%;
+}
 /* --------------- Proyectos section --------------- */
 .container{
     padding:0px;
@@ -303,10 +312,16 @@ main .contenido-izquierda{
 .tabla .fila .info-der{
     color:gray;
 }
+.container-proyectos .project-title{
+    display: none;
+}
 .container-proyectos .descripcion .contenido-derecha img{
     display: none;
 }
 .container-proyectos .contenido-izquierda{
     padding-bottom: 20%;
+}
+.container-proyectos .tabla{
+    margin-top:15%;
 }
 /* ------------------------------------------------- */

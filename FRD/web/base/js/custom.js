@@ -236,12 +236,13 @@ $(document).ready(function(){
 });
 
 function openNav() {
-  document.getElementById("mySidenav").style.width = "100%";
+  $("#mySidenav").css('transform','translate(0,0)');
 }
+
 
 function closeNav() {
   if(screen.width<=800)
-    document.getElementById("mySidenav").style.width = "0";
+    $("#mySidenav").css('transform','translate(-100%,0)');
 }
 
 $(window).on('hashchange', function(e){

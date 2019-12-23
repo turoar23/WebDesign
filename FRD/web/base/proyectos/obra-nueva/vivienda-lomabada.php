@@ -1,6 +1,11 @@
 <?php
     // Ruta del proyecto
     $ruta = 'proyectos/obra-nueva/vivienda-lomabada';
+    // Datos de las imagenes
+    $img = array();
+    for($i = 1; $i <= 17; $i++){
+        array_push($img,'/img/'.$ruta.'/img'.$i.'.jpg');
+    }
     // Definicion de atributos
     $datos = [
         'nombre' => 'Vivienda Loma Bada',
@@ -10,14 +15,7 @@
         'metros' => '250 m²',
         'n-plantas' => 'Sotano + baja',
         'portada' => '/img/'.$ruta.'/portada.jpg',
-        'img' => [
-            '/img/'.$ruta.'/img2.jpg',
-            '/img/'.$ruta.'/img3.jpg',
-            '/img/'.$ruta.'/img4.jpg',
-            '/img/'.$ruta.'/img5.jpg',
-            '/img/'.$ruta.'/img6.jpg',
-            '/img/'.$ruta.'/img7.jpg',
-        ]
+        'img' => $img
     ];
     // Incluimos la plantilla
     include $_SERVER["DOCUMENT_ROOT"].'/proyectos/comun/template.php';
