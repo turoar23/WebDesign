@@ -95,7 +95,7 @@
             </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/passive-house-dolores.php" class = "cuadro">
-                <h3>Ver</h3>
+                <h3>Galería</h3>
               </a>
             </div>
           </div>
@@ -106,7 +106,7 @@
             </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/vivienda-alicante.php" class = "cuadro">
-                <h3>Ver</h3>
+                <h3>Galería</h3>
               </a>
             </div>
           </div>
@@ -117,7 +117,7 @@
             </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/vivienda-lomabada.php" class = "cuadro">
-                <h3>Ver</h3>
+                <h3>Galería</h3>
               </a>
             </div>
           </div>
@@ -128,7 +128,7 @@
             </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/vivienda-monovar-1.php" class = "cuadro">
-                <h3>Ver</h3>
+                <h3>Galería</h3>
               </a>
             </div>
           </div>
@@ -139,7 +139,7 @@
             </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/obra-nueva/vivienda-monovar-2.php" class = "cuadro">
-                <h3>Ver</h3>
+                <h3>Galería</h3>
               </a>
             </div>
           </div>
@@ -152,7 +152,7 @@
             </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-locales/clinica-dental-ikident.php" class = "cuadro">
-                <h3>Ver</h3>
+                <h3>Galería</h3>
               </a>
             </div>
           </div>
@@ -163,7 +163,7 @@
             </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-locales/pasteleria-la-confiteria.php" class = "cuadro">
-                <h3>Ver</h3>
+                <h3>Galería</h3>
               </a>
             </div>
           </div>
@@ -176,7 +176,7 @@
             </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-viviendas/apartamento-san-juan-n1.php" class = "cuadro">
-                <h3>Ver</h3>
+                <h3>Galería</h3>
               </a>
             </div>
           </div>
@@ -187,7 +187,7 @@
             </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-viviendas/apartamento-san-juan-n2.php" class = "cuadro">
-                <h3>Ver</h3>
+                <h3>Galería</h3>
               </a>
             </div>
           </div>
@@ -198,7 +198,7 @@
             </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-viviendas/atico-elda.php" class = "cuadro">
-                <h3>Ver</h3>
+                <h3>Galería</h3>
               </a>
             </div>
           </div>
@@ -209,7 +209,7 @@
             </div>
             <div class = "efecto-texto">
               <a href = "/proyectos/reformas-viviendas/piso-elda.php" class = "cuadro">
-                <h3>Ver</h3>
+                <h3>Galería</h3>
               </a>
             </div>
           </div>
@@ -220,24 +220,23 @@
             <div class = "content-texto">
               <p>FRD surgió en el año 2017, fruto de la experiencia de más de 15 años como Jefe de Obra en grandes constructoras de su gerente y técnico DAVID MOLINA, en las cuales pudo aprender de los mejores en Calidad, Gestión y Eficiencia aunados como no a un PRECIO ÓPTIMO Y AJUSTADO.</p>
               <p>Gracias a este bagaje en obra hemos podido rodearnos de los mejores colaboradores y tener un amplio abanico donde abarcar todo tipo de trabajos y acabados, sobre todo en Viviendas Unifamiliares y Reformas Integrales, hacia donde hemos enfocado FRD.</p>
-              <p>En FRD nos encargamos completamente de todo pudiendo empezar a trabajar a partir del Proyecto de un Técnico  o incluso gestionar el mismo; de tal modo que el cliente pueda disfrutar realmente de "la obra de su vida" sin tener que preocuparse de la complicada gestión que supone este tipo de Obras y todos los problemas y dolores de cabeza que le pueden traer si no delega en verdaderos profesionales como nosotros.</p>
+              <p>En FRD nos encargamos completamente de todo pudiendo empezar a trabajar a partir del Proyecto de un Técnico  o incluso gestionar el mismo; de tal modo que el cliente pueda disfrutar realmente de "la obra de su vida" sin tener que preocuparse de la complicada gestión que supone este tipo de Obras y todos los problemas y dolores de cabeza que le pueden traer si no delega en Galeríadaderos profesionales como nosotros.</p>
               <p>Por eso nuestros targets son: CALIDAD, SERIEDAD (PROFESIONALIDAD) y PRECIO ÓPTIMO, cumpliendo siempre los PLAZOS PACTADOS, siendo nuestra mayor recompensa que el cliente quede contento al final del proceso y haya disfrutado del mismo.</p>
             </div>
           </div>
         </div>
         <!-- Contacto -->
         <?php
-          /*if($_POST["submit"]) {
-            ini_set('display_errors',1);
-            $recipient="turoar2006@gmail.com";
-            $subject="Form to email message";
+          if($_POST["submit"]) {
+            $recipient="info@frdprojects.com";
+            $subject="Mensaje desde página web";
             $sender=$_POST["sender"];
             $senderEmail=$_POST["senderEmail"];
             $message=$_POST["message"];
-            $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
-            mail($recipient, $subject, $mailBody, "From: $senderEmail");
+            $mailBody="Nombre: $sender\nEmail: $senderEmail\n\n$message";
+            mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
             $thankYou="<p>Gracias, su mensaje ha sido enviado.</p>";
-          }*/
+          }
         ?>
         <div id = "contacto" class = "frd-categorias hide card">
           <div class = "contenido-izquierda">
@@ -250,7 +249,7 @@
                 <i class = "far fa-envelope"></i><a href="mailto:info@frdprojects.com"> info@frdprojects.com</a>
               </div>
               <form method="post" action="" class="form-contact content-texto">
-                <h3>Formulario de contacto</h3>
+                <h3>Empieza tu proyecto con Nosotros</h3>
                 <?=$thankYou ?>
                 <input class="name" name="sender" placeholder="Nombre" required><br>
                 <input class="left" name="senderEmail" placeholder="Email" type="email" required>
