@@ -3,7 +3,7 @@
     $ruta = 'proyectos/reformas-viviendas/atico-elda';
     // Datos de las imagenes
     $img = array();
-    for($i = 1; $i <= 11; $i++){
+    for($i = 1; $i <= 10; $i++){
         array_push($img,'/img/'.$ruta.'/img'.$i.'.jpg');
     }
     // Definicion de atributos

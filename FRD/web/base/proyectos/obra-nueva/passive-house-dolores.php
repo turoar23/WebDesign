@@ -3,7 +3,7 @@
     $ruta = 'proyectos/obra-nueva/passive-vehouse-dolores';
     // Datos de las imagenes
     $img = array();
-    for($i = 0; $i <= 21; $i++){
+    for($i = 0; $i <= 20; $i++){
         array_push($img,'/img/'.$ruta.'/img'.$i.'.jpg');
     }
     // Definicion de atributos

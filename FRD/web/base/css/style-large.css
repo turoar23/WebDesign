@@ -182,15 +182,18 @@ main .efecto .efecto-texto:hover{
     opacity: 1;
 }
 main .efecto .efecto-texto .cuadro{
-    background-color: white;
-    width: 20%;
-    margin: auto;
-    margin-top: 55%;
-    border-radius: 2%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
     display: block;
 }
 main .efecto .efecto-texto h3{
-    padding: 5% 0% 5% 0%;
+    background-color: white;
+    border-radius: 2%;
+    width: 30%;
+    font-size: 1.2rem;
+    margin: auto;
+    margin-bottom: 5%;
 }
 main .efecto .efecto-texto h4{
     margin: 0;
@@ -251,6 +254,7 @@ main .main-gallery .content-texto{
     width: 80%;
     margin: auto;
     padding: 1% 0% 4% 0%;
+    font-size: 2em;
 }
 .container-proyectos .container{
     padding: 0% 0% 0% 0%;

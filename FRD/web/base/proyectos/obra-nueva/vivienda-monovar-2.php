@@ -3,7 +3,7 @@
     $ruta = 'proyectos/obra-nueva/vivienda-monovar-2';
     // Datos de las imagenes
     $img = array();
-    for($i = 1; $i <= 27; $i++){
+    for($i = 1; $i <= 26; $i++){
         array_push($img,'/img/'.$ruta.'/img'.$i.'.jpg');
     }
     // Definicion de atributos

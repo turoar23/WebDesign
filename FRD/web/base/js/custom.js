@@ -241,7 +241,7 @@ function openNav() {
 
 
 function closeNav() {
-  if(screen.width<=800)
+  if(screen.width<=801)
     $("#mySidenav").css('transform','translate(-100%,0)');
 }
 
