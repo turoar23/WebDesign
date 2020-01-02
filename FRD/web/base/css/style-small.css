@@ -158,7 +158,7 @@ main .main-index {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 33.1vh);
-    grid-gap: 1% 0.5%;
+    grid-gap: 0.1% 0.5%;
     transition: 500ms;
     position: absolute;
 }
@@ -187,14 +187,6 @@ main .main-index .g-img6 {
     font-size:2rem;
     transition: 500ms;
 }*/
-main .main-index {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 33.1vh);
-    grid-gap: 1% 0.5%;
-    transition: 500ms;
-    position: absolute;
-}
 main .main-gallery .active{
     z-index: 1;
     opacity: 1;
