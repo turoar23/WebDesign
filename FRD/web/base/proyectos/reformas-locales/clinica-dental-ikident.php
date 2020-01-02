@@ -1,4 +1,5 @@
 <?php
+    include_once('../../comun/language.php');
     // Ruta del proyecto
     $ruta = 'proyectos/reformas-locales/clinica-dental-ikident';
     // Datos de las imagenes
@@ -10,10 +11,10 @@
     $datos = [
         'nombre' => 'Clínica Dental Ikident',
         'ubicacion' => 'Villena',
-        'final-obra' => 'Octubre de 2019',
-        'plazo' => '3 meses',
+        'final-obra' => getTexto('Octubre de 2019'),
+        'plazo' => '3 '.getTexto('meses'),
         'metros' => '190 m²',
-        'n-plantas' => 'Baja',
+        'n-plantas' => getTexto('Baja'),
         'portada' => '/img/'.$ruta.'/portada.jpg',
         'img' => $img
         

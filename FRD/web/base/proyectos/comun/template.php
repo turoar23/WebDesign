@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="es">
+<?php include_once('../../comun/language.php'); ?>
+<?php getLanguage(); ?>
 <head>
   <meta charset="utf-8">
   <title>FRD</title>
@@ -75,23 +76,23 @@
 				<div class = "content">
 					<div class = "tabla">
 						<div class = "fila">
-							<span class = "info-izq">Ubicación</span>
+							<span class = "info-izq"><?php text('Ubicación');?></span>
 							<span class = "info-der"><?php echo $datos['ubicacion'];?></span>
 						</div>
 						<div class = "fila">
-							<span class = "info-izq">Final de la obra</span>
+							<span class = "info-izq"><?php text('Final de la obra');?></span>
 							<span class = "info-der"><?php echo $datos['final-obra'];?></span>
 						</div>
 						<div class = "fila">
-							<span class = "info-izq">Plazo</span>
+							<span class = "info-izq"><?php text('Plazo'); ?></span>
 							<span class = "info-der"><?php echo $datos['plazo'];?></span>
 						</div>
 						<div class = "fila">
-							<span class = "info-izq">M² construidos</span>
+							<span class = "info-izq"><?php text('M² construidos');?></span>
 							<span class = "info-der"><?php echo $datos['metros'];?></span>
 						</div>
 						<div class = "fila">
-							<span class = "info-izq">Nº plantas</span>
+							<span class = "info-izq"><?php text('Nº plantas'); ?></span>
 							<span class = "info-der"><?php echo $datos['n-plantas'];?></span>
 						</div>
 					</div>

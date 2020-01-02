@@ -1,4 +1,5 @@
 <?php
+    include_once('../../comun/language.php');
     // Ruta del proyecto
     $ruta = 'proyectos/reformas-viviendas/atico-elda';
     // Datos de las imagenes
@@ -10,10 +11,10 @@
     $datos = [
         'nombre' => 'Ático Elda',
         'ubicacion' => 'Elda',
-        'final-obra' => 'Julio de 2019',
-        'plazo' => '3 meses',
+        'final-obra' => getTexto('Julio de 2019'),
+        'plazo' => '3 '.getTexto('meses'),
         'metros' => '250 m²',
-        'n-plantas' => 'Duplex',
+        'n-plantas' => getTexto('Dúplex'),
         'portada' => '/img/'.$ruta.'/portada.jpg',
         'img' => $img
     ];

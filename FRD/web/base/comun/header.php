@@ -5,16 +5,16 @@
     </a>
     <div id="mySidenav" class="sidenav">
         <div class = "logo">
-            <a href="/">
+            <a href=<?php text("/"); ?>>
                 <img src="/img/logo.png" />
             </a>
         </div>
         <div class = "nav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a class = "nav-link <?php if(substr($_SERVER['REQUEST_URI'],1,9) != "proyectos") echo "page-active" ?>" href = "/" onclick="closeNav()">INICIO</a><span class="dot"></span>
-            <a id = "nav-pro" class = "nav-link <?php if(substr($_SERVER['REQUEST_URI'],1,9) == "proyectos") echo "page-active" ?>" href="/#Proyectos" onclick="closeNav()">PROYECTOS</a><span class="dot"></span>
-            <a id = "nav-FRD" class = "nav-link" href = "/#FRD" onclick="closeNav()">FRD</a><span class="dot"></span>
-            <a id = "nav-con" class = "nav-link" href = "/#Contacto" onclick="closeNav()">CONTACTO</a>
+            <a class = "nav-link <?php if(substr($_SERVER['REQUEST_URI'],1,9) != "proyectos" && substr($_SERVER['REQUEST_URI'],4,8) != "projects") echo "page-active" ?>" href = <?php text("/");?> onclick="closeNav()"><?php text('INICIO'); ?></a><span class="dot"></span>
+            <a id = "nav-pro" class = "nav-link <?php if(substr($_SERVER['REQUEST_URI'],1,9) == "proyectos" || substr($_SERVER['REQUEST_URI'],4,8) == "projects") echo "page-active" ?>" href="<?php text('/#Proyectos');?>" onclick="closeNav()"><?php text('PROYECTOS'); ?></a><span class="dot"></span>
+            <a id = "nav-FRD" class = "nav-link" href = <?php text("/#FRD");?> onclick="closeNav()">FRD</a><span class="dot"></span>
+            <a id = "nav-con" class = "nav-link" href = <?php text("/#Contacto");?> onclick="closeNav()"><?php text('CONTACTO'); ?></a>
         </div>
         <div class = "footer">
             <div class = "social-networks">
@@ -28,8 +28,8 @@
                     <i class="fab fa-pinterest"></i>
                 </a>
             </div>
-            <a href="">EN</a> /
-            <a href="">ES</a>
+            <a href="/en/">EN</a> /
+            <a href="/">ES</a>
         </div>
     </div>
     

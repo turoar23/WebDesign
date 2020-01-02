@@ -76,7 +76,6 @@ main .text{
     transition: 500ms;
 }
 main .text-categories{
-    cursor: pointer;
     padding-top: 1%;
     padding-bottom: 1%;
     display: inline;
@@ -84,7 +83,10 @@ main .text-categories{
 main .text-categories:not(last-child){
     margin-right: 6%;
 }
-main .text-categories:hover{
+main .link{
+    cursor: pointer;
+}
+main .link:hover{
     color: rgb(0,113, 188);
 }
 main .card{

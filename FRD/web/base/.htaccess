@@ -1,0 +1,17 @@
+RewriteEngine on
+# Diferentes restaurantes
+#RewriteRule ^restaurante/(.*)$ $1 [NC,L]
+
+# Para ingles
+RewriteRule ^en/$ /index.php [NC,L]
+RewriteRule ^en/projects/new-construction/(.*)$ /proyectos/obra-nueva/$1 [NC,L]
+RewriteRule ^en/projects/reforms/(.*)$ /proyectos/reformas-locales/$1 [NC,L]
+RewriteRule ^en/projects/housing-reforms/(.*)$ /proyectos/reformas-viviendas/$1 [NC,L]
+
+#RewriteRule ^en/aboutUs$ /nosotros [NC,L]
+#RewriteRule ^en/menu$ /menu [NC,L]
+#RewriteRule ^en/reservation$ /reservas [NC,L]
+#RewriteRule ^en/delivery$ /delivery [NC,L]
+#RewriteRule ^en/contact$ /contacto [NC,L]
+#RewriteRule ^en/restaurant/center$ /centro
+#RewriteRule ^en/restaurant/(.*)$ $1 [NC,L]

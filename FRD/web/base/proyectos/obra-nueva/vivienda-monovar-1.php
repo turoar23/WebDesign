@@ -1,4 +1,5 @@
 <?php
+    include_once('../../comun/language.php');
     // Ruta del proyecto
     $ruta = 'proyectos/obra-nueva/vivienda-monovar-1';
     // Datos de las imagenes
@@ -10,10 +11,10 @@
     $datos = [
         'nombre' => 'Vivienda Monóvar 1',
         'ubicacion' => 'Monóvar',
-        'final-obra' => 'Febrero de 2018',
-        'plazo' => '9 meses',
+        'final-obra' => getTexto('Febrero de 2018'),
+        'plazo' => '9 '.getTexto('meses'),
         'metros' => '290 m²',
-        'n-plantas' => 'Sotano + baja + 1 planta',
+        'n-plantas' => getTexto('Sótano').' + '.getTexto('baja').' + 1 '.getTexto('planta'),
         'portada' => '/img/'.$ruta.'/portada.jpg',
         'img' => $img
     ];

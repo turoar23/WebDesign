@@ -1,4 +1,5 @@
 <?php
+    include_once('../../comun/language.php');
     // Ruta del proyecto
     $ruta = 'proyectos/obra-nueva/passive-vehouse-dolores';
     // Datos de las imagenes
@@ -10,10 +11,10 @@
     $datos = [
         'nombre' => 'Passive House Dolores',
         'ubicacion' => 'Dolores',
-        'final-obra' => 'Abril de 2018',
-        'plazo' => '12 meses',
+        'final-obra' => getTexto('Abril de 2018'),
+        'plazo' => '12 '.getTexto('meses'),
         'metros' => '380 m²',
-        'n-plantas' => 'Baja + 1',
+        'n-plantas' => getTexto('Baja').' + 1',
         'portada' => '/img/'.$ruta.'/portada.jpg',
         'img' => $img
     ];

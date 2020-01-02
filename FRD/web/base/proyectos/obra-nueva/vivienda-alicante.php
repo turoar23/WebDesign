@@ -1,4 +1,5 @@
 <?php
+    include_once('../../comun/language.php');
     // Ruta del proyecto
     $ruta = 'proyectos/obra-nueva/vivienda-alicante';
     // Datos de las imagenes
@@ -10,10 +11,10 @@
     $datos = [
         'nombre' => 'Vivienda Alicante',
         'ubicacion' => 'Alicante',
-        'final-obra' => 'Marzo de 2018',
-        'plazo' => '10 meses',
+        'final-obra' => getTexto('Marzo de 2018'),
+        'plazo' => '10 '.getTexto('meses'),
         'metros' => '400 m²',
-        'n-plantas' => 'Sotano + baja',
+        'n-plantas' => getTexto('Sótano').' + '.getTexto('baja'),
         'portada' => '/img/'.$ruta.'/portada.jpg',
         'img' => $img
     ];

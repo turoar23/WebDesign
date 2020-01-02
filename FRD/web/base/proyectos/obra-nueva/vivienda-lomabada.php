@@ -1,4 +1,5 @@
 <?php
+    include_once('../../comun/language.php');
     // Ruta del proyecto
     $ruta = 'proyectos/obra-nueva/vivienda-lomabada';
     // Datos de las imagenes
@@ -10,10 +11,10 @@
     $datos = [
         'nombre' => 'Vivienda Loma Bada',
         'ubicacion' => 'Petrer',
-        'final-obra' => 'Julio de 2017',
-        'plazo' => '5 meses',
+        'final-obra' => getTexto('Julio de 2017'),
+        'plazo' => '5 '.getTexto('meses'),
         'metros' => '250 m²',
-        'n-plantas' => 'Sotano + baja',
+        'n-plantas' => getTexto('Sótano').' + '.getTexto('baja'),
         'portada' => '/img/'.$ruta.'/portada.jpg',
         'img' => $img
     ];

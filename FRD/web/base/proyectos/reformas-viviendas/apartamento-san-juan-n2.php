@@ -1,4 +1,5 @@
 <?php
+    include_once('../../comun/language.php');
     // Ruta del proyecto
     $ruta = 'proyectos/reformas-viviendas/apartamento-san-juan-n2';
     // Datos de las imagenes
@@ -10,10 +11,10 @@
     $datos = [
         'nombre' => 'Apartamento San Juan 2',
         'ubicacion' => 'San Juan',
-        'final-obra' => 'Mayo de 2018',
-        'plazo' => '4 meses',
+        'final-obra' => getTexto('Mayo de 2018'),
+        'plazo' => '4 '.getTexto('meses'),
         'metros' => '85 m²',
-        'n-plantas' => '1 planta',
+        'n-plantas' => '1 '.getTexto('planta'),
         'portada' => '/img/'.$ruta.'/portada.jpg',
         'img' => $img
     ];

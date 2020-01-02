@@ -1,4 +1,5 @@
 <?php
+    include_once('../../comun/language.php');
     // Ruta del proyecto
     $ruta = 'proyectos/reformas-locales/pasteleria-la-confiteria';
     // Datos de las imagenes
@@ -10,10 +11,10 @@
     $datos = [
         'nombre' => 'Pastelería La confiteria',
         'ubicacion' => 'El Altet',
-        'final-obra' => 'Febrero de 2018',
-        'plazo' => '3 semanas',
+        'final-obra' => getTexto('Febrero de 2018'),
+        'plazo' => '3 '.getTexto('semanas'),
         'metros' => '75 m²',
-        'n-plantas' => 'Baja',
+        'n-plantas' => getTexto('Baja'),
         'portada' => '/img/'.$ruta.'/portada.jpg',
         'img' => $img
     ];

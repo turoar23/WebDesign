@@ -1,11 +1,7 @@
 <?php
+include_once('../../comun/language.php');
     // Ruta del proyecto
     $ruta = 'proyectos/reformas-viviendas/apartamento-san-juan-n1';
-    // Datos de las imagenes
-    $img = array();
-    for($i = 1; $i <= 17; $i++){
-        array_push($img,'/img/'.$ruta.'/img'.$i.'.jpg');
-    }
     // Datos de las imagenes
     $img = array();
     for($i = 1; $i <= 12; $i++){
@@ -15,10 +11,10 @@
     $datos = [
         'nombre' => 'Apartamento San Juan 1',
         'ubicacion' => 'San Juan',
-        'final-obra' => 'Enero de 2018',
-        'plazo' => '3 meses',
+        'final-obra' => getTexto('Enero de 2018'),
+        'plazo' => '3 '.getTexto('meses'),
         'metros' => '100 m²',
-        'n-plantas' => '1 planta',
+        'n-plantas' => '1 '.getTexto('planta'),
         'portada' => '/img/'.$ruta.'/portada.jpg',
         'img' => $img 
     ];

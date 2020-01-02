@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="es">
+<?php include_once('./comun/language.php'); ?>
+<?php getLanguage(); ?>
 <head>
   <meta charset="utf-8">
   <title>FRD</title>
@@ -10,15 +11,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/assets/css/all.css"> <!--load all styles -->
   <link rel="stylesheet" href="https://use.typekit.net/fme5ecn.css">
 
-  <link rel="stylesheet" media="(max-width:800px)" href="css/style-small.css">
-  <link rel="stylesheet" media="(min-width:801px)" href="css/style-large.css">
+  <link rel="stylesheet" media="(max-width:800px)" href="/css/style-small.css">
+  <link rel="stylesheet" media="(min-width:801px)" href="/css/style-large.css">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
 
 </head>
 <body>
@@ -30,186 +31,186 @@
     <div class = "gallery-top">
       <!-- img1 -->
       <div class = "wrap g-img1">
-        <img class ="g-img1" src="img/landing/vivienda-alicante.jpg" />
+        <img class ="g-img1" src="/img/landing/vivienda-alicante.jpg" />
         <div class = "wrap-text">
-          <a href="/proyectos/obra-nueva/vivienda-alicante.php">Vivienda Alicante</a>
+          <a href="<?php text('/proyectos/obra-nueva/'); ?>vivienda-alicante.php">Vivienda Alicante</a>
         </div>
       </div>
       <!-- img2 -->
       <div class = "wrap g-img2">
-        <img src="img/landing/passive-house-dolores.jpg" />
+        <img src="/img/landing/passive-house-dolores.jpg" />
         <div class = "wrap-text">
-          <a href="/proyectos/obra-nueva/passive-house-dolores.php">Passive House Dolores</a>
+          <a href="<?php text('/proyectos/obra-nueva/'); ?>passive-house-dolores.php">Passive House Dolores</a>
         </div>
       </div>
     </div>
     <div class = "main-body">
       <div class = "text proyectos">
-        <div class = "text-categories" id = "on">OBRA NUEVA</div>
-        <div class = "text-categories" id = "rl">REFORMAS LOCALES</div>
-        <div class = "text-categories" id = "rv">REFORMAS VIVIENDAS</div>
+        <div class = "text-categories link" id = "on"><?php text('OBRA NUEVA'); ?></div>
+        <div class = "text-categories link" id = "rl"><?php text('REFORMAS LOCALES'); ?></div>
+        <div class = "text-categories link" id = "rv"><?php text('REFORMAS VIVIENDAS'); ?></div>
       </div>
       <div class = "text frd">
-        <div class = "text-categories" id = "qs">QUIENES SOMOS</div>
+        <div class = "text-categories" id = "qs"><?php text('QUIENES SOMOS'); ?></div>
       </div>
       <div class = "text contacto">
-        <div class = "text-categories" id = "co">CONTACTO</div>
+        <div class = "text-categories" id = "co"><?php text('CONTACTO'); ?></div>
       </div>
       <div class = "main-gallery">
         <div id = "principal" class = "main-index active">
           <!-- img3 -->
           <div class = "wrap g-img3">
-            <img class ="g-img3" src="img/landing/atico-elda.jpg" />
+            <img class ="g-img3" src="/img/landing/atico-elda.jpg" />
             <div class = "wrap-text">
-              <a href="/proyectos/reformas-viviendas/atico-elda.php">Ático Elda</a>
+              <a href="<?php text('/proyectos/reformas-viviendas/'); ?>atico-elda.php">Ático Elda</a>
             </div>
           </div>
           <!-- img4 -->
           <div class = "wrap g-img4">
-            <img src="img/landing/vivienda-monovar-2.jpg" />
+            <img src="/img/landing/vivienda-monovar-2.jpg" />
             <div class = "wrap-text">
-              <a href="/proyectos/obra-nueva/vivienda-monovar-2.php">Vivienda Monóvar 2</a>
+              <a href="<?php text('/proyectos/obra-nueva/'); ?>vivienda-monovar-2.php">Vivienda Monóvar 2</a>
             </div>
           </div>
           <!-- img5 -->
           <div class = "wrap g-img5">
-            <img src="img/landing/clinica-dental-ikident.jpg" />
+            <img src="/img/landing/clinica-dental-ikident.jpg" />
             <div class = "wrap-text">
-              <a href="/proyectos/reformas-locales/clinica-dental-ikident.php">Clínica Dental Ikident</a>
+              <a href="<?php text('/proyectos/reformas-locales/'); ?>clinica-dental-ikident.php">Clínica Dental Ikident</a>
             </div>
           </div>
           <!-- img6 -->
           <div class = "wrap g-img6">
-            <img src="img/landing/vivienda-monovar-1.jpg" />
+            <img src="/img/landing/vivienda-monovar-1.jpg" />
             <div class = "wrap-text">
-              <a href="/proyectos/obra-nueva/vivienda-monovar-1.php">Vivienda Monóvar 1</a>
+              <a href="<?php text('/proyectos/obra-nueva/'); ?>vivienda-monovar-1.php">Vivienda Monóvar 1</a>
             </div>
           </div>
         </div>
         <!-- Proyectos -->
         <div id = "obra-nueva" class = "main-index-var">
           <div class = "efecto">
-            <img lazy="img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" />
+            <img lazy="/img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" />
             <div class="description">
               <span class="desciption-text">Passive House Dolores</span>
             </div>
             <div class = "efecto-texto">
-              <a href = "/proyectos/obra-nueva/passive-house-dolores.php" class = "cuadro">
-                <h3>Galería</h3>
+              <a href = "<?php text('/proyectos/obra-nueva/'); ?>passive-house-dolores.php" class = "cuadro">
+                <h3><?php text('Galería');?></h3>
               </a>
             </div>
           </div>
           <div class = "efecto">
-            <img lazy="img/proyectos/obra-nueva/vivienda-alicante/portada.jpg" />
+            <img lazy="/img/proyectos/obra-nueva/vivienda-alicante/portada.jpg" />
             <div class="description">
               <span class="desciption-text">Vivienda Alicante</span>
             </div>
             <div class = "efecto-texto">
-              <a href = "/proyectos/obra-nueva/vivienda-alicante.php" class = "cuadro">
-                <h3>Galería</h3>
+              <a href = "<?php text('/proyectos/obra-nueva/'); ?>vivienda-alicante.php" class = "cuadro">
+                <h3><?php text('Galería');?></h3>
               </a>
             </div>
           </div>
           <div class = "efecto">
-            <img lazy="img/proyectos/obra-nueva/vivienda-lomabada/portada.jpg" />
+            <img lazy="/img/proyectos/obra-nueva/vivienda-lomabada/portada.jpg" />
             <div class="description">
               <span class="desciption-text">Vivienda Loma Bada</span>
             </div>
             <div class = "efecto-texto">
-              <a href = "/proyectos/obra-nueva/vivienda-lomabada.php" class = "cuadro">
-                <h3>Galería</h3>
+              <a href = "<?php text('/proyectos/obra-nueva/'); ?>vivienda-lomabada.php" class = "cuadro">
+                <h3><?php text('Galería');?></h3>
               </a>
             </div>
           </div>
           <div class = "efecto">
-            <img lazy="img/proyectos/obra-nueva/vivienda-monovar-1/portada.jpg" />
+            <img lazy="/img/proyectos/obra-nueva/vivienda-monovar-1/portada.jpg" />
             <div class="description">
               <span class="desciption-text">Vivienda Monóvar 1</span>
             </div>
             <div class = "efecto-texto">
-              <a href = "/proyectos/obra-nueva/vivienda-monovar-1.php" class = "cuadro">
-                <h3>Galería</h3>
+              <a href = "<?php text('/proyectos/obra-nueva/'); ?>vivienda-monovar-1.php" class = "cuadro">
+                <h3><?php text('Galería');?></h3>
               </a>
             </div>
           </div>
           <div class = "efecto">
-            <img lazy="img/proyectos/obra-nueva/vivienda-monovar-2/portada.jpg" />
+            <img lazy="/img/proyectos/obra-nueva/vivienda-monovar-2/portada.jpg" />
             <div class="description">
               <span class="desciption-text">Vivienda Monóvar 2</span>
             </div>
             <div class = "efecto-texto">
-              <a href = "/proyectos/obra-nueva/vivienda-monovar-2.php" class = "cuadro">
-                <h3>Galería</h3>
+              <a href = "<?php text('/proyectos/obra-nueva/'); ?>vivienda-monovar-2.php" class = "cuadro">
+                <h3><?php text('Galería');?></h3>
               </a>
             </div>
           </div>
         </div>
         <div id = "reformas-locales" class = "main-index-var">
           <div class = "efecto">
-            <img lazy="img/proyectos/reformas-locales/clinica-dental-ikident/portada.jpg" />
+            <img lazy="/img/proyectos/reformas-locales/clinica-dental-ikident/portada.jpg" />
             <div class="description">
               <span class="desciption-text">Clínica Dental Ikident</span>
             </div>
             <div class = "efecto-texto">
-              <a href = "/proyectos/reformas-locales/clinica-dental-ikident.php" class = "cuadro">
-                <h3>Galería</h3>
+              <a href = "<?php text('/proyectos/reformas-locales/'); ?>clinica-dental-ikident.php" class = "cuadro">
+                <h3><?php text('Galería');?></h3>
               </a>
             </div>
           </div>
           <div class = "efecto">
-            <img lazy="img/proyectos/reformas-locales/pasteleria-la-confiteria/portada.jpg" />
+            <img lazy="/img/proyectos/reformas-locales/pasteleria-la-confiteria/portada.jpg" />
             <div class="description">
               <span class="desciption-text">Pastelería La Confitería</span>
             </div>
             <div class = "efecto-texto">
-              <a href = "/proyectos/reformas-locales/pasteleria-la-confiteria.php" class = "cuadro">
-                <h3>Galería</h3>
+              <a href = "<?php text('/proyectos/reformas-locales/'); ?>pasteleria-la-confiteria.php" class = "cuadro">
+                <h3><?php text('Galería');?></h3>
               </a>
             </div>
           </div>
         </div>
         <div id = "reformas-viviendas" class = "main-index-var">
           <div class = "efecto">
-            <img lazy="img/proyectos/reformas-viviendas/apartamento-san-juan-n1/portada.jpg" />
+            <img lazy="/img/proyectos/reformas-viviendas/apartamento-san-juan-n1/portada.jpg" />
             <div class="description">
               <span class="desciption-text">Apartamento San Juan 1</span>
             </div>
             <div class = "efecto-texto">
-              <a href = "/proyectos/reformas-viviendas/apartamento-san-juan-n1.php" class = "cuadro">
-                <h3>Galería</h3>
+              <a href = "<?php text('/proyectos/reformas-viviendas/'); ?>apartamento-san-juan-n1.php" class = "cuadro">
+                <h3><?php text('Galería');?></h3>
               </a>
             </div>
           </div>
           <div class = "efecto">
-            <img lazy="img/proyectos/reformas-viviendas/apartamento-san-juan-n2/portada.jpg" />
+            <img lazy="/img/proyectos/reformas-viviendas/apartamento-san-juan-n2/portada.jpg" />
             <div class="description">
               <span class="desciption-text">Apartamento San Juan 2</span>
             </div>
             <div class = "efecto-texto">
-              <a href = "/proyectos/reformas-viviendas/apartamento-san-juan-n2.php" class = "cuadro">
-                <h3>Galería</h3>
+              <a href = "<?php text('/proyectos/reformas-viviendas/'); ?>apartamento-san-juan-n2.php" class = "cuadro">
+                <h3><?php text('Galería');?></h3>
               </a>
             </div>
           </div>
           <div class = "efecto">
-            <img lazy="img/proyectos/reformas-viviendas/atico-elda/portada.jpg" />
+            <img lazy="/img/proyectos/reformas-viviendas/atico-elda/portada.jpg" />
             <div class="description">
               <span class="desciption-text">Ático Elda</span>
             </div>
             <div class = "efecto-texto">
-              <a href = "/proyectos/reformas-viviendas/atico-elda.php" class = "cuadro">
-                <h3>Galería</h3>
+              <a href = "<?php text('/proyectos/reformas-viviendas/'); ?>atico-elda.php" class = "cuadro">
+                <h3><?php text('Galería');?></h3>
               </a>
             </div>
           </div>
           <div class = "efecto">
-            <img lazy="img/proyectos/reformas-viviendas/piso-elda/portada.jpg" />
+            <img lazy="/img/proyectos/reformas-viviendas/piso-elda/portada.jpg" />
             <div class="description">
               <span class="desciption-text">Piso Elda</span>
             </div>
             <div class = "efecto-texto">
-              <a href = "/proyectos/reformas-viviendas/piso-elda.php" class = "cuadro">
-                <h3>Galería</h3>
+              <a href = "<?php text('/proyectos/reformas-viviendas/'); ?>piso-elda.php" class = "cuadro">
+                <h3><?php text('Galería');?></h3>
               </a>
             </div>
           </div>
@@ -218,10 +219,10 @@
         <div id = "quienes-somos" class = "frd-categorias hide card">
           <div class = "content">
             <div class = "content-texto">
-              <p>FRD surgió en el año 2017, fruto de la experiencia de más de 15 años como Jefe de Obra en grandes constructoras de su gerente y técnico DAVID MOLINA, en las cuales pudo aprender de los mejores en Calidad, Gestión y Eficiencia aunados como no a un PRECIO ÓPTIMO Y AJUSTADO.</p>
-              <p>Gracias a este bagaje en obra hemos podido rodearnos de los mejores colaboradores y tener un amplio abanico donde abarcar todo tipo de trabajos y acabados, sobre todo en Viviendas Unifamiliares y Reformas Integrales, hacia donde hemos enfocado FRD.</p>
-              <p>En FRD nos encargamos completamente de todo pudiendo empezar a trabajar a partir del Proyecto de un Técnico  o incluso gestionar el mismo; de tal modo que el cliente pueda disfrutar realmente de "la obra de su vida" sin tener que preocuparse de la complicada gestión que supone este tipo de Obras y todos los problemas y dolores de cabeza que le pueden traer si no delega en verdaderos profesionales como nosotros.</p>
-              <p>Por eso nuestros targets son: CALIDAD, SERIEDAD (PROFESIONALIDAD) y PRECIO ÓPTIMO, cumpliendo siempre los PLAZOS PACTADOS, siendo nuestra mayor recompensa que el cliente quede contento al final del proceso y haya disfrutado del mismo.</p>
+              <p><?php text('quienes-somos-p1'); ?></p>
+              <p><?php text('quienes-somos-p2'); ?></p>
+              <p><?php text('quienes-somos-p3'); ?></p>
+              <p><?php text('quienes-somos-p4'); ?></p>
             </div>
           </div>
         </div>
@@ -235,7 +236,7 @@
             $message=$_POST["message"];
             $mailBody="Nombre: $sender\nEmail: $senderEmail\n\n$message";
             mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
-            $thankYou="<p>Gracias, su mensaje ha sido enviado.</p>";
+            $thankYou="<p>".text('Gracias, su mensaje ha sido enviado.')."</p>";
           }
         ?>
         <div id = "contacto" class = "frd-categorias hide card">
@@ -243,19 +244,19 @@
             <div class = "content">
               <div class = "content-texto">
                 <h2>FRD</h2>
-                <h3>Teléfono</h3>
+                <h3><?php text('Teléfono'); ?></h3>
                 <i class = "fas fa-phone-alt"></i><a href="tel: +34691792723"> +34 691 792 723</a>
                 <h3>Email</h3>
                 <i class = "far fa-envelope"></i><a href="mailto:info@frdprojects.com"> info@frdprojects.com</a>
               </div>
               <form method="post" action="" class="form-contact content-texto">
-                <h3>Empieza tu proyecto con nosotros</h3>
+                <h3><?php text('Empieza tu proyecto con nosotros'); ?></h3>
                 <?=$thankYou ?>
-                <input class="name" name="sender" placeholder="Nombre" required><br>
+                <input class="name" name="sender" placeholder="<?php text('Nombre'); ?>" required><br>
                 <input class="left" name="senderEmail" placeholder="Email" type="email" required>
-                <input class="right" name="phone" placeholder="Teléfono" type="tel" required>
-                <textarea class="body" rows="5" name="message" placeholder="Comentario" required></textarea><br>
-                <input class="btn" type="submit" name="submit">
+                <input class="right" name="phone" placeholder="<?php text('Teléfono'); ?>" type="tel" required>
+                <textarea class="body" rows="5" name="message" placeholder="<?php text('Comentario'); ?>" required></textarea><br>
+                <input class="btn" type="submit" name="submit" value="<?php text('Enviar'); ?>">
               </form>
             </div>
 			    </div>
@@ -272,8 +273,8 @@
 <!-- End Document -->
 </body>
 
-<script src="js/jquery-3.4.1.min.js"></script>
+<script src="/js/jquery-3.4.1.min.js"></script>
 
-<script src="js/custom.js"></script>
+<script src="/js/custom.js"></script>
 
 </html>

@@ -168,7 +168,7 @@ $(document).ready(function(){
   // Prepara la carga de la pagina
   var actualPage = window.location.href.substring(window.location.origin.length,)
   // Proyectos
-  if(actualPage == '/#Proyectos'){
+  if(actualPage == '/#Proyectos' || actualPage == '/en/#Projects'){
     text('proyectos');
     var nav = $('#nav-pro');
     // Comprobamos si tiene la clase active
@@ -182,7 +182,7 @@ $(document).ready(function(){
     }
   }
   // FRD
-  else if(actualPage == "/#FRD"){
+  else if(actualPage == "/#FRD" || actualPage == '/en/#FRD'){
     text('frd');
     var nav = $('#nav-FRD');
     // Comprobamos si tiene la clase active
@@ -197,7 +197,7 @@ $(document).ready(function(){
     }
   }
   // Contacto
-  else if(actualPage == "/#Contacto"){
+  else if(actualPage == "/#Contacto" || actualPage == '/en/#Contact'){
     text('contacto');
     var nav = $('#nav-con');
     // Comprobamos si tiene la clase active
