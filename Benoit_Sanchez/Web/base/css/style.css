@@ -54,7 +54,7 @@ Removes the underline with text decoration = none.*/
 }
 .navBar img{
   /*height: 80px;*/
-  width: 100%;
+  height: 17vh;
 }
 .navBar .logo{
   float: left;

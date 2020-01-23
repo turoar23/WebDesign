@@ -1,7 +1,4 @@
 <div class="categorias content-left">
-  <div class = "logo2">
-    <img src="/img/logo2.png">
-  </div>
   <div class="panel-heading">
     <div class="cat-principal">
       <div class="cat-heading">VIVIENDAS</div>
