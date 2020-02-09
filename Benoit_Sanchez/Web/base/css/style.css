@@ -1,7 +1,12 @@
 /* -----------------------Gobal section------------------- */
 @font-face{
   font-family: 'MyVerdana';
-  src: url('/fonts/verdana.ttf')  format('truetype'); /* Safari, Android, iOS */
+  /* Safari, Android, iOS */
+  /*src: url('/fonts/verdana.ttf')  format('truetype');*/
+  src: url('/fonts/verdana.eot?#iefix') format('embedded-opentype'), 
+   url('/fonts/verdana.woff') format('woff'), 
+   url('/fonts/verdana.ttf')  format('truetype'),
+   url('/fonts/verdana.svg#svgFontName') format('svg');
 }
 body{
   font-family: 'MyVerdana', Verdana, Geneva, Tahoma, sans-serif;
