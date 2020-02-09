@@ -11,6 +11,7 @@
 body{
   font-family: 'MyVerdana', Verdana, Geneva, Tahoma, sans-serif;
   height: 100%;
+  text-rendering: optimizeLegibility;
 }
 a{
   text-decoration: none;
