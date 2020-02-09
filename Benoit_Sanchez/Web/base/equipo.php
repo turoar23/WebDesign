@@ -67,7 +67,7 @@
             <p class = "head">2009 – 2010 / Arquitecto colaborador CRYSTALZOO - ALICANTE</p>
             <p class = "head">2001 - 2009 / Arquitecto jefe de proyectos en Ricardo Miñana Martínez - Alicante</p>
             <p class = "head">1996 - 2001 / Instituto Superior de Arquitectura Saint-luc de Valonia, Lieja (B)</p>
-            <p class = "head">1997 / Nacimiento en Lieja (B)</p>
+            <p class = "head">1977 / Nacimiento en Lieja (B)</p>
           </div>
         </div>
       </div>

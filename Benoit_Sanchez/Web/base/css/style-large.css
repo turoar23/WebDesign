@@ -122,6 +122,7 @@
 }*/
 .cat-heading{
   padding-top: 2%;
+  line-height: 1.6;
 }
 .cat-heading:hover:not(.actived){
   /*color: #8a8506;*/
