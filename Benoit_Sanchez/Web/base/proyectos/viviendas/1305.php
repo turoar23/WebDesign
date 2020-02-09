@@ -24,10 +24,10 @@
   <link rel="stylesheet" href="/css/style.css">
   <link href="/assets/css/all.css" rel="stylesheet"> <!--load all styles -->
   
-  <link rel="stylesheet" media="(max-width:800px)" href="/css/style-small.css">
-  <link rel="stylesheet" media="(min-width:801px)" href="/css/style-large.css">
+  <link rel="stylesheet" media="(max-width:900px)" href="/css/style-small.css">
+  <link rel="stylesheet" media="(min-width:901px)" href="/css/style-large.css">
 
-  <link rel="stylesheet" media="(min-width:801px)" href="/css/efecto.css">
+  <link rel="stylesheet" media="(min-width:901px)" href="/css/efecto.css">
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="/img/favicon.png">
@@ -60,9 +60,7 @@
             <li><span class = "type">Ubicacion</span><span class = "type-text">Santomera, Murcia</span></li>
             <li><span class = "type">Superficie</span><span class = "type-text">198,10 m²</span></li>
             <li><span class = "type">Estado</span><span class = "type-text">Realizado</span></li>
-            <li><span class = "type">Colaboraciones</span><span class = "type-text">Matias Orenes (Aparejador)</span></li>
-            <li><span class = "type"></span><span class = "type-text">Termagraf (Blower door test)</span></li>
-            <li><span class = "type"></span><span class = "type-text">Gestion y obras - Luis Molina (Constructora)</span></li>
+            <li><span class = "type">Colaboraciones</span><span class = "type-text">Termagraf (Blower door test)</span></li>
           </ul>
         </div>
         <div class = "description-project">

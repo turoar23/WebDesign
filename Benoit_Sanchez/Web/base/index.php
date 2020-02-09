@@ -25,8 +25,8 @@
   <link href="/assets/css/all.css" rel="stylesheet"> <!--load all styles -->
 
 
-  <link rel="stylesheet" media="(max-width:800px)" href="css/style-small.css">
-  <link rel="stylesheet" media="(min-width:801px)" href="css/style-large.css">
+  <link rel="stylesheet" media="(max-width:900px)" href="css/style-small.css">
+  <link rel="stylesheet" media="(min-width:901px)" href="css/style-large.css">
 
   <link rel="stylesheet" href="css/efecto.css">
   <!-- Favicon
@@ -57,11 +57,11 @@
           </div>
         </div>
         <div class="cuerpo">
-          <img src="/img/proyectos/reformas/0903/1.jpg">
+          <img src="/img/proyectos/viviendas/1702/3.jpg">
           <div class="title">
-            <a href="/proyectos/reformas/0903.php">
+            <a href="/proyectos/viviendas/1702.php">
               <div>
-                <h4>0903</h4>
+                <h4>1702</h4>
               </div>
             </a>
           </div>
@@ -79,7 +79,17 @@
       </div>
       <div class="img-row">
         <div class="cuerpo">
-          <img src="/img/proyectos/viviendas/1206/1.jpg">
+          <img src="/img/proyectos/viviendas/1305/1.jpg">
+          <div class="title">
+            <a href="/proyectos/viviendas/1305.php">
+              <div>
+                <h4>1305</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="cuerpo">
+          <img src="/img/proyectos/viviendas/1206/5.jpg">
           <div class="title">
             <a href="/proyectos/viviendas/1206.php">
               <div>
@@ -89,21 +99,11 @@
           </div>
         </div>
         <div class="cuerpo">
-          <img src="/img/proyectos/reformas/1415/1.jpg">
+          <img src="/img/proyectos/viviendas/1306/2.jpg">
           <div class="title">
-            <a href="/proyectos/reformas/1415.php">
+            <a href="/proyectos/viviendas/1306.php">
               <div>
-                <h4>1415</h4>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="cuerpo">
-          <img src="/img/proyectos/viviendas/1702/1.jpg">
-          <div class="title">
-            <a href="/proyectos/viviendas/1702.php">
-              <div>
-                <h4>1702</h4>
+                <h4>1306</h4>
               </div>
             </a>
           </div>

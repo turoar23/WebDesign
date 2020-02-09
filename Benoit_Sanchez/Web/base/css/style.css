@@ -1,6 +1,10 @@
-/* -----------------------Gobal section-------------------*/
+/* -----------------------Gobal section------------------- */
+@font-face{
+  font-family: 'MyVerdana';
+  src: url('/fonts/verdana.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
 body{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'MyVerdana', Verdana, Geneva, Tahoma, sans-serif;
   height: 100%;
 }
 a{
@@ -26,7 +30,7 @@ header{
   width: 100%;
   background-color: white;
 }
-/* -----------------------Head section--------------------*/
+/* -----------------------Head section-------------------- */
 .navBar{
   /*background-color: #009cde;*/
   overflow: hidden;
@@ -36,9 +40,6 @@ Removes the underline with text decoration = none.*/
 .navBar .pages a{
   text-decoration: none;
   /*font-size: 18px;*/
-}
-.navBar .pages a:last-child{
-  padding-left: 1%;
 }
 /*Background color change during hover state*/
 .navBar a:hover{
@@ -52,10 +53,6 @@ Removes the underline with text decoration = none.*/
   font-size: 2em;
   margin: 4% 5%;
 }
-.navBar img{
-  /*height: 80px;*/
-  height: 17vh;
-}
 .navBar .logo{
   float: left;
 }
@@ -63,7 +60,7 @@ Removes the underline with text decoration = none.*/
   /*color:#8a8506;*/
   color: #757479;
 }
-/* -----------------------Proyecto section--------------------*/
+/* -----------------------Proyecto section-------------------- */
 .catalogo .scroll{
   width: 20%;
   height: inherit;  
@@ -94,7 +91,7 @@ Removes the underline with text decoration = none.*/
 .expanded a{
   color:black;
 }
-/* ---------------------- Servicio section -------------------*/
+/* ---------------------- Servicio section ------------------- */
 .phase{
   overflow: hidden;
 }
@@ -104,7 +101,17 @@ Removes the underline with text decoration = none.*/
   -o-transition: 1.5s ease-in-out;
   transition: 1.5s ease-in-out;
 }
-/* ----------------------- Footer section --------------------*/
+/* ---------------------- Contacto section ------------------- */
+#contacto, .info{
+  margin-top: 10%;
+}
+#contacto h2{
+  margin-bottom: 2%;
+}
+#contacto .six.columns{
+  width: 49%;
+}
+/* ----------------------- Footer section -------------------- */
 .footer{
   height: 5vh;
   left:0;
@@ -119,4 +126,4 @@ Removes the underline with text decoration = none.*/
   font-size: 2em;
   margin: 0 0.5% 0 0.5%
 }
-/* -----------------------------------------------------------*/
+/* ----------------------------------------------------------- */

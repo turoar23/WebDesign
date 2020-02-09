@@ -24,8 +24,8 @@
   <link rel="stylesheet" href="/css/style.css">
   <link href="/assets/css/all.css" rel="stylesheet"> <!--load all styles -->
 
-  <link rel="stylesheet" media="(max-width:800px)" href="css/style-small.css">
-  <link rel="stylesheet" media="(min-width:801px)" href="css/style-large.css">
+  <link rel="stylesheet" media="(max-width:900px)" href="css/style-small.css">
+  <link rel="stylesheet" media="(min-width:901px)" href="css/style-large.css">
 
   <link rel="stylesheet" media="(min-width:801px)" href="css/efecto.css">
   <!-- Favicon
@@ -38,15 +38,12 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class = "content">
   <?php include("comun/header.php"); ?>
-    <div class = "content-left">
+    <!--<div class = "content-left">
       <div class = "logo2">
         <img src="/img/logo2.png">
-      </div>
-    </div>
+      </div>-
+    </div>-->
     <div class ="services">
-      <div class = "title">
-        <h1>Servicios</h1>
-      </div>
       <section class="body-phases">
         <!-- titulo -->
         <!-- barra -->
@@ -60,7 +57,7 @@
             </div>
             <div class="right-phase">
               <div class="text-phase effect rightAnimated">
-                <h2>Fase 1 - "Creación de la Arquitectura"</h2>
+                <h2>FASE 1 - "CREACIÓN DE LA ARQUITECTURA"</h2>
                 <p>Ideación de los conceptos iniciales del proyecto de arquitectura para la elaboración de los estudios previos y los anteproyectos.</p>
               </div>
             </div>
@@ -69,7 +66,7 @@
           <div class="phase">  
             <div class="left-phase">
               <div class = "text-phase effect leftAnimated">
-                <h2>Fase 2 - "Proyección"</h2>
+                <h2>FASE 2 - "PROYECCIÓN"</h2>
                 <p>Redacción de los proyectos ténicos para la obtención de las licencias correspondientes y valoración de los presupuestos necesarios para el desarrollo de las obras.</p>
               </div>
             </div>
@@ -88,7 +85,7 @@
             </div>
             <div class="right-phase">
               <div class="text-phase effect rightAnimated">
-                <h2>Fase 3 - "Construcción"</h2>
+                <h2>FASE 3 - "CONSTRUCCIÓN"</h2>
                 <p>Materialización de las fases de proyectos para la creación de los espacios.</p>
               </div>
             </div>
@@ -97,7 +94,7 @@
           <div class="phase">  
             <div class="left-phase">
               <div class="text-phase effect leftAnimated">
-                <h2>Fase 4 - "Vivir la arquitectura"</h2>
+                <h2>FASE 4 - "VIVIR LA ARQUITECTURA"</h2>
                 <p></p>
               </div>
             </div>

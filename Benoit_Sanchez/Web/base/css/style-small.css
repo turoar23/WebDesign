@@ -1,5 +1,8 @@
-
-/* --------------------head section--------------------*/
+/* ------------------- Global section -------------------*/
+h1{
+  font-size: 3rem;
+}
+/* -------------------- Head section --------------------*/
 .navBar {
   position: fixed;
   top:0;
@@ -8,7 +11,7 @@
   z-index: 2;
 }
 .content{
-  margin-top: 25%;
+  margin-top: 28.5%;
   min-height: 80vh;
 }
 .content{
@@ -18,15 +21,20 @@
 .navBar a:not(.img-logo){
   display: none;
 }
+.navBar .pages a{
+  padding-left: 2%;
+}
 .navBar .logo{
   width: 100%;
 }
 .navBar img{
   width: 20vw;
+  padding: 3% 0% 3% 3%;
 }
 /*Brings the menu icon into view and floats it to the right*/
 .navBar a.icon{
   display: block; float: right;
+  padding-top: 1%;
 }
 /*The navBar class will be changed to 'navBar responsive' using JS. This chunk of CSS makes the menu icon stay where it is by making the position absolute within it's parent 'right top corner'. Without this, the icon will get kicked around when the items are collapsed and expanded*/
 /*.navBar.responsive a:not(.logo){
@@ -58,7 +66,7 @@
 }
 /* -----------------------------------------------*/
 .img-row img{
-  padding-left: 2.5%;
+  padding: 0% 1% 2% 1%;
   width: 95%;
 }
 .img-row img::after{
@@ -99,6 +107,9 @@
   float: left;
   width: 100%;
 }
+.cat-principal:not(:last-child){
+  padding-bottom: 1%;
+}
 .sub-categorias li{
   float: left;
 }
@@ -114,17 +125,60 @@
 }
 .catalogo{
   float:left;
+  padding-top: 10%;
 }
 .catalogo .scroll{
   width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 .catalogo .scroll img{
   width: 20%;
+  border: 1px solid #757479;
 }
 .catalogo .image-view{
   width: 100%;
 }
-/* -------------------footer section-------------------*/
+.description-text .type{
+  float: left;
+}
+.description-text .type-text{
+  margin-left: 40%;
+  display: block;
+}
+.proyectos .content-right{
+  width: 90%;
+  margin: auto;
+}
+/* ------------------- Equipo section ------------------- */
+.team-img{
+  display: none;
+}
+.team h1{
+  padding-bottom: 2%;
+}
+.team h2{
+  font-size: 2rem;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+.team h3{
+  font-size: 1.5rem;
+  padding-bottom: 0%;
+  margin-bottom: 3%;
+}
+.team .carrer{
+  margin-top: 20%;
+}
+.team .head{
+  margin-bottom: 3%;
+}
+/* ------------------ Contacto section ------------------ */
+.panel-heading{
+  width: 90%;
+  margin: auto;
+}
+/* ------------------- footer section ------------------- */
 .footer i{
   padding: 5% 0.5% 5% 0.5%;
   font-size: 4rem;
