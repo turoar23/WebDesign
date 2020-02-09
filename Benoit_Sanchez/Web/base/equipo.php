@@ -48,7 +48,7 @@
           <!-- Team -->
           <h1 style="font-size: 3rem">Equipo</h1>
           <h2>Benoît Sánchez</h2>
-          <h3>ARQUITECTO - Certified Passivhaus Designer</h3>
+          <h3 style="padding-bottom: 5%">ARQUITECTO - Certified Passivhaus Designer</h3>
           <h3>Carlos Munuera - Graphic designer</h3>
           <h3>Jesús Aliaga Caballero - Arquitecto</h3>
           <h3>Carlos García Fuentes - Arquitecto</h3>
