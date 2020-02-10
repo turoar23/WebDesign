@@ -47,7 +47,6 @@
         </div>-->
         <div class = "panel-heading">
           <!-- Team -->
-          <h1 style="font-size: 3rem">Equipo</h1>
           <h2>Benoît Sánchez</h2>
           <h3 style="padding-bottom: 5%">ARQUITECTO - Certified Passivhaus Designer</h3>
           <h3>Carlos Munuera - Graphic designer</h3>
@@ -60,20 +59,20 @@
           <div class="carrer">
             <!-- Carrer -->
             <!--<h1>EXPERIENCIA LABORAL</h1>-->
-            <p class = "head">2012 – / <strong>BS - ARQUITECTOS</strong></p>
-            <p class = "head">2012 – 2014 / <strong>Arquitecto asociado de 2&2 Designers - Alicante</strong></p>
-            <p class = "head">2011 – 2012 / <strong>Certified Passivhaus Designer</strong>, CEPH, Paris (F)</p>
-            <p class = "head">2010 – 2011 / <strong>Master M.A.S Master en Arquitectura Sostenible</strong>. Arquitecto Luis de Garrido - Valencia</p>
-            <p class = "head">2010 – 2013 / <strong>Arquitecto jefe de proyectos en Talimai Eco Casa - Alicante</strong></p>
-            <p class = "head">2009 – 2010 / Arquitecto colaborador CRYSTALZOO - ALICANTE</p>
-            <p class = "head">2001 - 2009 / Arquitecto jefe de proyectos en Ricardo Miñana Martínez - Alicante</p>
-            <p class = "head">1996 - 2001 / Instituto Superior de Arquitectura Saint-luc de Valonia, Lieja (B)</p>
-            <p class = "head">1977 / Nacimiento en Lieja (B)</p>
+            <p class = "head"><strong>2012 – / </strong>BS - ARQUITECTOS</p>
+            <p class = "head"><strong>2012 – 2014 / </strong>Arquitecto asociado de 2&2 Designers - Alicante</p>
+            <p class = "head"><strong>2011 – 2012 / </strong>Certified Passivhaus Designer, CEPH, Paris (F)</p>
+            <p class = "head"><strong>2010 – 2011 / </strong>Master M.A.S Master en Arquitectura Sostenible. Arquitecto Luis de Garrido - Valencia</p>
+            <p class = "head"><strong>2010 – 2013 / </strong>Arquitecto jefe de proyectos en Talimai Eco Casa - Alicante</p>
+            <p class = "head"><strong>2009 – 2010 / </strong>Arquitecto colaborador CRYSTALZOO - ALICANTE</p>
+            <p class = "head"><strong>2001 - 2009 / </strong>Arquitecto jefe de proyectos en Ricardo Miñana Martínez - Alicante</p>
+            <p class = "head"><strong>1996 - 2001 / </strong>Instituto Superior de Arquitectura Saint-luc de Valonia, Lieja (B)</p>
+            <p class = "head"><strong>1977 / </strong>Nacimiento en Lieja (B)</p>
           </div>
         </div>
       </div>
       <div class = "team-img content-right">
-        <img src="/img/equipo.jpg">
+        <img src="/img/equipo2.png">
       </div>
     </div>
   </div>

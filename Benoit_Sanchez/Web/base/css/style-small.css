@@ -21,9 +21,9 @@ h1{
 .navBar a:not(.img-logo){
   display: none;
 }
-.navBar .pages a{
+/*.navBar .pages a{
   padding-left: 2%;
-}
+}*/
 .navBar .logo{
   width: 100%;
 }
@@ -63,6 +63,10 @@ h1{
 }
 .navBar .pages a{
   padding-bottom: 5%;
+}
+.navBar .content-right{
+  width: 90%;
+  margin: auto;
 }
 /* -----------------------------------------------*/
 .img-row img{
@@ -149,6 +153,9 @@ h1{
 .proyectos .content-right{
   width: 90%;
   margin: auto;
+}
+.characteristic-project li{
+  margin-bottom: 0px;
 }
 /* ------------------- Equipo section ------------------- */
 .team-img{

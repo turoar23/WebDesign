@@ -43,7 +43,6 @@
         <img src="/img/logo2.png">
       </div>-->
       <div class="panel-heading">
-        <h1>Contacto</h1>
         <div class="info">  
           <p><i class = "far fa-envelope"></i><a href="mailto:benoit@bsarquitectos.es"> benoit@bsarquitectos.es</a></p>
           <p><i class = "fas fa-phone-alt"></i><a href="tel:+34655364816"> +34 655 364 816</a></p>
@@ -84,7 +83,7 @@
       </div>
     </div>
     <div class = "team-img content-right">
-      <img src="/img/contacto.jpg">
+      <img src="/img/contacto2.png">
     </div>
   </div>
 <?php include('comun/footer.php');?>

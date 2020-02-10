@@ -108,9 +108,12 @@ Removes the underline with text decoration = none.*/
   transition: 1.5s ease-in-out;
 }
 /* ---------------------- Contacto section ------------------- */
-#contacto, .info{
-  margin-top: 10%;
+#contacto{
+  padding-top: 5%;
 }
+/*#contacto, .info{
+  margin-top: 10%;
+}*/
 #contacto h2{
   margin-bottom: 2%;
 }
