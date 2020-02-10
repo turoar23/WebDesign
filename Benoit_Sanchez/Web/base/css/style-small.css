@@ -2,6 +2,9 @@
 h1{
   font-size: 3rem;
 }
+.desktop{
+  display: none;
+}
 /* -------------------- Head section --------------------*/
 .navBar {
   position: fixed;
@@ -175,7 +178,7 @@ h1{
   margin-bottom: 3%;
 }
 .team .carrer{
-  margin-top: 20%;
+  padding-top: 5%;
 }
 .team .head{
   margin-bottom: 3%;

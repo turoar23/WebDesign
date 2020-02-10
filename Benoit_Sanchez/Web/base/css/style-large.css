@@ -15,6 +15,9 @@
   content: "";
   display: block;
 }
+.mobile{
+  display: none;
+}
 /* ------------------- Head section -------------------*/
 .navBar{
   padding-top: 1%;

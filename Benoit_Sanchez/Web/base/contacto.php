@@ -43,7 +43,7 @@
         <img src="/img/logo2.png">
       </div>-->
       <div class="panel-heading">
-        <div class="info">  
+        <div class="info desktop">  
           <p><i class = "far fa-envelope"></i><a href="mailto:benoit@bsarquitectos.es"> benoit@bsarquitectos.es</a></p>
           <p><i class = "fas fa-phone-alt"></i><a href="tel:+34655364816"> +34 655 364 816</a></p>
         </div>
@@ -79,6 +79,10 @@
             <textarea class="u-full-width" placeholder="Hola ..." id="exampleMessage"></textarea>
             <input class="btn" type="submit" name="submit" value="Enviar">
           </form>
+        </div>
+        <div class="info mobile">  
+          <p><i class = "far fa-envelope"></i><a href="mailto:benoit@bsarquitectos.es"> benoit@bsarquitectos.es</a></p>
+          <p><i class = "fas fa-phone-alt"></i><a href="tel:+34655364816"> +34 655 364 816</a></p>
         </div>
       </div>
     </div>
