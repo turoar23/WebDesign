@@ -43,10 +43,6 @@
         <img src="/img/logo2.png">
       </div>-->
       <div class="panel-heading">
-        <div class="info desktop">  
-          <p><i class = "far fa-envelope"></i><a href="mailto:benoit@bsarquitectos.es"> benoit@bsarquitectos.es</a></p>
-          <p><i class = "fas fa-phone-alt"></i><a href="tel:+34655364816"> +34 655 364 816</a></p>
-        </div>
         <!-- Contacto -->
         <?php
           if($_POST["submit"]) {
@@ -80,7 +76,7 @@
             <input class="btn" type="submit" name="submit" value="Enviar">
           </form>
         </div>
-        <div class="info mobile">  
+        <div class="info">  
           <p><i class = "far fa-envelope"></i><a href="mailto:benoit@bsarquitectos.es"> benoit@bsarquitectos.es</a></p>
           <p><i class = "fas fa-phone-alt"></i><a href="tel:+34655364816"> +34 655 364 816</a></p>
         </div>
