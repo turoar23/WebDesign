@@ -114,6 +114,10 @@ h1{
 .cat-principal:not(:last-child){
   padding-bottom: 1%;
 }
+.sub-categorias{
+  margin-bottom: 0px;
+  margin-top: 3%;
+}
 .sub-categorias li{
   float: left;
 }
