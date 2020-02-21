@@ -36,6 +36,9 @@ header .logo img{
 header .nav{
     margin-top: 1%;
 }
+header .documents{
+    font-size: 0.8rem;
+}
 /* ----------------- Main section ----------------- */
 main{
     width: 75%;

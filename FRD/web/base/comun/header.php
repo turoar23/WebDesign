@@ -28,6 +28,10 @@
                     <i class="fab fa-pinterest"></i>
                 </a>
             </div>
+            <div class="documents">
+                <a href="/documents/politica_privacidad.pdf">Politica Privacidad</a> |
+                <a href="/documents/aviso_legal.pdf">Aviso Legal</a>
+            </div>
             <a href="/en/">EN</a> /
             <a href="/">ES</a>
         </div>
