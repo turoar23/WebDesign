@@ -1,6 +1,6 @@
 <header>
     <span id="open" onclick="openNav()">&#9776;</span>
-    <a class="mini-logo" href="/">
+    <a class="mini-logo" href=<?php text("/"); ?>>
         <img src="/img/mini-logo.png" />
     </a>
     <div id="mySidenav" class="sidenav">

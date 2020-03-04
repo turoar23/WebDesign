@@ -41,7 +41,7 @@
     'Febrero de 2018' => 'February 2018',
     'Enero de 2018' => 'January 2018',
     'Diciembre de 2016' => 'December 2016',
-
+    'Febrero 2020' => 'February 2020',
     // Quienes somos
     'quienes-somos-p1' => 'FRD emerged in 2017, as a result of the experience of more than 15 years as Project Manager in large construction companies of its manager and technician DAVID MOLINA, in wich he was able to learn from the best in Quality, Management and Efficiency, always looking for an OPTIMAL AND ADJUSTED PRICE.',
     'quienes-somos-p2' => 'Thanks to this experience in construction projects, FRD have been able to surround itself with the best collaborators. Our company have a wide range where to cover all types of projects and finishes, especially in Single Family Homes and Integral Reforms, where we have focused FRD.',

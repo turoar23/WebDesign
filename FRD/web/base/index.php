@@ -60,9 +60,9 @@
         <div id = "principal" class = "main-index active">
           <!-- img3 -->
           <div class = "wrap g-img3">
-            <img class ="g-img3" src="/img/landing/atico-elda.jpg" />
+            <img class ="g-img3" src="/img/landing/vivienda-vega-baja.jpg" />
             <div class = "wrap-text">
-              <a href="<?php text('/proyectos/reformas-viviendas/'); ?>atico-elda.php">Ático Elda</a>
+              <a href="<?php text('/proyectos/obra-nueva/'); ?>vivienda-vega-baja.php">Vivienda Vega Baja</a>
             </div>
           </div>
           <!-- img4 -->
@@ -89,6 +89,17 @@
         </div>
         <!-- Proyectos -->
         <div id = "obra-nueva" class = "main-index-var">
+          <div class = "efecto">
+            <img lazy="/img/proyectos/obra-nueva/vivienda-vega-baja/portada.jpg" />
+            <div class="description">
+              <span class="desciption-text">Vivienda Vega Baja</span>
+            </div>
+            <div class = "efecto-texto">
+              <a href = "<?php text('/proyectos/obra-nueva/'); ?>vivienda-vega-baja.php" class = "cuadro">
+                <h3><?php text('Galería');?></h3>
+              </a>
+            </div>
+          </div>
           <div class = "efecto">
             <img lazy="/img/proyectos/obra-nueva/passive-vehouse-dolores/portada.jpg" />
             <div class="description">
