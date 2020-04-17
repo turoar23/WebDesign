@@ -57,7 +57,7 @@
           </div>
         </div>
         <div class="cuerpo">
-          <img src="/img/proyectos/viviendas/1702/3.jpg">
+          <img src="/img/proyectos/viviendas/1702/4.jpg">
           <div class="title">
             <a href="/proyectos/viviendas/1702.php">
               <div>
@@ -67,7 +67,7 @@
           </div>
         </div>
         <div class="cuerpo">
-          <img src="/img/proyectos/viviendas/1301/1.jpg">
+          <img src="/img/proyectos/viviendas/1301/5.jpg">
           <div class="title">
             <a href="/proyectos/viviendas/1301.php">
               <div>
@@ -79,7 +79,7 @@
       </div>
       <div class="img-row">
         <div class="cuerpo">
-          <img src="/img/proyectos/viviendas/1305/1.jpg">
+          <img src="/img/proyectos/viviendas/1305/2.jpg">
           <div class="title">
             <a href="/proyectos/viviendas/1305.php">
               <div>
@@ -89,9 +89,9 @@
           </div>
         </div>
         <div class="cuerpo">
-          <img src="/img/proyectos/viviendas/1206/5.jpg">
+          <img src="/img/proyectos/viviendas/1806/2.jpg">
           <div class="title">
-            <a href="/proyectos/viviendas/1206.php">
+            <a href="/proyectos/viviendas/1806.php">
               <div>
                 <h4>1206</h4>
               </div>
@@ -99,7 +99,7 @@
           </div>
         </div>
         <div class="cuerpo">
-          <img src="/img/proyectos/viviendas/1306/2.jpg">
+          <img src="/img/proyectos/viviendas/1306/3.jpg">
           <div class="title">
             <a href="/proyectos/viviendas/1306.php">
               <div>
