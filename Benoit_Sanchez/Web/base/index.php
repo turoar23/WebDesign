@@ -93,7 +93,7 @@
           <div class="title">
             <a href="/proyectos/viviendas/1806.php">
               <div>
-                <h4>1206</h4>
+                <h4>1806</h4>
               </div>
             </a>
           </div>
