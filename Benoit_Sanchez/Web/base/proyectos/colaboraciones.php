@@ -40,7 +40,9 @@
   <?php include("../comun/header.php"); ?>
     <?php include("categorias.php");?>
     <div class="description content-right">
-        <img src="/img/proyectos/colaboraciones/collage.jpg" style="width:100%"/>
+	<div class="catalogo">
+        	<img src="/img/proyectos/colaboraciones/collage.jpg" style="width:100%"/>
+	</div>
     </div>
   </div>
 
