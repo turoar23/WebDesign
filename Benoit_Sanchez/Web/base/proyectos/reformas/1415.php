@@ -42,13 +42,13 @@
     <div class="description content-right">
       <div class="catalogo">
         <div class="scroll">
-          <img src="/img/proyectos/reformas/1415/3.jpg">
-          <img src="/img/proyectos/reformas/1415/2.jpg">
-          <img src="/img/proyectos/reformas/1415/1.jpg">          
-          <img src="/img/proyectos/reformas/1415/4.jpg">
+          <img src="/img/proyectos/reformas/1415/img1.jpg">
+          <img src="/img/proyectos/reformas/1415/img2.jpg">
+          <img src="/img/proyectos/reformas/1415/img3.jpg">
+          <img src="/img/proyectos/reformas/1415/img4.jpg">
         </div>
         <div class="image-view">
-          <img src="/img/proyectos/reformas/1415/3.jpg">
+          <img src="/img/proyectos/reformas/1415/img1.jpg">
         </div>
       </div>
       <div class="description-text">
