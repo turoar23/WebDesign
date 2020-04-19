@@ -47,7 +47,7 @@
     <div class = "index content-right">
       <div class="img-row">
         <div class="cuerpo">
-          <img src="/img/proyectos/viviendas/1408/1.jpg">
+          <img src="/img/proyectos/viviendas/1408/2.jpg">
           <div class="title">
             <a href="/proyectos/viviendas/1408.php">
               <div>

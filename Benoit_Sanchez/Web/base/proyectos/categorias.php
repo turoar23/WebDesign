@@ -23,7 +23,8 @@
     <div class="cat-principal">
       <div class="cat-heading">ESPACIOS COMERCIALES</div>
       <ul class="sub-categorias collapse">
-        <li><a href="/proyectos/espacios-comerciales/tepuy-burger.php">Tepuy Burger</a></li>
+        <li><a href="/proyectos/espacios-comerciales/1901.php">1901</a></li>
+        <li><a href="/proyectos/espacios-comerciales/1902.php">1902</a></li>
       </ul>
     </div>
     <div class="cat-principal">

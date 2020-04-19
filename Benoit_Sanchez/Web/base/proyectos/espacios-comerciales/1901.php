@@ -42,29 +42,27 @@
     <div class="description content-right">
       <div class="catalogo">
         <div class="scroll">
-          <img src="/img/proyectos/viviendas/1206/1.jpg">
-          <img src="/img/proyectos/viviendas/1206/2.jpg">
-          <img src="/img/proyectos/viviendas/1206/3.jpg">
-          <img src="/img/proyectos/viviendas/1206/4.jpg">
-          <img src="/img/proyectos/viviendas/1206/5.jpg">
+          <img src="/img/proyectos/espacios-comerciales/1901/img1.jpg">
+          <img src="/img/proyectos/espacios-comerciales/1901/img2.jpg">
+          <img src="/img/proyectos/espacios-comerciales/1901/img3.jpg">
         </div>
         <div class="image-view">
-          <img src="/img/proyectos/viviendas/1206/1.jpg">
+          <img src="/img/proyectos/espacios-comerciales/1901/img1.jpg">
         </div>
       </div>
       <div class="description-text">
         <div class = "characteristic-project">
           <ul>
             <li><span class = "type">Cliente</span><span class = "type-text">Privado</span></li>
-            <li><span class = "type">Fecha</span><span class = "type-text">2012 - 2015</span></li>
-            <li><span class = "type">Ubicacion</span><span class = "type-text">Molina de Segura, Murcia</span></li>
-            <li><span class = "type">Superficie</span><span class = "type-text">306,40 m²</span></li>
-            <li><span class = "type">Estado</span><span class = "type-text">Realizado</span></li>
-            <li><span class = "type">Colaboraciones</span><span class = "type-text">Gestión y obras - Luis Molina (Constructora)</span></li>
+            <li><span class = "type">Fecha</span><span class = "type-text">2019</span></li>
+            <li><span class = "type">Ubicacion</span><span class = "type-text">Centro de Alicante, Alicante</span></li>
+            <li><span class = "type">Superficie</span><span class = "type-text">X</span></li>
+            <li><span class = "type">Estado</span><span class = "type-text">Terminado</span></li>
+            <!--<li><span class = "type">Colaboraciones</span><span class = "type-text"></span></li>-->
           </ul>
         </div>
-        <!--<div class = "description-project">
-        </div>-->
+        <div class = "description-project">
+        </div>
       </div>
     </div>
   </div>

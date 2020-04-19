@@ -42,23 +42,25 @@
     <div class="description content-right">
       <div class="catalogo">
         <div class="scroll">
-          <img src="/img/proyectos/espacios-comerciales/tepuy-burger/img1.jpg">
-          <img src="/img/proyectos/espacios-comerciales/tepuy-burger/img2.jpg">
-          <img src="/img/proyectos/espacios-comerciales/tepuy-burger/img3.jpg">
+          <img src="/img/proyectos/espacios-comerciales/1902/img1.jpg">
+          <img src="/img/proyectos/espacios-comerciales/1902/img2.jpg">
+          <img src="/img/proyectos/espacios-comerciales/1902/img3.jpg">
+          <img src="/img/proyectos/espacios-comerciales/1902/img4.jpg">
+          <img src="/img/proyectos/espacios-comerciales/1902/img5.jpg">
         </div>
         <div class="image-view">
-          <img src="/img/proyectos/espacios-comerciales/tepuy-burger/img1.jpg">
+          <img src="/img/proyectos/espacios-comerciales/1902/img1.jpg">
         </div>
       </div>
       <div class="description-text">
         <div class = "characteristic-project">
           <ul>
-            <li><span class = "type">Cliente</span><span class = "type-text">Privado</span></li>
-            <li><span class = "type">Fecha</span><span class = "type-text">2019 - 2019</span></li>
-            <li><span class = "type">Ubicacion</span><span class = "type-text">Centro de Alicante, Alicante</span></li>
-            <li><span class = "type">Superficie</span><span class = "type-text"> m²</span></li>
+            <li><span class = "type">Cliente</span><span class = "type-text">Plaza fitness</span></li>
+            <li><span class = "type">Fecha</span><span class = "type-text">2019</span></li>
+            <li><span class = "type">Ubicacion</span><span class = "type-text">Javea</span></li>
+            <li><span class = "type">Superficie</span><span class = "type-text">627,00 m²</span></li>
             <li><span class = "type">Estado</span><span class = "type-text">Terminado</span></li>
-            <!--<li><span class = "type">Colaboraciones</span><span class = "type-text"></span></li>-->
+            <li><span class = "type">Colaboraciones</span><span class = "type-text">Alberto Molina Beltrán</span></li>
           </ul>
         </div>
         <div class = "description-project">
