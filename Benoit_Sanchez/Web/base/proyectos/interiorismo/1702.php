@@ -54,12 +54,12 @@
       <div class="description-text">
         <div class = "characteristic-project">
           <ul>
-            <li><span class = "type">Cliente</span><span class = "type-text">X</span></li>
-            <li><span class = "type">Fecha</span><span class = "type-text">X</span></li>
-            <li><span class = "type">Ubicacion</span><span class = "type-text">X</span></li>
-            <li><span class = "type">Superficie</span><span class = "type-text">X</span></li>
-            <li><span class = "type">Estado</span><span class = "type-text">X</span></li>
-            <!--<li><span class = "type">Colaboraciones</span><span class = "type-text"></span></li>-->
+            <li><span class = "type">Cliente</span><span class = "type-text">Privado</span></li>
+            <li><span class = "type">Fecha</span><span class = "type-text">2017</span></li>
+            <li><span class = "type">Ubicacion</span><span class = "type-text">Muchamiel, Alicante</span></li>
+            <li><span class = "type">Superficie</span><span class = "type-text">281,20 m²</span></li>
+            <li><span class = "type">Estado</span><span class = "type-text">Proyecto</span></li>
+            <li><span class = "type">Colaboraciones</span><span class = "type-text">Alberto Molina - Aparejador</span></li>
           </ul>
         </div>
         <div class = "description-project">

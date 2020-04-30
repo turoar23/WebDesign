@@ -54,12 +54,14 @@
       <div class="description-text">
         <div class = "characteristic-project">
           <ul>
-            <li><span class = "type">Cliente</span><span class = "type-text">X</span></li>
-            <li><span class = "type">Fecha</span><span class = "type-text">X</span></li>
-            <li><span class = "type">Ubicacion</span><span class = "type-text">X</span></li>
-            <li><span class = "type">Superficie</span><span class = "type-text">X</span></li>
-            <li><span class = "type">Estado</span><span class = "type-text">X</span></li>
-            <!--<li><span class = "type">Colaboraciones</span><span class = "type-text"></span></li>-->
+            <li><span class = "type">Cliente</span><span class = "type-text">Privado</span></li>
+            <li><span class = "type">Fecha</span><span class = "type-text">2018 -</span></li>
+            <li><span class = "type">Ubicacion</span><span class = "type-text">El Campello, Alicante</span></li>
+            <li><span class = "type">Superficie</span><span class = "type-text">418,60 m²</span></li>
+            <li><span class = "type">Estado</span><span class = "type-text">En curso</span></li>
+            <li><span class = "type">Colaboraciones</span><span class = "type-text">David Molina Beltrán - Aparejador</span></li>
+            <li><span class = "type"></span><span class = "type-text">Jesús Aliaga - Arquitecto</span></li>
+            <li><span class = "type"></span><span class = "type-text">Víctor Cutillas - Infografías</span></li>
           </ul>
         </div>
         <div class = "description-project">

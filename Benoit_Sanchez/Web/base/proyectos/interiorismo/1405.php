@@ -55,12 +55,13 @@
       <div class="description-text">
         <div class = "characteristic-project">
           <ul>
-            <li><span class = "type">Cliente</span><span class = "type-text">X</span></li>
-            <li><span class = "type">Fecha</span><span class = "type-text">X</span></li>
-            <li><span class = "type">Ubicacion</span><span class = "type-text">X</span></li>
-            <li><span class = "type">Superficie</span><span class = "type-text">X</span></li>
-            <li><span class = "type">Estado</span><span class = "type-text">X</span></li>
-            <!--<li><span class = "type">Colaboraciones</span><span class = "type-text"></span></li>-->
+            <li><span class = "type">Cliente</span><span class = "type-text">Privado</span></li>
+            <li><span class = "type">Fecha</span><span class = "type-text">2014</span></li>
+            <li><span class = "type">Ubicacion</span><span class = "type-text">Altea, Alicante</span></li>
+            <li><span class = "type">Superficie</span><span class = "type-text">286,04 m²</span></li>
+            <li><span class = "type">Estado</span><span class = "type-text">Terminado</span></li>
+            <li><span class = "type">Colaboraciones</span><span class = "type-text">Ripoll Construcciones, S.L. - Constructora</span></li>
+            <li><span class = "type"></span><span class = "type-text">Natalia Velasco Velázquez - Aparejador</span></li>
           </ul>
         </div>
         <div class = "description-project">

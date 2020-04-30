@@ -54,11 +54,11 @@
       <div class="description-text">
         <div class = "characteristic-project">
           <ul>
-            <li><span class = "type">Cliente</span><span class = "type-text">X</span></li>
-            <li><span class = "type">Fecha</span><span class = "type-text">X</span></li>
-            <li><span class = "type">Ubicacion</span><span class = "type-text">X</span></li>
-            <li><span class = "type">Superficie</span><span class = "type-text">X</span></li>
-            <li><span class = "type">Estado</span><span class = "type-text">X</span></li>
+            <li><span class = "type">Cliente</span><span class = "type-text">Privado</span></li>
+            <li><span class = "type">Fecha</span><span class = "type-text">2013</span></li>
+            <li><span class = "type">Ubicacion</span><span class = "type-text">Monforte del Cid, Alicante</span></li>
+            <li><span class = "type">Superficie</span><span class = "type-text">300,20 m²</span></li>
+            <li><span class = "type">Estado</span><span class = "type-text">Proyecto</span></li>
             <!--<li><span class = "type">Colaboraciones</span><span class = "type-text"></span></li>-->
           </ul>
         </div>
