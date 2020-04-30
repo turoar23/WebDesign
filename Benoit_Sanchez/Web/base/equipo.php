@@ -60,7 +60,6 @@
             <!-- Carrer -->
             <!--<h1>EXPERIENCIA LABORAL</h1>-->
             <p class = "head"><strong>2012 – / </strong>BS - ARQUITECTOS</p>
-            <p class = "head"><strong>2012 – 2014 / </strong>Arquitecto asociado de 2&2 Designers - Alicante</p>
             <p class = "head"><strong>2011 – 2012 / </strong>Certified Passivhaus Designer, CEPH, Paris (F)</p>
             <p class = "head"><strong>2010 – 2011 / </strong>Master M.A.S Master en Arquitectura Sostenible. Arquitecto Luis de Garrido - Valencia</p>
             <p class = "head"><strong>2010 – 2013 / </strong>Arquitecto jefe de proyectos en Talimai Eco Casa - Alicante</p>

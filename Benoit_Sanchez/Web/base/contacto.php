@@ -77,7 +77,7 @@
           </form>
         </div>
         <div class="info">  
-          <p><i class = "far fa-envelope"></i><a href="mailto:benoit@bsarquitectos.es"> benoit@bsarquitectos.es</a></p>
+          <p><i class = "far fa-envelope"></i><a href="mailto:benoit@bsarquitectos.es"> info@bsarquitectos.es</a></p>
           <p><i class = "fas fa-phone-alt"></i><a href="tel:+34655364816"> +34 655 364 816</a></p>
         </div>
       </div>

@@ -46,7 +46,6 @@
           <img src="/img/proyectos/interiorismo/1702/img2.jpg">
           <img src="/img/proyectos/interiorismo/1702/img3.jpg">
           <img src="/img/proyectos/interiorismo/1702/img4.jpg">
-          <img src="/img/proyectos/interiorismo/1702/img5.jpg">
         </div>
         <div class="image-view">
           <img src="/img/proyectos/interiorismo/1702/img1.jpg">

@@ -47,6 +47,8 @@
           <img src="/img/proyectos/reformas/0903/img3.jpg">
           <img src="/img/proyectos/reformas/0903/img4.jpg">
           <img src="/img/proyectos/reformas/0903/img5.jpg">
+          <img src="/img/proyectos/reformas/0903/img6.jpg">
+          <img src="/img/proyectos/reformas/0903/img7.jpg">
         </div>
         <div class="image-view">
           <img src="/img/proyectos/reformas/0903/img1.jpg">
