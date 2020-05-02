@@ -46,7 +46,6 @@
           <img src="/img/proyectos/viviendas/1306/2.jpg">
           <img src="/img/proyectos/viviendas/1306/3.jpg">
           <img src="/img/proyectos/viviendas/1306/4.jpg">
-          <img src="/img/proyectos/viviendas/1306/5.jpg">
         </div>
         <div class="image-view">
           <img src="/img/proyectos/viviendas/1306/1.jpg">

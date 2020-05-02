@@ -46,7 +46,6 @@
           <img src="/img/proyectos/espacios-comerciales/1901/img2.jpg">
           <img src="/img/proyectos/espacios-comerciales/1901/img3.jpg">
           <img src="/img/proyectos/espacios-comerciales/1901/img4.jpg">
-          <img src="/img/proyectos/espacios-comerciales/1901/img5.jpg">
         </div>
         <div class="image-view">
           <img src="/img/proyectos/espacios-comerciales/1901/img1.jpg">
